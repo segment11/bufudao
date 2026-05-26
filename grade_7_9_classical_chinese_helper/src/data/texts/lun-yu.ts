@@ -1,0 +1,22 @@
+import type { ClassicalText } from '../types'
+
+export const lunYu: ClassicalText = {
+  id: 'lun-yu', title: '《论语》十二章', author: '孔子及弟子', grade: 7, semester: '上', unit: 3, genre: '语录体',
+  paragraphs: [
+    { id: 'p1', original: '子曰："学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？"', translation: '孔子说："学了知识然后按时温习它，不也是很愉快吗？有志同道合的朋友从远方来，不也是很快乐吗？人家不了解我，我却不生气，不也是君子吗？"', annotations: [{ word: '时', pinyin: 'shí', meaning: '按时', type: '实词' }, { word: '说', pinyin: 'yuè', meaning: '同"悦"，愉快', type: '通假字' }, { word: '愠', pinyin: 'yùn', meaning: '生气，恼怒', type: '实词' }] },
+    { id: 'p2', original: '曾子曰："吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？"', translation: '曾子说："我每天多次反省自己：替别人办事是不是尽心竭力了？和朋友交往是不是诚实了？老师传授的知识是不是复习了？"', annotations: [{ word: '三省', pinyin: 'sān xǐng', meaning: '泛指多次反省', type: '实词' }, { word: '忠', pinyin: 'zhōng', meaning: '尽心竭力', type: '实词' }, { word: '信', pinyin: 'xìn', meaning: '真诚，诚实', type: '实词' }] },
+    { id: 'p3', original: '子曰："吾十有五而志于学，三十而立，四十而不惑，五十而知天命，六十而耳顺，七十而从心所欲，不逾矩。"', translation: '孔子说："我十五岁开始立志学习，三十岁能有所成就，四十岁不再困惑，五十岁知道哪些是不能为人力所支配的事情，六十岁能听得进不同意见，七十岁能随心所欲，却不超出规矩。"', annotations: [{ word: '有', pinyin: 'yòu', meaning: '同"又"，用于整数和零数之间', type: '通假字' }, { word: '立', pinyin: 'lì', meaning: '站立，指有所成就', type: '实词' }, { word: '逾', pinyin: 'yú', meaning: '超过，越过', type: '实词' }] },
+    { id: 'p4', original: '子曰："温故而知新，可以为师矣。"', translation: '孔子说："温习旧知识从而得到新的理解和体会，就可以做老师了。"', annotations: [{ word: '故', pinyin: 'gù', meaning: '学过的知识', type: '实词' }, { word: '新', pinyin: 'xīn', meaning: '新的理解和体会', type: '实词' }] },
+    { id: 'p5', original: '子曰："学而不思则罔，思而不学则殆。"', translation: '孔子说："只学习不思考就会迷惑，只思考不学习就会有害。"', annotations: [{ word: '罔', pinyin: 'wǎng', meaning: '迷惑，感到迷茫', type: '实词' }, { word: '殆', pinyin: 'dài', meaning: '有害', type: '实词' }] },
+    { id: 'p6', original: '子曰："贤哉，回也！一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉，回也！"', translation: '孔子说："贤德啊，颜回！一筐饭，一瓢水，住在简陋的巷子里，别人都受不了那种忧愁，颜回却不改变他的乐趣。贤德啊，颜回！"', annotations: [{ word: '箪', pinyin: 'dān', meaning: '古代盛饭的圆竹器', type: '实词' }, { word: '堪', pinyin: 'kān', meaning: '忍受', type: '实词' }] },
+    { id: 'p7', original: '子曰："知之者不如好之者，好之者不如乐之者。"', translation: '孔子说："了解它的人不如喜爱它的人，喜爱它的人不如以它为乐的人。"', annotations: [{ word: '好', pinyin: 'hào', meaning: '喜爱，爱好', type: '实词' }, { word: '乐', pinyin: 'lè', meaning: '以……为乐', type: '词类活用' }] },
+    { id: 'p8', original: '子曰："饭疏食，饮水，曲肱而枕之，乐亦在其中矣。不义而富且贵，于我如浮云。"', translation: '孔子说："吃粗粮，喝冷水，弯着胳膊当枕头，乐趣也就在其中了。用不义的手段得到富贵，对我来说就像天上的浮云。"', annotations: [{ word: '饭', pinyin: 'fàn', meaning: '吃', type: '词类活用' }, { word: '疏食', pinyin: 'shū shí', meaning: '粗粮', type: '实词' }, { word: '肱', pinyin: 'gōng', meaning: '胳膊', type: '实词' }] },
+    { id: 'p9', original: '子曰："三人行，必有我师焉。择其善者而从之，其不善者而改之。"', translation: '孔子说："几个人一起走路，其中一定有值得我学习的人。我选择他们的优点来学习，看到他们的缺点就改正自己。"', annotations: [{ word: '善', pinyin: 'shàn', meaning: '好的方面，优点', type: '实词' }, { word: '焉', pinyin: 'yān', meaning: '于此，在其中', type: '虚词' }] },
+    { id: 'p10', original: '子在川上曰："逝者如斯夫，不舍昼夜。"', translation: '孔子在河边说："消逝的时光就像这河水一样，日夜不停。"', annotations: [{ word: '逝', pinyin: 'shì', meaning: '流逝', type: '实词' }, { word: '斯', pinyin: 'sī', meaning: '这，指河水', type: '虚词' }, { word: '舍', pinyin: 'shě', meaning: '停止', type: '实词' }] },
+    { id: 'p11', original: '子曰："三军可夺帅也，匹夫不可夺志也。"', translation: '孔子说："军队的主帅可以改变，普通人的志向却不可改变。"', annotations: [{ word: '夺', pinyin: 'duó', meaning: '改变', type: '实词' }, { word: '匹夫', pinyin: 'pǐ fū', meaning: '普通人', type: '实词' }] },
+    { id: 'p12', original: '子夏曰："博学而笃志，切问而近思，仁在其中矣。"', translation: '子夏说："广泛学习且坚定志向，恳切发问且多思考当前的问题，仁德就在其中了。"', annotations: [{ word: '笃', pinyin: 'dǔ', meaning: '坚定', type: '实词' }, { word: '仁', pinyin: 'rén', meaning: '仁德', type: '实词' }] },
+  ],
+  historicalContext: { dynasty: '先秦', era: '春秋时期', authorBio: '孔子（前551—前479），名丘，字仲尼，儒家学派创始人。《论语》记录孔子及其弟子言行。', writingBackground: '所选十二章包括学习方法、学习态度、修身做人等方面的论述，是初中阶段学习儒家思想的基础篇目。', eraKeywords: ['孔子', '儒家', '论语', '修身', '学习方法'], highlightWords: ['学习方法', '修身', '仁德'] },
+  geoContexts: [],
+  memorizationAid: { segments: [{ keyword: '学而·说乎', hint: '学习方法——温习' }, { keyword: '三省·忠信', hint: '修身——反省' }, { keyword: '十五·七十', hint: '人生阶段' }, { keyword: '温故·知新', hint: '学习方法——温故' }, { keyword: '学思·罔殆', hint: '学思结合' }, { keyword: '贤哉·回也', hint: '安贫乐道' }, { keyword: '知之·好之·乐之', hint: '学习的三层境界' }, { keyword: '饭疏食·浮云', hint: '义利观' }, { keyword: '三人行·我师', hint: '虚心学习' }, { keyword: '逝者如斯', hint: '珍惜时间' }, { keyword: '夺帅·夺志', hint: '坚守志向' }, { keyword: '博学·笃志', hint: '仁德之道' }], commonMistakes: [{ wrong: '不亦说乎', correct: '不亦说乎' }, { wrong: '人不堪其忧', correct: '人不堪其忧' }, { wrong: '曲弓而枕之', correct: '曲肱而枕之' }] },
+}

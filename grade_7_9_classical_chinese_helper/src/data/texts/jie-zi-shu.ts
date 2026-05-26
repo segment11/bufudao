@@ -1,0 +1,14 @@
+import type { ClassicalText } from '../types'
+
+export const jieZiShu: ClassicalText = {
+  id: 'jie-zi-shu', title: '诫子书', author: '诸葛亮', grade: 7, semester: '上', unit: 4, genre: '家书',
+  paragraphs: [
+    { id: 'p1', original: '夫君子之行，静以修身，俭以养德。非淡泊无以明志，非宁静无以致远。', translation: '品德高尚的人，以静心来修养身心，以俭朴来培养品德。不恬静寡欲就不能明确志向，不排除干扰就不能达到远大目标。', annotations: [{ word: '夫', pinyin: 'fú', meaning: '发语词，无实义', type: '虚词' }, { word: '淡泊', pinyin: 'dàn bó', meaning: '内心恬淡，不慕名利', type: '实词' }, { word: '明志', pinyin: 'míng zhì', meaning: '明确志向', type: '实词' }, { word: '致远', pinyin: 'zhì yuǎn', meaning: '达到远大目标', type: '实词' }] },
+    { id: 'p2', original: '夫学须静也，才须学也，非学无以广才，非志无以成学。', translation: '学习必须静心专一，才干来源于学习，不学习就不能增长才干，没有志向就不能学有所成。', annotations: [{ word: '广', pinyin: 'guǎng', meaning: '增长', type: '词类活用' }, { word: '成', pinyin: 'chéng', meaning: '成就，完成', type: '实词' }] },
+    { id: 'p3', original: '淫慢则不能励精，险躁则不能治性。', translation: '放纵懈怠就不能振奋精神，轻薄浮躁就不能修养性情。', annotations: [{ word: '淫慢', pinyin: 'yín màn', meaning: '放纵懈怠', type: '实词' }, { word: '励精', pinyin: 'lì jīng', meaning: '振奋精神', type: '实词' }, { word: '险躁', pinyin: 'xiǎn zào', meaning: '轻薄浮躁', type: '实词' }, { word: '治性', pinyin: 'zhì xìng', meaning: '修养性情', type: '实词' }] },
+    { id: 'p4', original: '年与时驰，意与日去，遂成枯落，多不接世，悲守穷庐，将复何及！', translation: '年华随时光迅速消逝，意志随岁月逐渐消磨，最终像枯枝败叶一样凋落，大多对社会没有贡献，悲哀地守着破旧的房屋，那时后悔又怎么来得及！', annotations: [{ word: '驰', pinyin: 'chí', meaning: '疾行，指迅速逝去', type: '实词' }, { word: '遂', pinyin: 'suì', meaning: '最终', type: '虚词' }, { word: '接世', pinyin: 'jiē shì', meaning: '对社会有用', type: '实词' }, { word: '穷庐', pinyin: 'qióng lú', meaning: '穷困潦倒之人住的陋室', type: '实词' }] },
+  ],
+  historicalContext: { dynasty: '魏晋南北朝', era: '三国时期（234年）', authorBio: '诸葛亮（181—234），字孔明，三国时期蜀汉丞相。《诫子书》是他临终前写给八岁儿子诸葛瞻的家书。', writingBackground: '诸葛亮北伐途中病重，自知时日无多，写此信劝勉儿子勤学立志，修身养性。全文短短八十六字，字字珠玑。', eraKeywords: ['诸葛亮', '三国', '诫子书', '修身', '立志', '家训'], highlightWords: ['修身', '立志', '宁静'] },
+  geoContexts: [],
+  memorizationAid: { segments: [{ keyword: '静·俭·修身养德', hint: '修身之道' }, { keyword: '淡泊·宁静', hint: '明志致远' }, { keyword: '学·才·志', hint: '学习与立志' }, { keyword: '淫慢·险躁', hint: '反面告诫' }, { keyword: '年驰·意去·枯落', hint: '惜时之叹' }], commonMistakes: [{ wrong: '非澹泊无以明志', correct: '非淡泊无以明志' }, { wrong: '险燥则不能治性', correct: '险躁则不能治性' }] },
+}

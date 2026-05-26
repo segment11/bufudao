@@ -1,0 +1,16 @@
+import type { ClassicalText } from '../types'
+
+export const louShiMing: ClassicalText = {
+  id: 'lou-shi-ming', title: '陋室铭', author: '刘禹锡', grade: 7, semester: '下', unit: 4, genre: '铭',
+  paragraphs: [
+    { id: 'p1', original: '山不在高，有仙则名。水不在深，有龙则灵。', translation: '山不一定要高，有仙人（居住）就能出名。水不一定要深，有龙（潜藏）就能显出灵异。', annotations: [{ word: '名', pinyin: 'míng', meaning: '出名，有名', type: '词类活用' }, { word: '灵', pinyin: 'líng', meaning: '灵验，神奇', type: '实词' }] },
+    { id: 'p2', original: '斯是陋室，惟吾德馨。', translation: '这是简陋的屋子，只是我的品德美好（就不觉得简陋了）。', annotations: [{ word: '斯', pinyin: 'sī', meaning: '这', type: '虚词' }, { word: '惟', pinyin: 'wéi', meaning: '只', type: '虚词' }, { word: '馨', pinyin: 'xīn', meaning: '香气，这里指品德高尚', type: '实词' }] },
+    { id: 'p3', original: '苔痕上阶绿，草色入帘青。', translation: '苔痕碧绿，长到台阶上；草色青葱，映入帘里。', annotations: [{ word: '上', pinyin: 'shàng', meaning: '长到……上', type: '词类活用' }] },
+    { id: 'p4', original: '谈笑有鸿儒，往来无白丁。', translation: '说说笑笑的是博学的人，来来往往的没有平民。', annotations: [{ word: '鸿儒', pinyin: 'hóng rú', meaning: '博学的人', type: '实词' }, { word: '白丁', pinyin: 'bái dīng', meaning: '平民，这里指没有学问的人', type: '古今异义' }] },
+    { id: 'p5', original: '可以调素琴，阅金经。无丝竹之乱耳，无案牍之劳形。', translation: '可以弹奏朴素的古琴，阅读佛经。没有奏乐的声音扰乱耳朵，没有官府的公文使身体劳累。', annotations: [{ word: '素琴', pinyin: 'sù qín', meaning: '不加装饰的琴', type: '实词' }, { word: '金经', pinyin: 'jīn jīng', meaning: '指佛经', type: '实词' }, { word: '丝竹', pinyin: 'sī zhú', meaning: '指音乐', type: '实词' }, { word: '案牍', pinyin: 'àn dú', meaning: '官府文书', type: '实词' }, { word: '劳形', pinyin: 'láo xíng', meaning: '使身体劳累', type: '词类活用' }] },
+    { id: 'p6', original: '南阳诸葛庐，西蜀子云亭。孔子云：何陋之有？', translation: '（好比）南阳诸葛亮的草庐，西蜀扬子云的亭子。孔子说：有什么简陋的呢？', annotations: [{ word: '何陋之有', pinyin: 'hé lòu zhī yǒu', meaning: '有什么简陋的呢？宾语前置句', type: '特殊句式' }] },
+  ],
+  historicalContext: { dynasty: '唐', era: '中唐（公元824年前后）', authorBio: '刘禹锡（772—842），字梦得，唐代文学家、哲学家。参与"永贞革新"失败后被贬。', writingBackground: '刘禹锡被贬和州期间，知县刁难他住小屋，刘禹锡处之泰然，写下此铭。', eraKeywords: ['永贞革新', '中唐', '贬谪文学', '安贫乐道'], highlightWords: ['安贫乐道', '德馨', '贬谪'] },
+  geoContexts: [{ ancientName: '和州', modernName: '安徽省马鞍山市和县', relevance: '刘禹锡任和州刺史时在此写下《陋室铭》' }, { ancientName: '南阳', modernName: '河南省南阳市', relevance: '诸葛亮曾隐居于此' }, { ancientName: '西蜀', modernName: '四川省成都市', relevance: '扬雄故居所在' }],
+  memorizationAid: { segments: [{ keyword: '山·水', hint: '以山水起兴' }, { keyword: '陋室·德馨', hint: '点题' }, { keyword: '苔·草', hint: '环境清幽' }, { keyword: '鸿儒·白丁', hint: '来往人物' }, { keyword: '素琴·金经', hint: '日常雅趣' }, { keyword: '诸葛庐·孔子', hint: '古人自比' }], commonMistakes: [{ wrong: '唯吾德馨', correct: '惟吾德馨' }, { wrong: '无案牍之劳行', correct: '无案牍之劳形' }] },
+}

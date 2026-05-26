@@ -1,0 +1,15 @@
+import type { ClassicalText } from '../types'
+
+export const chenTaiQiu: ClassicalText = {
+  id: 'chen-tai-qiu', title: '陈太丘与友期行', author: '刘义庆', grade: 7, semester: '上', unit: 2, genre: '笔记小说',
+  paragraphs: [
+    { id: 'p1', original: '陈太丘与友期行，期日中。过中不至，太丘舍去，去后乃至。', translation: '陈太丘和朋友相约出行，约定在正午。过了正午朋友没到，陈太丘就离开了，离开后朋友才到。', annotations: [{ word: '期', pinyin: 'qī', meaning: '约定', type: '实词' }, { word: '舍去', pinyin: 'shě qù', meaning: '不再等候而离开', type: '实词' }] },
+    { id: 'p2', original: '元方时年七岁，门外戏。客问元方："尊君在不？"答曰："待君久不至，已去。"', translation: '元方当时七岁，在门外玩耍。客人问元方："你父亲在吗？"元方回答说："等您很久您没来，已经走了。"', annotations: [{ word: '尊君', pinyin: 'zūn jūn', meaning: '尊称对方的父亲', type: '实词' }, { word: '不', pinyin: 'fǒu', meaning: '同"否"', type: '通假字' }] },
+    { id: 'p3', original: '友人便怒曰："非人哉！与人期行，相委而去。"', translation: '朋友便生气地说："真不是人！和别人相约出行，却丢下别人自己走了。"', annotations: [{ word: '委', pinyin: 'wěi', meaning: '舍弃，丢下', type: '实词' }] },
+    { id: 'p4', original: '元方曰："君与家君期日中。日中不至，则是无信；对子骂父，则是无礼。"', translation: '元方说："您和我父亲约定在正午。您正午不到，就是不讲信用；对着人家儿子骂他的父亲，就是没有礼貌。"', annotations: [{ word: '家君', pinyin: 'jiā jūn', meaning: '对别人谦称自己的父亲', type: '实词' }, { word: '信', pinyin: 'xìn', meaning: '守信，讲信用', type: '实词' }] },
+    { id: 'p5', original: '友人惭，下车引之。元方入门不顾。', translation: '朋友感到惭愧，下车去拉元方。元方头也不回地走进了大门。', annotations: [{ word: '引', pinyin: 'yǐn', meaning: '拉，牵拉', type: '实词' }, { word: '顾', pinyin: 'gù', meaning: '回头看', type: '实词' }] },
+  ],
+  historicalContext: { dynasty: '魏晋南北朝', era: '南朝宋', authorBio: '刘义庆（403—444），南朝宋文学家，《世说新语》是魏晋南北朝"志人小说"代表作。', writingBackground: '出自《世说新语·方正》篇。通过七岁元方驳斥失信友人的故事，赞扬了元方的聪慧明理，告诫人们做人要守信、有礼。', eraKeywords: ['世说新语', '诚信', '方正', '元方'], highlightWords: ['守信', '有礼', '诚信'] },
+  geoContexts: [],
+  memorizationAid: { segments: [{ keyword: '期行·舍去', hint: '友人失信' }, { keyword: '尊君·已去', hint: '元方如实作答' }, { keyword: '非人哉·相委', hint: '友人发怒' }, { keyword: '无信·无礼', hint: '元方据理驳斥' }, { keyword: '惭·不顾', hint: '友人惭愧，元方不理' }], commonMistakes: [{ wrong: '尊君在不', correct: '尊君在不' }, { wrong: '相委儿去', correct: '相委而去' }] },
+}

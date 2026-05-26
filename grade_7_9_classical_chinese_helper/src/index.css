@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* === Design Tokens === */
+:root {
+  --color-ink: #1c1917;
+  --color-paper: #faf7f2;
+  --color-sepia: #f3efe8;
+  --color-red-seal: #c2410c;
+  --color-bamboo: #4d7c0f;
+  --color-bronze: #92400e;
+}
+
+.dark {
+  --color-ink: #e7e5e4;
+  --color-paper: #1c1917;
+  --color-sepia: #292524;
+  --color-red-seal: #f97316;
+  --color-bamboo: #84cc16;
+  --color-bronze: #d97706;
+  color-scheme: dark;
+}
+
+/* === Base Styles === */
+body {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+/* === Vertical Rhythm for Classical Chinese === */
+.classical-text {
+  writing-mode: horizontal-tb;
+  line-height: 2;
+  letter-spacing: 0.05em;
+}
+
+/* === Annotation Highlight === */
+.annotated-word {
+  border-bottom: 1px dashed var(--color-bronze);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.annotated-word:hover {
+  background-color: color-mix(in srgb, var(--color-bronze) 10%, transparent);
+}
+
+/* === Dark mode overrides for Tailwind classes === */
+.dark .dark\:bg-stone-900 { background-color: #1c1917; }
+.dark .dark\:bg-stone-800 { background-color: #292524; }
+.dark .dark\:bg-stone-700\/50 { background-color: rgba(68, 64, 60, 0.5); }
+.dark .dark\:text-stone-200 { color: #e7e5e4; }
+.dark .dark\:text-stone-300 { color: #d6d3d1; }
+.dark .dark\:text-stone-400 { color: #a8a29e; }
+.dark .dark\:text-stone-500 { color: #78716c; }
+.dark .dark\:border-stone-700 { border-color: #44403c; }
+.dark .dark\:border-stone-600 { border-color: #57534e; }
+.dark .dark\:hover\:bg-stone-700\/50:hover { background-color: rgba(68, 64, 60, 0.5); }
+.dark .dark\:hover\:text-stone-200:hover { color: #e7e5e4; }
+.dark .dark\:hover\:text-stone-300:hover { color: #d6d3d1; }

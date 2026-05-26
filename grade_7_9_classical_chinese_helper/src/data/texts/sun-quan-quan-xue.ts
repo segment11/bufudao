@@ -1,0 +1,15 @@
+import type { ClassicalText } from '../types'
+
+export const sunQuanQuanXue: ClassicalText = {
+  id: 'sun-quan-quan-xue', title: '孙权劝学', author: '司马光', grade: 7, semester: '下', unit: 1, genre: '史传',
+  paragraphs: [
+    { id: 'p1', original: '初，权谓吕蒙曰："卿今当涂掌事，不可不学！"蒙辞以军中多务。', translation: '当初，孙权对吕蒙说："你现在当权掌管政事了，不可以不学习！"吕蒙用军中事务繁多来推辞。', annotations: [{ word: '当涂', pinyin: 'dāng tú', meaning: '当道，当权', type: '实词' }, { word: '辞', pinyin: 'cí', meaning: '推辞', type: '实词' }, { word: '务', pinyin: 'wù', meaning: '事务', type: '实词' }] },
+    { id: 'p2', original: '权曰："孤岂欲卿治经为博士邪！但当涉猎，见往事耳。卿言多务，孰若孤？孤常读书，自以为大有所益。"', translation: '孙权说："我难道想要你钻研经书当博士吗！只是应当粗略地阅读，了解历史罢了。你说事务多，谁比得上我事务多呢？我经常读书，自己认为大有益处。"', annotations: [{ word: '治经', pinyin: 'zhì jīng', meaning: '研究经书', type: '实词' }, { word: '博士', pinyin: 'bó shì', meaning: '专掌经学传授的学官', type: '古今异义' }, { word: '涉猎', pinyin: 'shè liè', meaning: '粗略地阅读', type: '实词' }, { word: '见', pinyin: 'jiàn', meaning: '了解', type: '实词' }, { word: '往事', pinyin: 'wǎng shì', meaning: '历史', type: '古今异义' }, { word: '孰若', pinyin: 'shú ruò', meaning: '谁比得上', type: '虚词' }] },
+    { id: 'p3', original: '蒙乃始就学。及鲁肃过寻阳，与蒙论议，大惊曰："卿今者才略，非复吴下阿蒙！"', translation: '吕蒙于是开始学习。等到鲁肃经过寻阳的时候，和吕蒙论议，非常惊奇地说："你现在的才干和谋略，不再是当年吴县的阿蒙了！"', annotations: [{ word: '就', pinyin: 'jiù', meaning: '从事', type: '实词' }, { word: '及', pinyin: 'jí', meaning: '到了……的时候', type: '虚词' }, { word: '过', pinyin: 'guò', meaning: '经过', type: '实词' }, { word: '非复', pinyin: 'fēi fù', meaning: '不再是', type: '实词' }] },
+    { id: 'p4', original: '蒙曰："士别三日，即更刮目相待，大兄何见事之晚乎！"', translation: '吕蒙说："士别三日，就要重新用新的眼光看待，老兄你怎么认清事物这么晚啊！"', annotations: [{ word: '更', pinyin: 'gēng', meaning: '重新', type: '实词' }, { word: '刮目相待', pinyin: 'guā mù xiāng dài', meaning: '用新的眼光看待', type: '实词' }, { word: '见事', pinyin: 'jiàn shì', meaning: '认清事物', type: '实词' }] },
+    { id: 'p5', original: '肃遂拜蒙母，结友而别。', translation: '鲁肃于是拜见了吕蒙的母亲，与吕蒙结为好友后才分别。', annotations: [{ word: '遂', pinyin: 'suì', meaning: '于是，就', type: '虚词' }] },
+  ],
+  historicalContext: { dynasty: '宋', era: '北宋（编撰于1066—1084年）', authorBio: '司马光（1019—1086），字君实，北宋政治家、史学家，主持编纂《资治通鉴》。', writingBackground: '选自《资治通鉴》卷六十六。通过孙权劝吕蒙学习的故事，说明学习的重要性以及开卷有益的道理。', eraKeywords: ['资治通鉴', '孙权', '吕蒙', '刮目相待', '劝学'], highlightWords: ['开卷有益', '学习', '刮目相待'] },
+  geoContexts: [{ ancientName: '寻阳', modernName: '湖北省黄梅县西南', relevance: '鲁肃与吕蒙论议之地' }],
+  memorizationAid: { segments: [{ keyword: '当涂掌事·不可不学', hint: '孙权劝学' }, { keyword: '辞以多务', hint: '吕蒙推辞' }, { keyword: '涉猎·大有所益', hint: '孙权现身说法' }, { keyword: '乃始就学', hint: '吕蒙开始学习' }, { keyword: '才略·非复阿蒙', hint: '鲁肃赞叹' }, { keyword: '刮目相待', hint: '吕蒙回应' }], commonMistakes: [{ wrong: '孤岂欲卿治经为博士邪', correct: '孤岂欲卿治经为博士邪' }, { wrong: '即更刮目相看', correct: '即更刮目相待' }] },
+}
