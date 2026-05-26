@@ -1,0 +1,322 @@
+[
+  {
+    "unitNumber": 1,
+    "title": "Where did you go on vacation?",
+    "topic": "Holidays and vacation experiences",
+    "words": [
+      {"word": "anyone", "meaning": "任何人"},
+      {"word": "anywhere", "meaning": "任何地方"},
+      {"word": "wonderful", "meaning": "精彩的；极好的"},
+      {"word": "few", "meaning": "很少的；几乎没有的"},
+      {"word": "quite a few", "meaning": "相当多"},
+      {"word": "most", "meaning": "最多的；大多数的"},
+      {"word": "something", "meaning": "某事；某物"},
+      {"word": "nothing", "meaning": "没有什么；没有一件东西"},
+      {"word": "myself", "meaning": "我自己"},
+      {"word": "everyone", "meaning": "每人；人人"},
+      {"word": "yourself", "meaning": "你自己"},
+      {"word": "bored", "meaning": "厌倦的；烦闷的"},
+      {"word": "diary", "meaning": "日记；日记簿"},
+      {"word": "activity", "meaning": "活动"},
+      {"word": "decide", "meaning": "决定；选定"},
+      {"word": "try", "meaning": "尝试；设法；努力"},
+      {"word": "bird", "meaning": "鸟；禽"},
+      {"word": "umbrella", "meaning": "伞；雨伞"},
+      {"word": "wet", "meaning": "湿的；潮湿的"},
+      {"word": "hungry", "meaning": "饥饿的"}
+    ],
+    "grammar": [
+      "复合不定代词 (Compound indefinite pronouns: something, anything, nothing, everything, someone, anyone, no one, everyone)",
+      "一般过去时 (Simple past tense: regular and irregular verbs)"
+    ],
+    "dialogueTheme": "谈论假期经历和旅行活动 (Talking about holiday experiences and vacation activities)"
+  },
+  {
+    "unitNumber": 2,
+    "title": "How often do you exercise?",
+    "topic": "Free time activities and lifestyle habits",
+    "words": [
+      {"word": "housework", "meaning": "家务劳动；家务事"},
+      {"word": "hardly", "meaning": "几乎不；简直不"},
+      {"word": "ever", "meaning": "曾经；在任何时候"},
+      {"word": "once", "meaning": "一次；曾经"},
+      {"word": "twice", "meaning": "两倍；两次"},
+      {"word": "Internet", "meaning": "因特网；互联网"},
+      {"word": "program", "meaning": "节目；程序"},
+      {"word": "full", "meaning": "满的；充满的"},
+      {"word": "swing", "meaning": "摇摆；秋千"},
+      {"word": "maybe", "meaning": "或许；大概；可能"},
+      {"word": "least", "meaning": "最小的；最少的"},
+      {"word": "health", "meaning": "健康；人的身体(或精神)状态"},
+      {"word": "result", "meaning": "结果；后果"},
+      {"word": "percent", "meaning": "百分之..."},
+      {"word": "online", "meaning": "在线的；联网的"},
+      {"word": "television", "meaning": "电视机；电视"},
+      {"word": "although", "meaning": "虽然；尽管"},
+      {"word": "through", "meaning": "以；凭借；穿过"},
+      {"word": "mind", "meaning": "头脑；心智"},
+      {"word": "such", "meaning": "这样的；如此的"}
+    ],
+    "grammar": [
+      "频率副词 (Frequency adverbs: always, usually, often, sometimes, hardly ever, never)",
+      "一般现在时中频率的表达 (Expressing frequency with how often)"
+    ],
+    "dialogueTheme": "谈论课余活动和生活习惯 (Talking about free time activities and lifestyle habits)"
+  },
+  {
+    "unitNumber": 3,
+    "title": "I'm more outgoing than my sister.",
+    "topic": "Personal traits and comparing people",
+    "words": [
+      {"word": "outgoing", "meaning": "外向的；爱交际的"},
+      {"word": "better", "meaning": "较好的(地)；更好的(地)"},
+      {"word": "loudly", "meaning": "喧闹地；大声地；响亮地"},
+      {"word": "quietly", "meaning": "轻声地；安静地"},
+      {"word": "hard-working", "meaning": "工作努力的；辛勤的"},
+      {"word": "competition", "meaning": "比赛；竞赛；竞争"},
+      {"word": "fantastic", "meaning": "极好的；了不起的"},
+      {"word": "clearly", "meaning": "清楚地；显然地"},
+      {"word": "win", "meaning": "赢；获胜"},
+      {"word": "though", "meaning": "虽然；尽管；不过"},
+      {"word": "talented", "meaning": "有才能的；有才干的"},
+      {"word": "truly", "meaning": "真正；确实"},
+      {"word": "serious", "meaning": "严肃的；认真的"},
+      {"word": "mirror", "meaning": "镜子"},
+      {"word": "necessary", "meaning": "必要的；必需的"},
+      {"word": "both", "meaning": "两者都"},
+      {"word": "should", "meaning": "应该；应当"},
+      {"word": "touch", "meaning": "触摸；感动"},
+      {"word": "reach", "meaning": "到达；伸手"},
+      {"word": "similar", "meaning": "相似的；类似的"}
+    ],
+    "grammar": [
+      "形容词/副词比较级 (Comparative degree of adjectives and adverbs)",
+      "both...and... 的用法 (Usage of both...and... structure)"
+    ],
+    "dialogueTheme": "比较人物特征和性格 (Comparing personal traits and describing differences between people)"
+  },
+  {
+    "unitNumber": 4,
+    "title": "What's the best movie theater?",
+    "topic": "Comparing places and things; making preferences",
+    "words": [
+      {"word": "theater", "meaning": "剧院；剧场；电影院"},
+      {"word": "comfortable", "meaning": "舒适的；充裕的"},
+      {"word": "seat", "meaning": "座位；坐处"},
+      {"word": "screen", "meaning": "屏幕；银幕"},
+      {"word": "close", "meaning": "关；合拢；接近的"},
+      {"word": "ticket", "meaning": "票；入场券"},
+      {"word": "worst", "meaning": "最坏的；最差的"},
+      {"word": "cheaply", "meaning": "便宜地；低廉地"},
+      {"word": "song", "meaning": "歌曲；歌唱"},
+      {"word": "choose", "meaning": "选择；决定"},
+      {"word": "carefully", "meaning": "仔细地；认真地"},
+      {"word": "reporter", "meaning": "记者"},
+      {"word": "fresh", "meaning": "新鲜的；清新的"},
+      {"word": "comfortably", "meaning": "舒服地；舒适地"},
+      {"word": "service", "meaning": "服务"},
+      {"word": "pretty", "meaning": "相当；十分；漂亮的"},
+      {"word": "menu", "meaning": "菜单"},
+      {"word": "act", "meaning": "行动；表演"},
+      {"word": "meal", "meaning": "一餐；膳食"},
+      {"word": "creative", "meaning": "创造性的；有创造力的"}
+    ],
+    "grammar": [
+      "形容词/副词最高级 (Superlative degree of adjectives and adverbs)",
+      "比较级和最高级的不规则变化 (Irregular forms: good-better-best, bad-worse-worst)"
+    ],
+    "dialogueTheme": "比较商店、电影院等场所并做出选择 (Comparing stores, theaters and making choices)"
+  },
+  {
+    "unitNumber": 5,
+    "title": "Do you want to watch a game show?",
+    "topic": "Entertainment and media preferences",
+    "words": [
+      {"word": "sitcom", "meaning": "情景喜剧"},
+      {"word": "news", "meaning": "新闻；消息"},
+      {"word": "soap", "meaning": "肥皂；肥皂剧"},
+      {"word": "educational", "meaning": "教育的；有教育意义的"},
+      {"word": "plan", "meaning": "计划；打算"},
+      {"word": "hope", "meaning": "希望；期望"},
+      {"word": "discussion", "meaning": "讨论；商量"},
+      {"word": "stand", "meaning": "站立；忍受"},
+      {"word": "happen", "meaning": "发生；出现"},
+      {"word": "expect", "meaning": "预期；期待"},
+      {"word": "joke", "meaning": "笑话；玩笑"},
+      {"word": "comedy", "meaning": "喜剧；滑稽"},
+      {"word": "action", "meaning": "行动；活动"},
+      {"word": "cartoon", "meaning": "卡通；动画片"},
+      {"word": "culture", "meaning": "文化；文明"},
+      {"word": "famous", "meaning": "著名的；有名的"},
+      {"word": "appear", "meaning": "出现；出版"},
+      {"word": "become", "meaning": "变成；成为"},
+      {"word": "rich", "meaning": "富有的；富饶的"},
+      {"word": "successful", "meaning": "成功的"}
+    ],
+    "grammar": [
+      "动词不定式作宾语 (Infinitives as objects: want to do, plan to do, hope to do, expect to do)",
+      "表达喜好和观点 (Expressing preferences and opinions: like, love, don't mind, can't stand)"
+    ],
+    "dialogueTheme": "谈论电视节目和电影的喜好 (Talking about TV shows and movie preferences)"
+  },
+  {
+    "unitNumber": 6,
+    "title": "I'm going to study computer science.",
+    "topic": "Future intentions and resolutions",
+    "words": [
+      {"word": "doctor", "meaning": "医生"},
+      {"word": "engineer", "meaning": "工程师"},
+      {"word": "violinist", "meaning": "小提琴手"},
+      {"word": "driver", "meaning": "驾驶员；司机"},
+      {"word": "pilot", "meaning": "飞行员"},
+      {"word": "pianist", "meaning": "钢琴家"},
+      {"word": "scientist", "meaning": "科学家"},
+      {"word": "college", "meaning": "学院；大学"},
+      {"word": "education", "meaning": "教育"},
+      {"word": "medicine", "meaning": "药；医学"},
+      {"word": "university", "meaning": "(综合性)大学"},
+      {"word": "article", "meaning": "文章；论文"},
+      {"word": "send", "meaning": "邮寄；发送"},
+      {"word": "resolution", "meaning": "决心；决定"},
+      {"word": "foreign", "meaning": "外国的"},
+      {"word": "improve", "meaning": "改进；改善"},
+      {"word": "physical", "meaning": "身体的；物理的"},
+      {"word": "hobby", "meaning": "业余爱好"},
+      {"word": "promise", "meaning": "承诺；保证"},
+      {"word": "beginning", "meaning": "开头；开端"}
+    ],
+    "grammar": [
+      "be going to 结构表将来 (be going to structure for future plans)",
+      "want to be + 职业名词 (Expressing future career goals: want to be + occupation)"
+    ],
+    "dialogueTheme": "谈论未来的打算和新年决心 (Talking about future plans, career goals and New Year's resolutions)"
+  },
+  {
+    "unitNumber": 7,
+    "title": "Will people have robots?",
+    "topic": "Future life and predictions",
+    "words": [
+      {"word": "paper", "meaning": "纸"},
+      {"word": "pollution", "meaning": "污染；污染物"},
+      {"word": "prediction", "meaning": "预测；预言"},
+      {"word": "future", "meaning": "将来；未来"},
+      {"word": "pollute", "meaning": "污染"},
+      {"word": "environment", "meaning": "环境"},
+      {"word": "planet", "meaning": "行星"},
+      {"word": "earth", "meaning": "地球；泥土"},
+      {"word": "plant", "meaning": "种植；植物"},
+      {"word": "part", "meaning": "部分；参加"},
+      {"word": "peace", "meaning": "和平"},
+      {"word": "sky", "meaning": "天空"},
+      {"word": "astronaut", "meaning": "宇航员"},
+      {"word": "apartment", "meaning": "公寓房间"},
+      {"word": "rocket", "meaning": "火箭"},
+      {"word": "space", "meaning": "空间；太空"},
+      {"word": "human", "meaning": "人的；人类"},
+      {"word": "dangerous", "meaning": "有危险的；不安全的"},
+      {"word": "already", "meaning": "已经"},
+      {"word": "factory", "meaning": "工厂"}
+    ],
+    "grammar": [
+      "will 引导的一般将来时 (Simple future tense with will: affirmative, negative, questions)",
+      "there will be 结构 (there will be structure for future predictions)"
+    ],
+    "dialogueTheme": "对未来生活的预测和畅想 (Making predictions about future life and technology)"
+  },
+  {
+    "unitNumber": 8,
+    "title": "How do you make a banana milk shake?",
+    "topic": "Cooking and food preparation",
+    "words": [
+      {"word": "shake", "meaning": "摇动；抖动；奶昔"},
+      {"word": "blender", "meaning": "食物搅拌器；果汁机"},
+      {"word": "peel", "meaning": "剥皮；削皮"},
+      {"word": "pour", "meaning": "倒出；倾倒"},
+      {"word": "sugar", "meaning": "糖"},
+      {"word": "cheese", "meaning": "干酪；奶酪"},
+      {"word": "popcorn", "meaning": "爆米花"},
+      {"word": "corn", "meaning": "玉米；谷物"},
+      {"word": "sandwich", "meaning": "三明治"},
+      {"word": "butter", "meaning": "黄油；奶油"},
+      {"word": "turkey", "meaning": "火鸡"},
+      {"word": "lettuce", "meaning": "生菜；莴苣"},
+      {"word": "piece", "meaning": "片；块；段"},
+      {"word": "traditional", "meaning": "传统的；惯例的"},
+      {"word": "autumn", "meaning": "秋天；秋季"},
+      {"word": "pepper", "meaning": "胡椒粉；柿子椒"},
+      {"word": "fill", "meaning": "装满；填满"},
+      {"word": "plate", "meaning": "盘子；碟子"},
+      {"word": "cover", "meaning": "覆盖；盖子"},
+      {"word": "temperature", "meaning": "温度；气温"}
+    ],
+    "grammar": [
+      "祈使句表示指令和步骤 (Imperative sentences for giving instructions and procedures)",
+      "可数名词与不可数名词 (Countable and uncountable nouns: how many/how much)"
+    ],
+    "dialogueTheme": "描述食物制作过程和步骤 (Describing food preparation processes and recipes)"
+  },
+  {
+    "unitNumber": 9,
+    "title": "Can you come to my party?",
+    "topic": "Invitations and social activities",
+    "words": [
+      {"word": "prepare", "meaning": "准备；预备"},
+      {"word": "exam", "meaning": "考试；测验"},
+      {"word": "flu", "meaning": "流行性感冒"},
+      {"word": "available", "meaning": "有空的；可获得的"},
+      {"word": "hang", "meaning": "悬挂；垂下"},
+      {"word": "until", "meaning": "直到...为止"},
+      {"word": "catch", "meaning": "及时赶上；接住"},
+      {"word": "invite", "meaning": "邀请"},
+      {"word": "accept", "meaning": "接受"},
+      {"word": "refuse", "meaning": "拒绝"},
+      {"word": "invitation", "meaning": "邀请；邀请函"},
+      {"word": "reply", "meaning": "回复；答复"},
+      {"word": "forward", "meaning": "转寄；发送；向前的"},
+      {"word": "delete", "meaning": "删除"},
+      {"word": "print", "meaning": "打印；印刷"},
+      {"word": "sad", "meaning": "悲伤的；难过的"},
+      {"word": "goodbye", "meaning": "再见"},
+      {"word": "glad", "meaning": "高兴的；乐意的"},
+      {"word": "surprised", "meaning": "惊奇的；感觉意外的"},
+      {"word": "concert", "meaning": "音乐会；演奏会"}
+    ],
+    "grammar": [
+      "情态动词 can 用于邀请 (Modal verb can for invitations: Can you...? / Can he...?)",
+      "have to / must 表示必须 (have to and must for obligation; accepting and declining invitations)"
+    ],
+    "dialogueTheme": "发出、接受和拒绝邀请 (Making, accepting and declining invitations)"
+  },
+  {
+    "unitNumber": 10,
+    "title": "If you go to the party, you'll have a great time!",
+    "topic": "Decision-making and consequences",
+    "words": [
+      {"word": "meeting", "meaning": "会议；集会"},
+      {"word": "video", "meaning": "录像带；录像"},
+      {"word": "organize", "meaning": "组织；筹备"},
+      {"word": "chocolate", "meaning": "巧克力"},
+      {"word": "upset", "meaning": "难过的；失望的；沮丧的"},
+      {"word": "advice", "meaning": "劝告；建议"},
+      {"word": "travel", "meaning": "旅行；游历"},
+      {"word": "agent", "meaning": "代理人；经纪人"},
+      {"word": "expert", "meaning": "专家"},
+      {"word": "teenager", "meaning": "青少年"},
+      {"word": "normal", "meaning": "正常的；一般的"},
+      {"word": "unless", "meaning": "除非；如果不"},
+      {"word": "certainly", "meaning": "无疑；肯定；当然"},
+      {"word": "wallet", "meaning": "钱包"},
+      {"word": "worried", "meaning": "担心的；发愁的"},
+      {"word": "angry", "meaning": "生气的；发怒的"},
+      {"word": "careless", "meaning": "粗心的；不小心的"},
+      {"word": "understanding", "meaning": "善解人意的；体谅人的"},
+      {"word": "trust", "meaning": "相信；信任"},
+      {"word": "experience", "meaning": "经验；经历"}
+    ],
+    "grammar": [
+      "if 引导的条件状语从句（第一条件句）(First conditional: if + present tense, will + base form)",
+      "情态动词 should/shouldn't 给建议 (Using should/shouldn't for giving advice)"
+    ],
+    "dialogueTheme": "谈论可能的结果和给建议 (Talking about possible consequences and giving advice)"
+  }
+]
