@@ -1,0 +1,161 @@
+import type { Unit } from '../types'
+
+export const g8u3: Unit = {
+  id: 'g8u3',
+  title: "I'm more outgoing than my sister.",
+  grade: 8,
+  semester: '上',
+  unitNumber: 3,
+  topic: 'Personal traits and comparing people',
+  objectives: [
+    '掌握形容词和副词比较级的构成和用法',
+    '能够用比较级描述和比较人物特征',
+    '学会用 both...and... 结构表达两者都',
+  ],
+  words: [
+    { word: 'outgoing', phonetic: '/ˈaʊtɡəʊɪŋ/', pos: 'adj.', meaning: '外向的；爱交际的', example: 'She is very outgoing and has many friends.', exampleTranslation: '她很外向，有很多朋友。' },
+    { word: 'better', phonetic: '/ˈbetə(r)/', pos: 'adj./adv.', meaning: '较好的(地)；更好的(地)', example: 'This book is better than that one.', exampleTranslation: '这本书比那本好。' },
+    { word: 'loudly', phonetic: '/ˈlaʊdli/', pos: 'adv.', meaning: '喧闹地；大声地；响亮地', example: 'He speaks very loudly in class.', exampleTranslation: '他在课堂上说话声音很大。' },
+    { word: 'quietly', phonetic: '/ˈkwaɪətli/', pos: 'adv.', meaning: '轻声地；安静地', example: 'Please close the door quietly.', exampleTranslation: '请轻轻地关门。' },
+    { word: 'hard-working', phonetic: '/ˌhɑːdˈwɜːkɪŋ/', pos: 'adj.', meaning: '工作努力的；辛勤的', example: 'She is a hard-working student.', exampleTranslation: '她是一个努力学习的学生。' },
+    { word: 'competition', phonetic: '/ˌkɒmpəˈtɪʃn/', pos: 'n.', meaning: '比赛；竞赛；竞争', example: 'He won first prize in the singing competition.', exampleTranslation: '他在歌唱比赛中获得了一等奖。' },
+    { word: 'fantastic', phonetic: '/fænˈtæstɪk/', pos: 'adj.', meaning: '极好的；了不起的', example: 'You did a fantastic job!', exampleTranslation: '你做得太棒了！' },
+    { word: 'clearly', phonetic: '/ˈklɪəli/', pos: 'adv.', meaning: '清楚地；显然地', example: 'Please speak more clearly.', exampleTranslation: '请说得更清楚一些。' },
+    { word: 'win', phonetic: '/wɪn/', pos: 'v.', meaning: '赢；获胜', example: 'Our team won the basketball game.', exampleTranslation: '我们队赢了那场篮球赛。' },
+    { word: 'though', phonetic: '/ðəʊ/', pos: 'adv./conj.', meaning: '虽然；尽管；不过', example: 'It was raining hard, though we still went out.', exampleTranslation: '雨下得很大，不过我们还是出去了。' },
+    { word: 'talented', phonetic: '/ˈtæləntɪd/', pos: 'adj.', meaning: '有才能的；有才干的', example: 'She is talented in music.', exampleTranslation: '她在音乐方面很有天赋。' },
+    { word: 'truly', phonetic: '/ˈtruːli/', pos: 'adv.', meaning: '真正；确实', example: 'He is truly a kind person.', exampleTranslation: '他确实是一个善良的人。' },
+    { word: 'serious', phonetic: '/ˈsɪəriəs/', pos: 'adj.', meaning: '严肃的；认真的', example: 'She is serious about her studies.', exampleTranslation: '她对学习很认真。' },
+    { word: 'mirror', phonetic: '/ˈmɪrə(r)/', pos: 'n.', meaning: '镜子', example: 'She looked at herself in the mirror.', exampleTranslation: '她照了照镜子。' },
+    { word: 'necessary', phonetic: '/ˈnesəsəri/', pos: 'adj.', meaning: '必要的；必需的', example: 'It is necessary to learn English well.', exampleTranslation: '学好英语是必要的。' },
+    { word: 'both', phonetic: '/bəʊθ/', pos: 'adj./pron.', meaning: '两者都', example: 'Both of them are good students.', exampleTranslation: '他们两个都是好学生。' },
+    { word: 'should', phonetic: '/ʃʊd/', pos: 'modal v.', meaning: '应该；应当', example: 'You should study harder.', exampleTranslation: '你应该更加努力学习。' },
+    { word: 'touch', phonetic: '/tʌtʃ/', pos: 'v.', meaning: '触摸；感动', example: 'Don\'t touch the painting.', exampleTranslation: '不要触摸那幅画。' },
+    { word: 'reach', phonetic: '/riːtʃ/', pos: 'v.', meaning: '到达；伸手', example: 'We reached the top of the mountain at noon.', exampleTranslation: '我们在中午到达了山顶。' },
+    { word: 'similar', phonetic: '/ˈsɪmələ(r)/', pos: 'adj.', meaning: '相似的；类似的', example: 'Our hobbies are quite similar.', exampleTranslation: '我们的爱好非常相似。' },
+  ],
+  grammar: [
+    {
+      title: '形容词和副词的比较级',
+      explanation: '比较级用于两者之间的比较，基本结构为 "A + be/动词 + 比较级 + than + B"。单音节词在词尾加 -er；多音节词在前面加 more。不规则变化：good/well → better, bad/badly → worse, many/much → more, little → less, far → farther/further。',
+      examples: [
+        'Tom is taller than his brother.',
+        'English is more interesting than math.',
+        'She runs faster than me.',
+        'This movie is better than that one.',
+      ],
+      comparisons: [
+        'He is tall. (原级)',
+        'He is taller than his brother. (比较级)',
+        'He is the tallest in his class. (最高级)',
+      ],
+    },
+    {
+      title: 'both...and... 的用法',
+      explanation: 'both...and... 连接两个并列的主语时，谓语动词用复数形式。它可以连接两个名词、代词、形容词等，表示"两者都"。',
+      examples: [
+        'Both Tom and Jack like playing soccer.',
+        'She is both smart and hard-working.',
+        'Both of them are from China.',
+        'She can speak both English and Chinese.',
+      ],
+      comparisons: [
+        'Both Tom and Jack are students. (两个人都是)',
+        'Either Tom or Jack is a student. (其中一个是)',
+        'Neither Tom nor Jack is a student. (两个都不是)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Comparing Two Friends',
+      scene: 'Two students are talking about their classmates.',
+      lines: [
+        { speaker: 'Lily', text: 'Look at these two photos. This is Tina and this is Tara.', translation: '看这两张照片。这是Tina，这是Tara。' },
+        { speaker: 'Mike', text: 'They look similar! Are they sisters?', translation: '她们看起来很像！她们是姐妹吗？' },
+        { speaker: 'Lily', text: 'Yes, they are. But Tina is more outgoing than Tara.', translation: '是的。但是Tina比Tara更外向。' },
+        { speaker: 'Mike', text: 'Really? Who is more hard-working?', translation: '真的吗？谁更用功？' },
+        { speaker: 'Lily', text: 'Tara is more hard-working. She always gets better grades.', translation: 'Tara更用功。她总是取得更好的成绩。' },
+        { speaker: 'Mike', text: 'Do they have anything in common?', translation: '她们有什么共同点吗？' },
+        { speaker: 'Lily', text: 'Yes. Both of them like singing. And they both have long hair.', translation: '有。她们都喜欢唱歌。而且她们都有长头发。' },
+        { speaker: 'Mike', text: 'That\'s interesting! Who runs faster?', translation: '真有趣！谁跑得更快？' },
+        { speaker: 'Lily', text: 'Tina runs faster. She won the school running competition last year.', translation: 'Tina跑得更快。她去年赢得了学校跑步比赛。' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'My Best Friend and I',
+      text: 'I have a best friend named Jenny. We are in the same class. People often say we look similar, but in many ways we are different.\n\nI am tall and thin. Jenny is shorter but stronger than me. I have long straight hair, but Jenny has short curly hair. I am quiet and shy. Jenny is more outgoing and talkative than me. She likes making new friends.\n\nHowever, we also have many things in common. Both of us like reading books. We both enjoy playing badminton after school. We are both hard-working students and always get good grades.\n\nJenny is better at math than I am, but I am better at English. So we often help each other with our studies. She helps me with math, and I help her with English. I think a true friend reaches for your hand and touches your heart. Jenny is truly my best friend.',
+      annotations: [
+        { word: 'curly', meaning: '卷曲的' },
+        { word: 'talkative', meaning: '健谈的' },
+        { word: 'badminton', meaning: '羽毛球' },
+        { word: 'each other', meaning: '彼此' },
+        { word: 'in common', meaning: '共同的' },
+      ],
+      questions: [
+        { q: 'How are the writer and Jenny different in appearance?', a: 'The writer is tall and thin with long straight hair. Jenny is shorter but stronger with short curly hair.' },
+        { q: 'What do they have in common?', a: 'They both like reading books, enjoy playing badminton, and are hard-working students.' },
+        { q: 'Who is better at math?', a: 'Jenny is better at math.' },
+        { q: 'What does "a true friend reaches for your hand and touches your heart" mean?', a: 'It means a real friend helps you and makes you feel warm inside.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用所给形容词的比较级填空',
+      data: ['Tom is ___ (tall) than his brother.', 'This book is ___ (interesting) than that one.', 'She is ___ (outgoing) than her sister.', 'He runs ___ (fast) than me.'],
+      answer: ['taller', 'more interesting', 'more outgoing', 'faster'],
+    },
+    {
+      type: 'match',
+      instruction: '将形容词与其比较级配对',
+      data: { words: ['good', 'heavy', 'thin', 'funny', 'serious'], meanings: ['thinner', 'better', 'more serious', 'heavier', 'funnier'] },
+      answer: { good: 'better', heavy: 'heavier', thin: 'thinner', funny: 'funnier', serious: 'more serious' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'She is more tall than her sister.',
+        'He is gooder at English than me.',
+        'Both he and I is students.',
+        'My bag is more heavier than yours.',
+      ],
+      answer: [
+        'more tall → taller',
+        'gooder → better',
+        'is → are',
+        'more heavier → heavier',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['than / I / am / taller / you (.)', 'both / like / and / Tom / Jack / soccer (.)', 'outgoing / she / than / more / sister / is / her (.))'],
+      answer: [
+        'I am taller than you.',
+        'Both Tom and Jack like soccer.',
+        'She is more outgoing than her sister.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '根据上下文用 both...and... 或比较级填空',
+      data: ['___ Tom ___ Jack are good students.', 'My room is ___ (big) than hers.', 'She can speak ___ English ___ Chinese.'],
+      answer: ['Both', 'and', 'bigger', 'both', 'and'],
+    },
+  ],
+  essays: [
+    {
+      title: 'My Friend and I',
+      body: 'My best friend is Lisa. We are in the same class, and we are very good friends. But we are quite different in some ways.\n\nFirst, I am tall and a little heavy. Lisa is shorter and thinner than me. I have short black hair, but Lisa has long brown hair. I am quiet and shy. Lisa is more outgoing than me. She likes talking with people and making new friends.\n\nHowever, we also have many things in common. Both of us like playing tennis. We play tennis together every Saturday. We both enjoy reading storybooks. Our favorite subject is English.\n\nLisa is better at science than me, and I am better at music. So we often help each other. I help her sing songs, and she helps me with science homework.\n\nI think friends don\'t need to be the same. Different friends can bring us different things. Lisa is truly my best friend, and I hope we will be friends forever.',
+      level: 'A',
+      keyPhrases: ['quite different', 'more outgoing', 'in common', 'help each other'],
+      wordCount: 147,
+      topic: '人物比较',
+    },
+  ],
+}

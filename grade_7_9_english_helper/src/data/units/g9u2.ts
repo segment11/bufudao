@@ -1,0 +1,187 @@
+import type { Unit } from '../types'
+
+export const g9u2: Unit = {
+  id: 'g9u2',
+  title: 'I think that mooncakes are delicious!',
+  grade: 9,
+  semester: '上',
+  unitNumber: 2,
+  topic: 'Festivals and holidays',
+  objectives: [
+    '掌握 that 引导的宾语从句',
+    '掌握 if/whether 引导的宾语从句',
+    '能够用英语谈论中外节日及习俗',
+    '学会表达对节日的看法和感受',
+  ],
+  words: [
+    { word: 'lantern', phonetic: '/ˈlæntən/', pos: 'n.', meaning: '灯笼', example: 'People hang red lanterns during the Spring Festival.', exampleTranslation: '人们在春节期间挂红灯笼。' },
+    { word: 'stranger', phonetic: '/ˈstreɪndʒə(r)/', pos: 'n.', meaning: '陌生人', example: 'Do not talk to strangers on the street.', exampleTranslation: '不要在街上和陌生人说话。' },
+    { word: 'relative', phonetic: '/ˈrelətɪv/', pos: 'n.', meaning: '亲属；亲戚', example: 'We visit our relatives during the Spring Festival.', exampleTranslation: '我们在春节期间拜访亲戚。' },
+    { word: 'pound', phonetic: '/paʊnd/', pos: 'n.', meaning: '磅；英镑', example: 'The baby weighs eight pounds.', exampleTranslation: '这个婴儿重八磅。' },
+    { word: 'folk', phonetic: '/fəʊk/', pos: 'adj.', meaning: '民间的；民俗的', example: 'The Dragon Boat Race is a traditional folk activity.', exampleTranslation: '赛龙舟是传统的民俗活动。' },
+    { word: 'goddess', phonetic: '/ˈɡɒdes/', pos: 'n.', meaning: '女神', example: 'Chang\'e is the goddess of the moon in Chinese legend.', exampleTranslation: '嫦娥是中国传说中的月亮女神。' },
+    { word: 'steal', phonetic: '/stiːl/', pos: 'v.', meaning: '偷；窃取', example: 'Someone stole my wallet on the bus.', exampleTranslation: '有人在公交车上偷了我的钱包。' },
+    { word: 'lay', phonetic: '/leɪ/', pos: 'v.', meaning: '放置；下蛋', example: 'She laid the book on the table.', exampleTranslation: '她把书放在了桌子上。' },
+    { word: 'dessert', phonetic: '/dɪˈzɜːt/', pos: 'n.', meaning: '甜点；甜食', example: 'We had ice cream for dessert.', exampleTranslation: '我们吃了冰淇淋作为甜点。' },
+    { word: 'admire', phonetic: '/ədˈmaɪə(r)/', pos: 'v.', meaning: '欣赏；仰慕', example: 'People admire the full moon during the Mid-Autumn Festival.', exampleTranslation: '人们在中秋节欣赏满月。' },
+    { word: 'tie', phonetic: '/taɪ/', pos: 'n.', meaning: '领带；捆；束', example: 'He wore a suit and tie to the party.', exampleTranslation: '他穿着西装打着领带去参加聚会。' },
+    { word: 'treat', phonetic: '/triːt/', pos: 'v.', meaning: '款待；招待', example: 'My grandmother treated us to a big dinner.', exampleTranslation: '奶奶用一顿丰盛的晚餐款待了我们。' },
+    { word: 'ghost', phonetic: '/ɡəʊst/', pos: 'n.', meaning: '鬼；鬼魂', example: 'Children dress up as ghosts on Halloween.', exampleTranslation: '孩子们在万圣节打扮成鬼。' },
+    { word: 'trick', phonetic: '/trɪk/', pos: 'n.', meaning: '花招；把戏', example: 'The children played a trick on their teacher.', exampleTranslation: '孩子们对老师恶作剧。' },
+    { word: 'spider', phonetic: '/ˈspaɪdə(r)/', pos: 'n.', meaning: '蜘蛛', example: 'There is a big spider web in the corner.', exampleTranslation: '角落里有一张大蜘蛛网。' },
+    { word: 'Christmas', phonetic: '/ˈkrɪsməs/', pos: 'n.', meaning: '圣诞节', example: 'Christmas is the most important festival in Western countries.', exampleTranslation: '圣诞节是西方国家最重要的节日。' },
+    { word: 'novel', phonetic: '/ˈnɒvl/', pos: 'n.', meaning: '小说', example: 'A Christmas Carol is a famous novel by Charles Dickens.', exampleTranslation: '《圣诞颂歌》是查尔斯·狄更斯的著名小说。' },
+    { word: 'warmth', phonetic: '/wɔːmθ/', pos: 'n.', meaning: '温暖；暖和', example: 'The warmth of the fire made us feel comfortable.', exampleTranslation: '炉火的温暖让我们感到舒适。' },
+    { word: 'spread', phonetic: '/spred/', pos: 'v.', meaning: '传播；展开', example: 'The news spread quickly through the school.', exampleTranslation: '消息很快在学校里传开了。' },
+    { word: 'tradition', phonetic: '/trəˈdɪʃn/', pos: 'n.', meaning: '传统', example: 'It is a tradition to eat dumplings during the Spring Festival.', exampleTranslation: '春节吃饺子是一个传统。' },
+  ],
+  grammar: [
+    {
+      title: 'that 引导的宾语从句',
+      explanation: '宾语从句在复合句中作动词或介词的宾语。that 引导的宾语从句通常用来陈述一个事实，that 在口语中可以省略。',
+      examples: [
+        'I think that mooncakes are delicious.',
+        'She believes that the Spring Festival is the most important holiday.',
+        'He says that he wants to visit China during the Mid-Autumn Festival.',
+        'We know that Christmas is on December 25th.',
+      ],
+      comparisons: [
+        'I think (that) the movie is interesting. (that 可省略)',
+        'I think the movie is interesting. (省略 that)',
+      ],
+    },
+    {
+      title: 'if/whether 引导的宾语从句',
+      explanation: '当宾语从句是一般疑问句转化而来时，用 if 或 whether 引导，意为"是否"。两者通常可以互换，但 whether 更正式，且 whether 可以与 or not 连用。',
+      examples: [
+        'I wonder if/whether they will have a holiday next week.',
+        'She asked whether he liked the Mid-Autumn Festival.',
+        'Do you know if there will be a lantern show tonight?',
+        'I want to know whether she is coming or not.',
+      ],
+      comparisons: [
+        'Is he at home? → I wonder if he is at home. (一般疑问句变宾语从句)',
+        'Where does he live? → I wonder where he lives. (特殊疑问句变宾语从句)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Talking about the Mid-Autumn Festival',
+      scene: 'A Chinese student is telling a foreign friend about the Mid-Autumn Festival.',
+      lines: [
+        { speaker: 'Tom', text: 'Hey, Li Hua! What festival is coming soon?', translation: '嘿，李华！什么节日快到了？' },
+        { speaker: 'Li Hua', text: 'The Mid-Autumn Festival. It falls on the 15th day of the eighth lunar month.', translation: '中秋节。它在农历八月十五。' },
+        { speaker: 'Tom', text: 'What do people usually do on that day?', translation: '人们那天通常做什么？' },
+        { speaker: 'Li Hua', text: 'Families get together and admire the full moon. We also eat mooncakes.', translation: '家人聚在一起赏月。我们还吃月饼。' },
+        { speaker: 'Tom', text: 'I think that mooncakes are delicious! Do they have different flavors?', translation: '我觉得月饼很好吃！它们有不同的口味吗？' },
+        { speaker: 'Li Hua', text: 'Yes, there are many kinds. Some have sweet fillings, and some have meat inside.', translation: '是的，有很多种类。有些有甜馅，有些里面有肉。' },
+        { speaker: 'Tom', text: 'That sounds wonderful. Is there a story behind this festival?', translation: '听起来很棒。这个节日背后有故事吗？' },
+        { speaker: 'Li Hua', text: 'Yes, the story of Chang\'e flying to the moon. It is a beautiful but sad legend.', translation: '有的，嫦娥奔月的故事。那是一个美丽但悲伤的传说。' },
+        { speaker: 'Tom', text: 'I would love to hear it! Can you tell me more?', translation: '我很想听！你能多告诉我一些吗？' },
+        { speaker: 'Li Hua', text: 'Sure! Long ago, Hou Yi shot down nine suns. His wife Chang\'e drank a magic potion and flew to the moon.', translation: '当然！很久以前，后羿射下了九个太阳。他的妻子嫦娥喝了一种仙药飞到了月亮上。' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'The Spirit of Christmas',
+      text: 'Many would agree that when we think of Christmas, we probably think of gifts, Christmas trees, and Santa Claus. But behind all these things lies the true meaning of Christmas: the importance of sharing and giving love and joy to people around us.\n\nThe story in A Christmas Carol is perhaps the best example of this. A Christmas Carol is a famous short novel written by Charles Dickens. It is about an old man named Scrooge who never laughs or smiles. He is mean and only thinks about himself. He does not treat others well, and he only cares about making more money.\n\nOne Christmas Eve, Scrooge sees the ghost of Jacob Marley, his dead business partner. Marley used to be just like Scrooge, so he was punished after he died. He warns Scrooge to change his ways if he does not want to end up like him. He also tells Scrooge to expect three spirits to visit him.\n\nThat night, three ghosts visit Scrooge. They take him to see his past, present, and future. Scrooge is so scared that he wakes up in his bed and decides to change his life. He spreads love and joy everywhere he goes. The true spirit of Christmas is to treat everyone with kindness and warmth.',
+      annotations: [
+        { word: 'spirit', meaning: '精神；灵魂' },
+        { word: 'mean', meaning: '吝啬的；刻薄的' },
+        { word: 'punish', meaning: '惩罚' },
+        { word: 'warn', meaning: '警告' },
+        { word: 'scared', meaning: '害怕的' },
+      ],
+      questions: [
+        { q: 'What is the true meaning of Christmas according to the passage?', a: 'The importance of sharing and giving love and joy to people around us.' },
+        { q: 'Who wrote A Christmas Carol?', a: 'Charles Dickens.' },
+        { q: 'What kind of person was Scrooge?', a: 'He was mean, never laughed or smiled, only thought about himself, and only cared about making money.' },
+        { q: 'Who visits Scrooge on Christmas Eve?', a: 'The ghost of Jacob Marley and three spirits visit him.' },
+        { q: 'What does Scrooge decide to do after that night?', a: 'He decides to change his life and spreads love and joy everywhere.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用 that, if 或 whether 填空',
+      data: [
+        'I think ___ the Spring Festival is the most important Chinese festival.',
+        'She wonders ___ her pen pal will come to China.',
+        'Do you know ___ there will be a dragon boat race tomorrow?',
+        'He believes ___ practice makes perfect.',
+      ],
+      answer: ['that', 'if/whether', 'if/whether', 'that'],
+    },
+    {
+      type: 'match',
+      instruction: '将节日与相关事物配对',
+      data: { words: ['Mid-Autumn Festival', 'Christmas', 'Halloween', 'Spring Festival', 'Dragon Boat Festival'], meanings: ['圣诞树和礼物', '龙舟和粽子', '月饼和满月', '灯笼和饺子', '南瓜和糖果'] },
+      answer: { 'Mid-Autumn Festival': '月饼和满月', Christmas: '圣诞树和礼物', Halloween: '南瓜和糖果', 'Spring Festival': '灯笼和饺子', 'Dragon Boat Festival': '龙舟和粽子' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'I think that he are a good student.',
+        'She asked if will he come to the party.',
+        'Do you know that is she at home?',
+        'I wonder where does he live.',
+      ],
+      answer: [
+        'are → is',
+        'will he come → he will come',
+        'that is she → if/whether she is',
+        'does he live → he lives',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: [
+        'think / I / mooncakes / that / delicious / are',
+        'wonders / she / the / festival / if / will / fun / be',
+        'Christmas / true / of / the / spirit / is / giving',
+      ],
+      answer: [
+        'I think that mooncakes are delicious.',
+        'She wonders if the festival will be fun.',
+        'The true spirit of Christmas is giving.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '根据句意和首字母提示填空',
+      data: [
+        'During the Mid-Autumn Festival, people a___ the full moon.',
+        'We usually visit our r___ during the Spring Festival.',
+        'Children like to play t___ on others on April Fool\'s Day.',
+        'It is a Chinese t___ to eat zongzi on the Dragon Boat Festival.',
+      ],
+      answer: ['dmire', 'elatives', 'ricks', 'radition'],
+    },
+    {
+      type: 'fill',
+      instruction: '用所给动词的正确形式填空',
+      data: [
+        'He ___ (steal) my pen yesterday.',
+        'People ___ (admire) the moon on the Mid-Autumn Festival every year.',
+        'The news ___ (spread) quickly last week.',
+        'She ___ (lay) the baby on the bed gently.',
+      ],
+      answer: ['stole', 'admire', 'spread', 'laid'],
+    },
+  ],
+  essays: [
+    {
+      title: 'My Favorite Festival',
+      body: 'Among all the festivals in China, my favorite one is the Spring Festival. It is the most important traditional holiday for Chinese people. It usually falls in late January or early February.\n\nBefore the Spring Festival, every family cleans their house thoroughly. People believe that cleaning sweeps away bad luck. We also decorate our homes with red lanterns and couplets. Red is the main color of the festival because it means good luck and happiness.\n\nOn New Year\'s Eve, the whole family gets together for a big dinner. We eat dumplings, fish, and many other delicious dishes. After dinner, we usually watch the Spring Festival Gala on TV and wait for midnight. When the clock strikes twelve, we set off fireworks to celebrate the new year.\n\nDuring the festival, children are the happiest because they can receive red envelopes with money inside. We visit our relatives and friends and say "Happy New Year" to each other. Everyone is full of joy and laughter.\n\nI love the Spring Festival not only because of the delicious food and the red envelopes but also because it brings family members together. It is a time for love, warmth, and hope.',
+      level: 'A',
+      keyPhrases: ['sweeps away bad luck', 'gets together', 'set off fireworks', 'red envelopes', 'not only...but also'],
+      wordCount: 148,
+      topic: '最喜欢的节日',
+    },
+  ],
+}

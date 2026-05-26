@@ -1,0 +1,158 @@
+import type { Unit } from '../types'
+
+export const g7u7: Unit = {
+  id: 'g7u7',
+  title: 'Happy Birthday!',
+  grade: 7,
+  semester: '上',
+  unitNumber: 10,
+  topic: 'Birthdays, celebrations, and dates',
+  objectives: [
+    'Learn vocabulary for birthdays and celebrations',
+    'Use "When...?" to ask about dates',
+    'Use "How much/How many" to ask about prices and quantities',
+    'Express birthday wishes and describe celebrations',
+  ],
+  words: [
+    { word: 'celebrate', phonetic: '/ˈselɪbreɪt/', pos: 'v.', meaning: '庆祝；庆贺', example: 'We celebrate his birthday every year.', exampleTranslation: '我们每年庆祝他的生日。' },
+    { word: 'surprise', phonetic: '/səˈpraɪz/', pos: 'n./v.', meaning: '惊奇；惊讶；使感到意外', example: 'We have a surprise for you!', exampleTranslation: '我们给你准备了一个惊喜！' },
+    { word: 'something', phonetic: '/ˈsʌmθɪŋ/', pos: 'pron.', meaning: '某事；某物', example: 'I want something to eat.', exampleTranslation: '我想吃点东西。' },
+    { word: 'sale', phonetic: '/seɪl/', pos: 'n.', meaning: '出售；销售', example: 'The book is on sale.', exampleTranslation: '这本书在打折。' },
+    { word: 'kilo', phonetic: '/ˈkiːləʊ/', pos: 'n.', meaning: '千克；公斤', example: 'I\'d like two kilos of apples.', exampleTranslation: '我要两公斤苹果。' },
+    { word: 'yogurt', phonetic: '/ˈjɒɡət/', pos: 'n.', meaning: '酸奶', example: 'I like strawberry yogurt.', exampleTranslation: '我喜欢草莓酸奶。' },
+    { word: 'total', phonetic: '/ˈtəʊtl/', pos: 'n./adj.', meaning: '总数；合计；总的', example: 'The total is 50 yuan.', exampleTranslation: '总共50元。' },
+    { word: 'price', phonetic: '/praɪs/', pos: 'n.', meaning: '价格', example: 'What is the price of this book?', exampleTranslation: '这本书的价格是多少？' },
+    { word: 'balloon', phonetic: '/bəˈluːn/', pos: 'n.', meaning: '气球', example: 'There are many balloons at the party.', exampleTranslation: '派对上有很多气球。' },
+    { word: 'chocolate', phonetic: '/ˈtʃɒklət/', pos: 'n.', meaning: '巧克力', example: 'She gives me a box of chocolate.', exampleTranslation: '她给了我一盒巧克力。' },
+    { word: 'pizza', phonetic: '/ˈpiːtsə/', pos: 'n.', meaning: '比萨饼', example: 'We eat pizza at the party.', exampleTranslation: '我们在派对上吃比萨饼。' },
+    { word: 'list', phonetic: '/lɪst/', pos: 'n./v.', meaning: '列表；列清单；名单', example: 'Let me make a shopping list.', exampleTranslation: '让我列一个购物清单。' },
+    { word: 'own', phonetic: '/əʊn/', pos: 'adj./v.', meaning: '自己的；本人', example: 'I make my own birthday cake.', exampleTranslation: '我自己做生日蛋糕。' },
+    { word: 'example', phonetic: '/ɪɡˈzɑːmpl/', pos: 'n.', meaning: '例子；范例', example: 'For example, I like swimming.', exampleTranslation: '例如，我喜欢游泳。' },
+    { word: 'language', phonetic: '/ˈlæŋɡwɪdʒ/', pos: 'n.', meaning: '语言', example: 'English is a useful language.', exampleTranslation: '英语是一种有用的语言。' },
+    { word: 'international', phonetic: '/ˌɪntəˈnæʃənl/', pos: 'adj.', meaning: '国际的', example: 'English is an international language.', exampleTranslation: '英语是一门国际语言。' },
+    { word: 'national', phonetic: '/ˈnæʃənl/', pos: 'adj.', meaning: '国家的；民族的', example: 'October 1st is our National Day.', exampleTranslation: '十月一日是我们的国庆节。' },
+    { word: 'mark', phonetic: '/mɑːk/', pos: 'v./n.', meaning: '做记号；分数', example: 'Please mark the date on your calendar.', exampleTranslation: '请在日历上标出日期。' },
+    { word: 'date', phonetic: '/deɪt/', pos: 'n.', meaning: '日期；日子', example: 'What\'s the date today?', exampleTranslation: '今天是几月几日？' },
+    { word: 'meaningful', phonetic: '/ˈmiːnɪŋfl/', pos: 'adj.', meaning: '重要的；有意义的', example: 'We have a meaningful birthday party.', exampleTranslation: '我们举办了一场有意义的生日派对。' },
+  ],
+  grammar: [
+    {
+      title: 'When引导的特殊疑问句询问日期',
+      explanation: '用"When is your birthday?"询问生日日期。日期表达用"序数词 + 月份"，如"2nd August"或"August 2nd"。序数词如：1st (first), 2nd (second), 3rd (third), 4th (fourth)等。',
+      examples: [
+        '— When is your birthday? — It\'s on 2nd August.',
+        'My birthday is on October 15th. → 我的生日是十月十五日。',
+        '— What\'s the date today? — It\'s September 1st.',
+        'Christmas is on December 25th. → 圣诞节在十二月二十五日。',
+      ],
+      comparisons: [
+        '中文日期表达"八月二日"，英语表达为"2nd August"（英式）或"August 2nd"（美式），月日在前或后。',
+        '中文序数词不常用，英语中日期必须用序数词（1st, 2nd, 3rd...）。',
+      ],
+    },
+    {
+      title: 'How much/How many的用法',
+      explanation: '"How much + 不可数名词"询问价格或数量；"How many + 可数名词复数"询问数量。回答价格用"It\'s/They\'re + 价格"。',
+      examples: [
+        '— How much is the chocolate? — It\'s 20 yuan.',
+        '— How many balloons do you need? — I need ten.',
+        'How much yogurt do you want? → 你要多少酸奶？',
+        '— How many kilos of apples? — Two kilos, please.',
+      ],
+      comparisons: [
+        '中文"多少钱"对应"How much is/are..."，中文"多少个"对应"How many..."。',
+        '中文量词（个、斤、本）丰富，英语只用How many + 复数名词或How much + 不可数名词。',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Planning a Birthday Party',
+      scene: 'Li Ming and his friends are planning a surprise birthday party for Lucy.',
+      lines: [
+        { speaker: 'Li Ming', text: 'Lucy\'s birthday is next Friday. Let\'s plan a surprise party!', translation: 'Lucy的生日是下周五。我们策划一个惊喜派对吧！' },
+        { speaker: 'Tom', text: 'Great idea! When is her birthday exactly?', translation: '好主意！她的生日具体是哪天？' },
+        { speaker: 'Li Ming', text: 'It\'s on November 15th. Let\'s make a shopping list.', translation: '十一月十五日。我们列一个购物清单吧。' },
+        { speaker: 'Tom', text: 'We need balloons, chocolate, and a birthday cake.', translation: '我们需要气球、巧克力和一个生日蛋糕。' },
+        { speaker: 'Li Ming', text: 'Good! How much is the cake?', translation: '好的！蛋糕多少钱？' },
+        { speaker: 'Tom', text: 'It\'s 80 yuan. And we need some pizza too.', translation: '80元。我们还需要一些比萨饼。' },
+        { speaker: 'Li Ming', text: 'How many balloons should we buy?', translation: '我们应该买多少个气球？' },
+        { speaker: 'Tom', text: 'Let\'s buy twenty. This will be a meaningful birthday for Lucy!', translation: '我们买二十个吧。这将是Lucy一个有意义的生日！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'A Special Birthday',
+      text: 'Last Saturday was Lucy\'s birthday. She was 13 years old. Her friends planned a surprise party for her. They bought balloons, chocolate, and a big birthday cake. The cake was 80 yuan. They also bought two kilos of apples and some yogurt. When Lucy came home, everyone shouted "Happy Birthday!" Lucy was very surprised and happy. They ate pizza and chocolate together. Lucy made a wish and blew out the candles. "This is the most meaningful birthday ever!" she said. All her friends gave her something special. It was a wonderful day!',
+      annotations: [
+        { word: 'shout', meaning: '喊叫' },
+        { word: 'wish', meaning: '愿望' },
+        { word: 'blow out', meaning: '吹灭' },
+        { word: 'wonderful', meaning: '极好的' },
+      ],
+      questions: [
+        { q: 'How old is Lucy now?', a: 'She is 13 years old.' },
+        { q: 'How much was the birthday cake?', a: 'It was 80 yuan.' },
+        { q: 'What did Lucy do before blowing out the candles?', a: 'She made a wish.' },
+        { q: 'How did Lucy feel about the party?', a: 'She felt it was the most meaningful birthday ever.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用How much或How many填空。',
+      data: ['___ is the chocolate?', '___ balloons do you need?', '___ yogurt do you want?', '___ kilos of apples would you like?'],
+      answer: ['How much', 'How many', 'How much', 'How many'],
+    },
+    {
+      type: 'match',
+      instruction: '将序数词与对应的数字配对。',
+      data: { ordinals: ['first', 'second', 'third', 'fifteenth'], numbers: ['1st', '2nd', '3rd', '15th'] },
+      answer: { first: '1st', second: '2nd', third: '3rd', fifteenth: '15th' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误。',
+      data: ['My birthday is on october 15th.', 'How many is the cake?', 'She buy a chocolate yesterday.', 'When is you birthday?'],
+      answer: ['My birthday is on October 15th.', 'How much is the cake?', 'She bought chocolate yesterday.', 'When is your birthday?'],
+    },
+    {
+      type: 'reorder',
+      instruction: '将单词重新排列成正确的句子。',
+      data: ['is / when / birthday / your', 'much / how / the / is / cake', 'many / how / do / balloons / you / need', 'on / birthday / her / is / November 15th'],
+      answer: ['When is your birthday?', 'How much is the cake?', 'How many balloons do you need?', 'Her birthday is on November 15th.'],
+    },
+    {
+      type: 'fill',
+      instruction: '根据提示写出正确的月份英文。',
+      data: ['十月 → ___', '十二月 → ___', '八月 → ___', '十一月 → ___'],
+      answer: ['October', 'December', 'August', 'November'],
+    },
+    {
+      type: 'match',
+     instruction: '将节日与对应日期配对。',
+      data: { holidays: ['Christmas', 'National Day (China)', 'New Year\'s Day', 'Children\'s Day'], dates: ['January 1st', 'June 1st', 'October 1st', 'December 25th'] },
+      answer: { 'Christmas': 'December 25th', 'National Day (China)': 'October 1st', 'New Year\'s Day': 'January 1st', 'Children\'s Day': 'June 1st' },
+    },
+  ],
+  essays: [
+    {
+      title: 'My Birthday',
+      body: 'My birthday is on March 8th. Every year, I celebrate it with my family and friends. This year, my mother made a big birthday cake. It was chocolate flavour. My friends came to my home in the afternoon. We bought colourful balloons and decorated the room. We ate pizza, chocolate, and fruit. I got many presents. My best friend gave me a book about wildlife. My parents gave me a new guitar. I was very happy. Before blowing out the candles, I made a wish. I hope all my friends are happy every day. It was a wonderful and meaningful birthday!',
+      level: 'B',
+      keyPhrases: ['My birthday is on...', 'I celebrate it with...', 'We bought...', 'I was very happy.'],
+      wordCount: 113,
+      topic: 'Birthday celebration',
+    },
+    {
+      title: 'Shopping for a Party',
+      body: 'Tomorrow is my friend\'s birthday. I need to buy some things for the party. I make a shopping list first. I want to buy five balloons, two kilos of apples, some chocolate, and a big cake. I go to the shop near my school. The balloons are 2 yuan each. The apples are 8 yuan a kilo. The chocolate is 15 yuan. The cake is 50 yuan. The total is 83 yuan. I also buy some yogurt for 10 yuan. I think the party will be fun. I hope my friend will be surprised!',
+      level: 'C',
+      keyPhrases: ['I need to buy...', 'How much is...', 'The total is...', 'I hope...'],
+      wordCount: 103,
+      topic: 'Shopping for a birthday party',
+    },
+  ],
+}

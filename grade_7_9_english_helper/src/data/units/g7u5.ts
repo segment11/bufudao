@@ -1,0 +1,150 @@
+import type { Unit } from '../types'
+
+export const g7u5: Unit = {
+  id: 'g7u5',
+  title: 'Fun Clubs',
+  grade: 7,
+  semester: '上',
+  unitNumber: 8,
+  topic: 'School clubs and personal abilities',
+  objectives: [
+    'Learn vocabulary for clubs and abilities',
+    'Use "can" to talk about abilities',
+    'Use "Which...?" to make choices',
+    'Discuss club activities and personal talents',
+  ],
+  words: [
+    { word: 'club', phonetic: '/klʌb/', pos: 'n.', meaning: '俱乐部；社团', example: 'I want to join the music club.', exampleTranslation: '我想加入音乐社团。' },
+    { word: 'join', phonetic: '/dʒɔɪn/', pos: 'v.', meaning: '参加；加入', example: 'Would you like to join us?', exampleTranslation: '你想加入我们吗？' },
+    { word: 'choose', phonetic: '/tʃuːz/', pos: 'v.', meaning: '选择；挑选', example: 'You can choose any club you like.', exampleTranslation: '你可以选择任何你喜欢的社团。' },
+    { word: 'drama', phonetic: '/ˈdrɑːmə/', pos: 'n.', meaning: '戏剧；戏剧表演', example: 'She is in the drama club.', exampleTranslation: '她在戏剧社。' },
+    { word: 'feeling', phonetic: '/ˈfiːlɪŋ/', pos: 'n.', meaning: '感觉；情感', example: 'I have a good feeling about this.', exampleTranslation: '我对这件事感觉很好。' },
+    { word: 'news', phonetic: '/njuːz/', pos: 'n.', meaning: '消息；新闻', example: 'I have good news for you!', exampleTranslation: '我有一个好消息要告诉你！' },
+    { word: 'musical', phonetic: '/ˈmjuːzɪkl/', pos: 'adj.', meaning: '音乐的；有音乐天赋的', example: 'She is very musical.', exampleTranslation: '她很有音乐天赋。' },
+    { word: 'exactly', phonetic: '/ɪɡˈzæktli/', pos: 'adv.', meaning: '正是如此；准确地', example: '— You like music? — Exactly!', exampleTranslation: '— 你喜欢音乐？— 没错！' },
+    { word: 'drum', phonetic: '/drʌm/', pos: 'n.', meaning: '鼓', example: 'He plays the drums very well.', exampleTranslation: '他鼓打得非常好。' },
+    { word: 'ability', phonetic: '/əˈbɪləti/', pos: 'n.', meaning: '能力；才能', example: 'Everyone has different abilities.', exampleTranslation: '每个人都有不同的能力。' },
+    { word: 'paint', phonetic: '/peɪnt/', pos: 'v./n.', meaning: '用颜料画；油漆', example: 'She likes to paint flowers.', exampleTranslation: '她喜欢画花。' },
+    { word: 'climb', phonetic: '/klaɪm/', pos: 'v.', meaning: '攀登；爬', example: 'Can you climb the tree?', exampleTranslation: '你会爬树吗？' },
+    { word: 'swim', phonetic: '/swɪm/', pos: 'v.', meaning: '游泳', example: 'I can swim very fast.', exampleTranslation: '我游泳游得很快。' },
+    { word: 'dance', phonetic: '/dɑːns/', pos: 'v./n.', meaning: '跳舞；舞蹈', example: 'She can dance beautifully.', exampleTranslation: '她跳舞跳得很美。' },
+    { word: 'draw', phonetic: '/drɔː/', pos: 'v.', meaning: '画画', example: 'I like to draw animals.', exampleTranslation: '我喜欢画动物。' },
+    { word: 'speak', phonetic: '/spiːk/', pos: 'v.', meaning: '说（某种语言）；说话', example: 'Can you speak English?', exampleTranslation: '你会说英语吗？' },
+    { word: 'write', phonetic: '/raɪt/', pos: 'v.', meaning: '写作；写', example: 'She can write in Chinese and English.', exampleTranslation: '她会用中文和英文写作。' },
+    { word: 'show', phonetic: '/ʃəʊ/', pos: 'v./n.', meaning: '给……看；展示', example: 'Can you show me your painting?', exampleTranslation: '你能给我看看你的画吗？' },
+    { word: 'mind', phonetic: '/maɪnd/', pos: 'n.', meaning: '头脑；心思', example: 'Keep an open mind.', exampleTranslation: '保持开放的心态。' },
+    { word: 'wildlife', phonetic: '/ˈwaɪldlaɪf/', pos: 'n.', meaning: '野生动物；野生生物', example: 'The wildlife club teaches us about animals.', exampleTranslation: '野生动物社团教我们了解动物。' },
+  ],
+  grammar: [
+    {
+      title: '情态动词can的用法',
+      explanation: 'can表示"能、会"，后面接动词原形。没有人称和数的变化。肯定句：I can swim. 否定句：I can\'t (cannot) swim. 一般疑问句：Can you swim? — Yes, I can. / No, I can\'t.',
+      examples: [
+        'I can play the guitar. → 我会弹吉他。',
+        'She can\'t swim. → 她不会游泳。',
+        '— Can you speak English? — Yes, I can.',
+        'Can he join the art club? → 他能加入美术社吗？',
+      ],
+      comparisons: [
+        '中文"会""能"放在动词前，英语can也放在动词前，但can没有人称变化（不加s/es）。',
+        '中文否定"不会"放在动词前，英语在can后加not：can\'t swim。',
+      ],
+    },
+    {
+      title: '选择疑问句',
+      explanation: '用"Which... would you like, A or B?"提问，让对方在两个或多个选项中选择。回答时选择具体选项，不用Yes/No。',
+      examples: [
+        '— Which club would you like to join, the music club or the art club? — I\'d like to join the music club.',
+        '— Can you swim or dance? — I can swim.',
+        'Which subject do you like better, English or Chinese?',
+        '— Would you like tea or coffee? — Coffee, please.',
+      ],
+      comparisons: [
+        '中文选择疑问句用"……还是……"，英语用"or"连接两个选项。',
+        '回答选择疑问句时不能说Yes/No，要直接说出选择。',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Choosing a Club',
+      scene: 'It is the club fair at school. Students are choosing which clubs to join.',
+      lines: [
+        { speaker: 'Li Ming', text: 'Look at all these clubs! Which club do you want to join, Lucy?', translation: '看这些社团！你想加入哪个社团，Lucy？' },
+        { speaker: 'Lucy', text: 'I want to join the music club. I can play the guitar.', translation: '我想加入音乐社。我会弹吉他。' },
+        { speaker: 'Li Ming', text: 'That\'s great! Can you sing too?', translation: '太好了！你也会唱歌吗？' },
+        { speaker: 'Lucy', text: 'Yes, I can. What about you? Can you play any instruments?', translation: '是的，我会。你呢？你会演奏乐器吗？' },
+        { speaker: 'Li Ming', text: 'I can\'t play any instruments, but I can draw. I want to join the art club.', translation: '我不会演奏乐器，但我会画画。我想加入美术社。' },
+        { speaker: 'Lucy', text: 'That sounds fun! Can you paint?', translation: '听起来很有趣！你会用颜料画吗？' },
+        { speaker: 'Li Ming', text: 'Yes, I can. I like painting animals.', translation: '是的，我会。我喜欢画动物。' },
+        { speaker: 'Lucy', text: 'Maybe we can both join the wildlife club too!', translation: '也许我们两个也可以加入野生动物社！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'Our School Clubs',
+      text: 'Our school has many fun clubs. The music club is very popular. Students can sing, play the guitar, or play the drums there. The art club is for students who like drawing and painting. They can show their beautiful works to everyone. The drama club puts on plays every term. It is very exciting. There is also a wildlife club. Students learn about animals and nature. The sports club has many activities too. You can swim, climb, or dance. Everyone can find a club they like. Clubs help us learn new things and make friends. Which club would you like to join?',
+      annotations: [
+        { word: 'popular', meaning: '受欢迎的' },
+        { word: 'nature', meaning: '自然' },
+        { word: 'put on', meaning: '上演' },
+        { word: 'works', meaning: '作品' },
+      ],
+      questions: [
+        { q: 'Which club is very popular?', a: 'The music club is very popular.' },
+        { q: 'What can students do in the art club?', a: 'They can draw and paint.' },
+        { q: 'What does the drama club do every term?', a: 'It puts on plays every term.' },
+        { q: 'Why are clubs good for students?', a: 'They help students learn new things and make friends.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用can或can\'t填空。',
+      data: ['I ___ play the guitar.', 'She ___ swim. She is afraid of water.', '___ you speak English?', 'He ___ draw beautiful pictures.'],
+      answer: ['can', 'can\'t', 'Can', 'can'],
+    },
+    {
+      type: 'match',
+      instruction: '将活动与对应的社团配对。',
+      data: { activities: ['singing songs', 'drawing animals', 'putting on plays', 'learning about nature'], clubs: ['drama club', 'music club', 'wildlife club', 'art club'] },
+      answer: { 'singing songs': 'music club', 'drawing animals': 'art club', 'putting on plays': 'drama club', 'learning about nature': 'wildlife club' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误。',
+      data: ['She can plays the piano.', 'I can\'t swimming.', 'Can you joining the club?', 'He cans speak English.'],
+      answer: ['She can play the piano.', 'I can\'t swim.', 'Can you join the club?', 'He can speak English.'],
+    },
+    {
+      type: 'reorder',
+      instruction: '将单词重新排列成正确的句子。',
+      data: ['can / you / what / do', 'club / want / which / join / you / to / do', 'can / she / dance / beautifully', 'can\'t / I / but / I / can / swim / climb'],
+      answer: ['What can you do?', 'Which club do you want to join?', 'She can dance beautifully.', 'I can swim but I can\'t climb.'],
+    },
+    {
+      type: 'fill',
+      instruction: '根据描述写出对应的社团名称。',
+      data: ['You sing and play instruments. → ___ club', 'You draw and paint. → ___ club', 'You act in plays. → ___ club', 'You learn about animals. → ___ club'],
+      answer: ['music', 'art', 'drama', 'wildlife'],
+    },
+    {
+      type: 'match',
+      instruction: '将能力与对应的人配对。',
+      data: { abilities: ['I can play the drums.', 'She can paint.', 'He can swim fast.', 'They can speak Chinese.'], types: ['musical ability', 'art ability', 'language ability', 'sports ability'] },
+      answer: { 'I can play the drums.': 'musical ability', 'She can paint.': 'art ability', 'He can swim fast.': 'sports ability', 'They can speak Chinese.': 'language ability' },
+    },
+  ],
+  essays: [
+    {
+      title: 'My Club Experience',
+      body: 'I am a student in Grade 7. I joined the art club this term. I like drawing very much. In the club, I learn to draw animals and flowers. Our teacher is very nice. She teaches us how to paint with different colours. I can also make new friends in the club. We show our works to each other every week. Some students can draw very well. I can\'t draw as well as them, but I practice every day. I think everyone should join a club. It is fun and useful!',
+      level: 'B',
+      keyPhrases: ['I joined the... club.', 'I learn to...', 'I can also make friends.', 'It is fun and useful.'],
+      wordCount: 99,
+      topic: 'Club activities',
+    },
+  ],
+}

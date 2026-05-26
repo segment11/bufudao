@@ -1,0 +1,161 @@
+import type { Unit } from '../types'
+
+export const g8u9: Unit = {
+  id: 'g8u9',
+  title: 'Can you come to my party?',
+  grade: 8,
+  semester: '上',
+  unitNumber: 9,
+  topic: 'Invitations and social activities',
+  objectives: [
+    '掌握情态动词 can 用于邀请的用法',
+    '学会用 have to / must 表示必须',
+    '能够发出、接受和拒绝邀请',
+  ],
+  words: [
+    { word: 'prepare', phonetic: '/prɪˈpeə(r)/', pos: 'v.', meaning: '准备；预备', example: 'I need to prepare for the exam.', exampleTranslation: '我需要为考试做准备。' },
+    { word: 'exam', phonetic: '/ɪɡˈzæm/', pos: 'n.', meaning: '考试；测验', example: 'We have a math exam tomorrow.', exampleTranslation: '我们明天有数学考试。' },
+    { word: 'flu', phonetic: '/fluː/', pos: 'n.', meaning: '流行性感冒', example: 'She has the flu and can\'t go to school.', exampleTranslation: '她得了流感，不能去上学。' },
+    { word: 'available', phonetic: '/əˈveɪləbl/', pos: 'adj.', meaning: '有空的；可获得的', example: 'Are you available this weekend?', exampleTranslation: '你这周末有空吗？' },
+    { word: 'hang', phonetic: '/hæŋ/', pos: 'v.', meaning: '悬挂；垂下', example: 'We often hang out in the park.', exampleTranslation: '我们经常在公园里闲逛。' },
+    { word: 'until', phonetic: '/ənˈtɪl/', pos: 'prep./conj.', meaning: '直到...为止', example: 'I studied until midnight last night.', exampleTranslation: '昨晚我一直学到半夜。' },
+    { word: 'catch', phonetic: '/kætʃ/', pos: 'v.', meaning: '及时赶上；接住', example: 'I need to catch the early bus.', exampleTranslation: '我需要赶上早班车。' },
+    { word: 'invite', phonetic: '/ɪnˈvaɪt/', pos: 'v.', meaning: '邀请', example: 'She invited me to her birthday party.', exampleTranslation: '她邀请我参加她的生日聚会。' },
+    { word: 'accept', phonetic: '/əkˈsept/', pos: 'v.', meaning: '接受', example: 'I\'m happy to accept your invitation.', exampleTranslation: '我很高兴接受你的邀请。' },
+    { word: 'refuse', phonetic: '/rɪˈfjuːz/', pos: 'v.', meaning: '拒绝', example: 'He refused to come to the party.', exampleTranslation: '他拒绝来参加聚会。' },
+    { word: 'invitation', phonetic: '/ˌɪnvɪˈteɪʃn/', pos: 'n.', meaning: '邀请；邀请函', example: 'Thank you for your invitation.', exampleTranslation: '谢谢你的邀请。' },
+    { word: 'reply', phonetic: '/rɪˈplaɪ/', pos: 'v./n.', meaning: '回复；答复', example: 'Please reply to this email by Friday.', exampleTranslation: '请在周五之前回复这封邮件。' },
+    { word: 'forward', phonetic: '/ˈfɔːwəd/', pos: 'adv./adj.', meaning: '转寄；发送；向前的', example: 'I\'m looking forward to seeing you.', exampleTranslation: '我期待着见到你。' },
+    { word: 'delete', phonetic: '/dɪˈliːt/', pos: 'v.', meaning: '删除', example: 'I accidentally deleted the message.', exampleTranslation: '我不小心删除了那条消息。' },
+    { word: 'print', phonetic: '/prɪnt/', pos: 'v.', meaning: '打印；印刷', example: 'Can you print this document for me?', exampleTranslation: '你能帮我打印这份文件吗？' },
+    { word: 'sad', phonetic: '/sæd/', pos: 'adj.', meaning: '悲伤的；难过的', example: 'I was sad that she couldn\'t come.', exampleTranslation: '她不能来我很难过。' },
+    { word: 'goodbye', phonetic: '/ˌɡʊdˈbaɪ/', pos: 'n./interj.', meaning: '再见', example: 'It\'s time to say goodbye.', exampleTranslation: '是说再见的时候了。' },
+    { word: 'glad', phonetic: '/ɡlæd/', pos: 'adj.', meaning: '高兴的；乐意的', example: 'I\'m glad you can come to the party.', exampleTranslation: '我很高兴你能来参加聚会。' },
+    { word: 'surprised', phonetic: '/səˈpraɪzd/', pos: 'adj.', meaning: '惊奇的；感觉意外的', example: 'I was surprised to see him at the party.', exampleTranslation: '在聚会上看到他我很惊讶。' },
+    { word: 'concert', phonetic: '/ˈkɒnsət/', pos: 'n.', meaning: '音乐会；演奏会', example: 'We went to a concert last night.', exampleTranslation: '我们昨晚去听了一场音乐会。' },
+  ],
+  grammar: [
+    {
+      title: '情态动词 can 用于邀请',
+      explanation: 'Can you...? 常用于非正式地邀请某人做某事。肯定回答常用 Sure, I\'d love to. / OK, great. 否定回答常用 Sorry, I can\'t. I have to... / I\'d love to, but... Can 还可用于 Can he/she...? 来询问第三方的可能性。',
+      examples: [
+        'Can you come to my birthday party?',
+        'Can he go to the concert with us?',
+        '— Can you play tennis with me? — Sure, I\'d love to.',
+        '— Can you go shopping with me? — Sorry, I can\'t. I have to study.',
+      ],
+      comparisons: [
+        'Can you come to my party? (非正式邀请)',
+        'Would you like to come to my party? (更礼貌的邀请)',
+      ],
+    },
+    {
+      title: 'have to / must 表示必须',
+      explanation: 'have to 表示因客观需要而必须做某事，有人称和时态变化（has to, had to）。must 表示说话人的主观要求。否定形式不同：don\'t have to 表示"不必"；mustn\'t 表示"禁止"。',
+      examples: [
+        'I have to prepare for the exam.',
+        'She has to go to the doctor.',
+        'You must finish your homework first.',
+        'You don\'t have to come if you are busy.',
+      ],
+      comparisons: [
+        'I must study hard. (主观认为必须)',
+        'I have to study hard. (客观条件要求)',
+        'You mustn\'t be late. (禁止迟到)',
+        'You don\'t have to come early. (不必早来)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Inviting a Friend to a Party',
+      scene: 'Mike is calling Anna to invite her to his birthday party.',
+      lines: [
+        { speaker: 'Mike', text: 'Hi, Anna! Can you come to my birthday party this Saturday?', translation: '嗨，Anna！你这周六能来参加我的生日聚会吗？' },
+        { speaker: 'Anna', text: 'Hi, Mike! I\'d love to. What time is the party?', translation: '嗨，Mike！我很乐意。聚会几点开始？' },
+        { speaker: 'Mike', text: 'It starts at 6:00 pm at my house.', translation: '下午6点在我家开始。' },
+        { speaker: 'Anna', text: 'That sounds fun! Can I bring anything?', translation: '听起来很有趣！我可以带东西吗？' },
+        { speaker: 'Mike', text: 'No, you don\'t have to bring anything. Just come!', translation: '不用，你不需要带任何东西。来就行！' },
+        { speaker: 'Anna', text: 'OK! By the way, can Jane come too?', translation: '好的！顺便问一下，Jane也能来吗？' },
+        { speaker: 'Mike', text: 'I already invited her, but she can\'t come. She has the flu.', translation: '我已经邀请她了，但她来不了。她得了流感。' },
+        { speaker: 'Anna', text: 'Oh, that\'s too bad. I\'ll visit her after the party.', translation: '哦，太遗憾了。聚会后我去看她。' },
+        { speaker: 'Mike', text: 'That\'s very kind of you. See you on Saturday!', translation: '你真好。周六见！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'A Surprise Party',
+      text: 'Dear classmates,\n\nWe are going to have a surprise party for our teacher, Ms. Wang. The party will be next Friday at 4:00 pm in the classroom. We want to thank her for her hard work and wish her a happy birthday.\n\nWe are preparing many things for the party. Li Ming is going to bring a big cake. Lucy is going to make a beautiful card. Tom is going to buy some balloons and flowers. Wang Fang is going to prepare some games for us to play.\n\nCan you come to the party? Please reply to this message by Wednesday. If you want to help, you can come to the classroom at 3:00 pm to help us set up.\n\nPlease keep it a secret! We want to give Ms. Wang a big surprise. Don\'t tell her about the party.\n\nWe are looking forward to seeing you at the party!\n\nYour classmates',
+      annotations: [
+        { word: 'surprise', meaning: '惊喜' },
+        { word: 'balloon', meaning: '气球' },
+        { word: 'set up', meaning: '布置' },
+        { word: 'secret', meaning: '秘密' },
+        { word: 'look forward to', meaning: '期待' },
+      ],
+      questions: [
+        { q: 'Who is the surprise party for?', a: 'The party is for Ms. Wang, their teacher.' },
+        { q: 'When and where will the party be?', a: 'The party will be next Friday at 4:00 pm in the classroom.' },
+        { q: 'What is Lucy going to do for the party?', a: 'Lucy is going to make a beautiful card.' },
+        { q: 'Why should classmates keep it a secret?', a: 'Because they want to give Ms. Wang a big surprise.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用 can, have to 或 must 填空',
+      data: ['___ you come to my party tonight?', 'I ___ study for the exam. It\'s tomorrow.', 'She ___ go to the doctor. She has the flu.', 'You ___ not be late for school.'],
+      answer: ['Can', 'have to', 'has to', 'must'],
+    },
+    {
+      type: 'match',
+      instruction: '将短语与其中文意思配对',
+      data: { words: ['prepare for', 'hang out', 'look forward to', 'turn down', 'hear from'], meanings: ['期待', '拒绝', '收到…的来信', '闲逛', '准备'] },
+      answer: { 'prepare for': '准备', 'hang out': '闲逛', 'look forward to': '期待', 'turn down': '拒绝', 'hear from': '收到…的来信' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'Can you comes to my party?',
+        'She have to study for the exam.',
+        'I\'d love to, but I must to go to the doctor.',
+        'He don\'t have to come if he\'s busy.',
+      ],
+      answer: [
+        'comes → come',
+        'have → has',
+        'must to go → must go',
+        'don\'t → doesn\'t',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['you / can / to / come / party / my (?)', 'sorry / I / can\'t / have / I / study / to (.)', 'looking / to / I / seeing / forward / am / you (.))'],
+      answer: [
+        'Can you come to my party?',
+        'Sorry, I can\'t. I have to study.',
+        'I am looking forward to seeing you.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '根据中文提示完成句子',
+      data: ['Can you ___ (来参加我的聚会) this Saturday?', 'Sorry, I can\'t. I ___ (不得不准备考试).', 'I\'d love to, but I\'m not ___ (有空的).'],
+      answer: ['come to my party', 'have to prepare for the exam', 'available'],
+    },
+  ],
+  essays: [
+    {
+      title: 'An Invitation Letter',
+      body: 'Dear Mary,\n\nHow are you? I\'m writing to invite you to my birthday party. I\'m going to have the party next Saturday at 5:00 pm at my house.\n\nI\'ve invited many of our classmates. We are going to have a lot of fun! My mom is going to make a big chocolate cake. We are going to play games, sing songs, and dance. Tom is going to bring his guitar and play some music for us.\n\nYou don\'t have to bring any presents. Just come and have fun! But if you want, you can bring some snacks.\n\nThe party will end at about 8:00 pm. My dad can drive you home after the party, so you don\'t have to worry about transportation.\n\nPlease reply by Thursday so I can prepare everything. I hope you can come! I\'m really looking forward to seeing you.\n\nBest wishes,\nLily',
+      level: 'A',
+      keyPhrases: ['birthday party', 'chocolate cake', 'looking forward to', 'transportation'],
+      wordCount: 144,
+      topic: '邀请信',
+    },
+  ],
+}

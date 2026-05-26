@@ -1,0 +1,161 @@
+import type { Unit } from '../types'
+
+export const g8u5: Unit = {
+  id: 'g8u5',
+  title: 'Do you want to watch a game show?',
+  grade: 8,
+  semester: '上',
+  unitNumber: 5,
+  topic: 'Entertainment and media preferences',
+  objectives: [
+    '掌握动词不定式作宾语的用法',
+    '学会表达对电视节目和电影的喜好和观点',
+    '能够用 like, love, don\'t mind, can\'t st和 表达态度',
+  ],
+  words: [
+    { word: 'sitcom', phonetic: '/ˈsɪtkɒm/', pos: 'n.', meaning: '情景喜剧', example: 'My favorite sitcom is Friends.', exampleTranslation: '我最喜欢的情景喜剧是《老友记》。' },
+    { word: 'news', phonetic: '/njuːz/', pos: 'n.', meaning: '新闻；消息', example: 'I watch the news every evening.', exampleTranslation: '我每天晚上看新闻。' },
+    { word: 'soap', phonetic: '/səʊp/', pos: 'n.', meaning: '肥皂；肥皂剧', example: 'My grandmother loves watching soap operas.', exampleTranslation: '我奶奶喜欢看肥皂剧。' },
+    { word: 'educational', phonetic: '/ˌedʒuˈkeɪʃənl/', pos: 'adj.', meaning: '教育的；有教育意义的', example: 'Documentaries are very educational.', exampleTranslation: '纪录片很有教育意义。' },
+    { word: 'plan', phonetic: '/plæn/', pos: 'v./n.', meaning: '计划；打算', example: 'I plan to visit my uncle next week.', exampleTranslation: '我计划下周去看我的叔叔。' },
+    { word: 'hope', phonetic: '/həʊp/', pos: 'v./n.', meaning: '希望；期望', example: 'I hope to see you again soon.', exampleTranslation: '我希望能很快再见到你。' },
+    { word: 'discussion', phonetic: '/dɪˈskʌʃn/', pos: 'n.', meaning: '讨论；商量', example: 'We had a long discussion about the movie.', exampleTranslation: '我们对这部电影进行了长时间的讨论。' },
+    { word: 'stand', phonetic: '/stænd/', pos: 'v.', meaning: '站立；忍受', example: 'I can\'t stand watching horror movies.', exampleTranslation: '我受不了看恐怖片。' },
+    { word: 'happen', phonetic: '/ˈhæpən/', pos: 'v.', meaning: '发生；出现', example: 'What happened in the story?', exampleTranslation: '故事里发生了什么？' },
+    { word: 'expect', phonetic: '/ɪkˈspekt/', pos: 'v.', meaning: '预期；期待', example: 'I expect to learn a lot from this book.', exampleTranslation: '我期望从这本书中学到很多。' },
+    { word: 'joke', phonetic: '/dʒəʊk/', pos: 'n.', meaning: '笑话；玩笑', example: 'He told a funny joke at the party.', exampleTranslation: '他在聚会上讲了一个有趣的笑话。' },
+    { word: 'comedy', phonetic: '/ˈkɒmədi/', pos: 'n.', meaning: '喜剧；滑稽', example: 'I like watching comedies because they make me laugh.', exampleTranslation: '我喜欢看喜剧，因为它们让我笑。' },
+    { word: 'action', phonetic: '/ˈækʃn/', pos: 'n.', meaning: '行动；活动', example: 'Jackie Chan is famous for his action movies.', exampleTranslation: '成龙以动作片闻名。' },
+    { word: 'cartoon', phonetic: '/kɑːˈtuːn/', pos: 'n.', meaning: '卡通；动画片', example: 'Children love watching cartoons.', exampleTranslation: '孩子们喜欢看动画片。' },
+    { word: 'culture', phonetic: '/ˈkʌltʃə(r)/', pos: 'n.', meaning: '文化；文明', example: 'Learning about different cultures is interesting.', exampleTranslation: '了解不同的文化很有趣。' },
+    { word: 'famous', phonetic: '/ˈfeɪməs/', pos: 'adj.', meaning: '著名的；有名的', example: 'She is a famous actress.', exampleTranslation: '她是一位著名的女演员。' },
+    { word: 'appear', phonetic: '/əˈpɪə(r)/', pos: 'v.', meaning: '出现；出版', example: 'A rainbow appeared in the sky after the rain.', exampleTranslation: '雨后天空中出现了一道彩虹。' },
+    { word: 'become', phonetic: '/bɪˈkʌm/', pos: 'v.', meaning: '变成；成为', example: 'He wants to become a doctor.', exampleTranslation: '他想成为一名医生。' },
+    { word: 'rich', phonetic: '/rɪtʃ/', pos: 'adj.', meaning: '富有的；富饶的', example: 'She became rich and famous.', exampleTranslation: '她变得富有又出名。' },
+    { word: 'successful', phonetic: '/səkˈsesfl/', pos: 'adj.', meaning: '成功的', example: 'The movie was very successful.', exampleTranslation: '这部电影非常成功。' },
+  ],
+  grammar: [
+    {
+      title: '动词不定式作宾语',
+      explanation: '有些动词后面常接动词不定式（to + 动词原形）作宾语，常见的有：want, plan, hope, expect, decide, agree, learn, choose 等。动词不定式的否定形式是在 to 前加 not。',
+      examples: [
+        'I want to watch a comedy tonight.',
+        'She plans to visit Shanghai next month.',
+        'He hopes to become a famous actor.',
+        'They expect to win the competition.',
+      ],
+      comparisons: [
+        'I want to watch TV. (不定式作宾语)',
+        'I enjoy watching TV. (动名词作宾语)',
+      ],
+    },
+    {
+      title: '表达喜好和观点',
+      explanation: '可以用以下表达来表示对事物的喜好程度（从喜欢到不喜欢）：love > like > don\'t mind > don\'t like > can\'t st和。这些表达后面都接名词或动名词。',
+      examples: [
+        'I love watching cartoons.',
+        'I like game shows very much.',
+        'I don\'t mind watching the news.',
+        'I can\'t stand soap operas.',
+      ],
+      comparisons: [
+        'I love this movie. (非常喜欢)',
+        'I like this movie. (喜欢)',
+        'I don\'t like this movie. (不喜欢)',
+        'I can\'t stand this movie. (无法忍受)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'TV Shows Preferences',
+      scene: 'Two friends are talking about their favorite TV shows.',
+      lines: [
+        { speaker: 'Grace', text: 'What do you think of game shows, Mark?', translation: 'Mark，你觉得游戏节目怎么样？' },
+        { speaker: 'Mark', text: 'I love them! They are very exciting. What about you?', translation: '我非常喜欢！它们很刺激。你呢？' },
+        { speaker: 'Grace', text: 'I don\'t mind them. But I like talk shows better.', translation: '我不介意。但我更喜欢脱口秀。' },
+        { speaker: 'Mark', text: 'Why do you like talk shows?', translation: '你为什么喜欢脱口秀？' },
+        { speaker: 'Grace', text: 'Because they are educational and interesting. I expect to learn something new.', translation: '因为它们有教育意义又有趣。我希望能学到新东西。' },
+        { speaker: 'Mark', text: 'Do you like soap operas?', translation: '你喜欢肥皂剧吗？' },
+        { speaker: 'Grace', text: 'No, I can\'t stand them. They are too boring. What about you?', translation: '不，我受不了。它们太无聊了。你呢？' },
+        { speaker: 'Mark', text: 'I don\'t like them either. But I plan to watch a new comedy tonight.', translation: '我也不喜欢。但我计划今晚看一部新的喜剧。' },
+        { speaker: 'Grace', text: 'That sounds fun! Can I watch it with you?', translation: '听起来很有趣！我可以和你一起看吗？' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'Mickey Mouse — A Famous Cartoon Character',
+      text: 'When people say "culture", we think of art and history. But in America, one very famous cultural symbol is a cartoon — Mickey Mouse.\n\nWalt Disney created Mickey Mouse in 1928. His first cartoon with sound and music was Steamboat Willie. Mickey became very popular quickly. In his early films, Mickey was unlucky and had many problems. But he always tried to face any danger. People went to the cinema to see the "little man" win. Most of them wanted to be like Mickey.\n\nOn November 18, 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame. Today\'s cartoons are usually not so simple as little Mickey Mouse, but everyone still knows and loves him. Who has a pair of ears more famous than Mickey\'s?',
+      annotations: [
+        { word: 'create', meaning: '创造' },
+        { word: 'symbol', meaning: '象征' },
+        { word: 'unlucky', meaning: '不幸的' },
+        { word: 'danger', meaning: '危险' },
+        { word: 'character', meaning: '角色；人物' },
+      ],
+      questions: [
+        { q: 'Who created Mickey Mouse?', a: 'Walt Disney created Mickey Mouse.' },
+        { q: 'When was Mickey Mouse created?', a: 'Mickey Mouse was created in 1928.' },
+        { q: 'What was Mickey like in his early films?', a: 'He was unlucky and had many problems, but he always tried to face any danger.' },
+        { q: 'What happened on November 18, 1978?', a: 'Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用动词不定式 (to + 动词原形) 填空',
+      data: ['I want ___ (watch) a movie tonight.', 'She plans ___ (visit) her grandma this weekend.', 'He hopes ___ (become) a teacher.', 'They decide ___ (go) to the park.'],
+      answer: ['to watch', 'to visit', 'to become', 'to go'],
+    },
+    {
+      type: 'match',
+      instruction: '将电视节目类型与其英文配对',
+      data: { words: ['sitcom', 'game show', 'soap opera', 'comedy', 'cartoon'], meanings: ['游戏节目', '动画片', '情景喜剧', '肥皂剧', '喜剧'] },
+      answer: { sitcom: '情景喜剧', 'game show': '游戏节目', 'soap opera': '肥皂剧', comedy: '喜剧', cartoon: '动画片' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'I want watch a comedy tonight.',
+        'She can\'t stands soap operas.',
+        'He hopes becoming a famous actor.',
+        'What do you think of game shows? — I love they.',
+      ],
+      answer: [
+        'want watch → want to watch',
+        'can\'t stands → can\'t stand',
+        'hopes becoming → hopes to become',
+        'love they → love them',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['to / I / watch / want / a / movie (.)', 'she / of / does / what / think / news / the (?)', 'stand / can\'t / I / operas / soap (.))'],
+      answer: [
+        'I want to watch a movie.',
+        'What does she think of the news?',
+        'I can\'t stand soap operas.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '用 like, love, don\'t mind, can\'t stand 填空',
+      data: ['I ___ game shows because they are so exciting!', 'She ___ watching the news. It\'s OK for her.', 'He ___ soap operas. They are too boring for him.', 'We ___ cartoons. They make us happy.'],
+      answer: ['love', 'doesn\'t mind', 'can\'t stand', 'like'],
+    },
+  ],
+  essays: [
+    {
+      title: 'My Favorite TV Show',
+      body: 'I like watching TV very much. My favorite TV show is a nature documentary called Animal World. It is on TV every Sunday evening.\n\nI love this show because it is very educational. I can learn a lot about different animals from it. The show tells us how animals live, what they eat, and how they protect themselves. The pictures are beautiful and the stories are interesting.\n\nI also like watching comedies. They make me laugh and help me relax after a long day of study. My favorite comedy is Home With Kids. The actors are very funny.\n\nHowever, I can\'t stand horror movies. They are too scary for me. I don\'t like soap operas either. I think they are too long and boring.\n\nI plan to watch more English movies this year. I hope to improve my English by watching them. My teacher says it is a good way to learn English. I expect to make great progress!',
+      level: 'B',
+      keyPhrases: ['favorite TV show', 'educational', 'make me laugh', 'improve my English'],
+      wordCount: 145,
+      topic: '媒体喜好',
+    },
+  ],
+}

@@ -1,0 +1,160 @@
+import type { Unit } from '../types'
+
+export const g8u10: Unit = {
+  id: 'g8u10',
+  title: "If you go to the party, you'll have a great time!",
+  grade: 8,
+  semester: '上',
+  unitNumber: 10,
+  topic: 'Decision-making and consequences',
+  objectives: [
+    '掌握 if 引导的条件状语从句（第一条件句）',
+    '学会用 should/shouldn\'t 给建议',
+    '能够谈论可能的结果和给出建议',
+  ],
+  words: [
+    { word: 'meeting', phonetic: '/ˈmiːtɪŋ/', pos: 'n.', meaning: '会议；集会', example: 'We have a class meeting every Monday.', exampleTranslation: '我们每周一开班会。' },
+    { word: 'video', phonetic: '/ˈvɪdiəʊ/', pos: 'n.', meaning: '录像带；录像', example: 'Let\'s watch a video tonight.', exampleTranslation: '我们今晚看录像吧。' },
+    { word: 'organize', phonetic: '/ˈɔːɡənaɪz/', pos: 'v.', meaning: '组织；筹备', example: 'They organized a football match last week.', exampleTranslation: '他们上周组织了一场足球赛。' },
+    { word: 'chocolate', phonetic: '/ˈtʃɒklət/', pos: 'n.', meaning: '巧克力', example: 'She loves eating chocolate.', exampleTranslation: '她喜欢吃巧克力。' },
+    { word: 'upset', phonetic: '/ʌpˈset/', pos: 'adj.', meaning: '难过的；失望的；沮丧的', example: 'She was upset because she lost the game.', exampleTranslation: '她因为输了比赛而难过。' },
+    { word: 'advice', phonetic: '/ədˈvaɪs/', pos: 'n.', meaning: '劝告；建议', example: 'Can you give me some advice?', exampleTranslation: '你能给我一些建议吗？' },
+    { word: 'travel', phonetic: '/ˈtrævl/', pos: 'v./n.', meaning: '旅行；游历', example: 'I want to travel around the world.', exampleTranslation: '我想环游世界。' },
+    { word: 'agent', phonetic: '/ˈeɪdʒənt/', pos: 'n.', meaning: '代理人；经纪人', example: 'She works as a travel agent.', exampleTranslation: '她是一名旅行代理人。' },
+    { word: 'expert', phonetic: '/ˈekspɜːt/', pos: 'n.', meaning: '专家', example: 'He is an expert in computers.', exampleTranslation: '他是计算机专家。' },
+    { word: 'teenager', phonetic: '/ˈtiːneɪdʒə(r)/', pos: 'n.', meaning: '青少年', example: 'Many teenagers like playing video games.', exampleTranslation: '许多青少年喜欢玩电子游戏。' },
+    { word: 'normal', phonetic: '/ˈnɔːml/', pos: 'adj.', meaning: '正常的；一般的', example: 'It\'s normal to feel nervous before an exam.', exampleTranslation: '考试前感到紧张是正常的。' },
+    { word: 'unless', phonetic: '/ənˈles/', pos: 'conj.', meaning: '除非；如果不', example: 'You won\'t pass the exam unless you study hard.', exampleTranslation: '除非你努力学习，否则你不会通过考试。' },
+    { word: 'certainly', phonetic: '/ˈsɜːtnli/', pos: 'adv.', meaning: '无疑；肯定；当然', example: 'She will certainly come to the party.', exampleTranslation: '她肯定会来参加聚会。' },
+    { word: 'wallet', phonetic: '/ˈwɒlɪt/', pos: 'n.', meaning: '钱包', example: 'I lost my wallet on the bus.', exampleTranslation: '我在公交车上丢了钱包。' },
+    { word: 'worried', phonetic: '/ˈwʌrid/', pos: 'adj.', meaning: '担心的；发愁的', example: 'Don\'t be worried about the exam.', exampleTranslation: '不要为考试担心。' },
+    { word: 'angry', phonetic: '/ˈæŋɡri/', pos: 'adj.', meaning: '生气的；发怒的', example: 'My mom was angry because I was late.', exampleTranslation: '我妈妈因为我迟到了而生气。' },
+    { word: 'careless', phonetic: '/ˈkeələs/', pos: 'adj.', meaning: '粗心的；不小心的', example: 'He made many careless mistakes in the test.', exampleTranslation: '他在考试中犯了很多粗心的错误。' },
+    { word: 'understanding', phonetic: '/ˌʌndəˈstændɪŋ/', pos: 'adj.', meaning: '善解人意的；体谅人的', example: 'My parents are very understanding.', exampleTranslation: '我的父母非常善解人意。' },
+    { word: 'trust', phonetic: '/trʌst/', pos: 'v./n.', meaning: '相信；信任', example: 'You should trust your friends.', exampleTranslation: '你应该信任你的朋友。' },
+    { word: 'experience', phonetic: '/ɪkˈspɪəriəns/', pos: 'n.', meaning: '经验；经历', example: 'It was a wonderful experience.', exampleTranslation: '那是一次美妙的经历。' },
+  ],
+  grammar: [
+    {
+      title: 'if 引导的条件状语从句（第一条件句）',
+      explanation: 'if 引导的条件状语从句表示"如果..."。在 if 条件句中用一般现在时表示将来，主句用一般将来时（will + 动词原形）。即"主将从现"原则。if 从句可以放在主句前（用逗号隔开）或后。',
+      examples: [
+        'If you go to the party, you\'ll have a great time!',
+        'If it rains tomorrow, we will stay at home.',
+        'I will call you if I have time.',
+        'If you study hard, you will get good grades.',
+      ],
+      comparisons: [
+        'If it rains, I will stay home. (主句在前，不用逗号)',
+        'I will stay home if it rains. (if 从句在后，不用逗号)',
+      ],
+    },
+    {
+      title: 'should / shouldn\'t 给建议',
+      explanation: 'should 和 shouldn\'t 用于给出建议，表示"应该/不应该"。它们是情态动词，后接动词原形，没有人称和数的变化。常用于回答别人提出的烦恼或问题。',
+      examples: [
+        'You should talk to your parents about it.',
+        'She shouldn\'t stay up too late.',
+        'He should study harder if he wants to pass the exam.',
+        'You shouldn\'t worry too much. It\'s going to be OK.',
+      ],
+      comparisons: [
+        'You should eat more vegetables. (建议)',
+        'You must eat more vegetables. (命令)',
+        'You have to eat more vegetables. (客观需要)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Giving Advice about a Problem',
+      scene: 'Two friends are talking about a problem and giving advice.',
+      lines: [
+        { speaker: 'Kate', text: 'I have a problem, Ben. I lost my best friend\'s wallet.', translation: 'Ben，我有个问题。我把最好朋友的钱包弄丢了。' },
+        { speaker: 'Ben', text: 'Oh no! That\'s terrible. What are you going to do?', translation: '哦不！太糟糕了。你打算怎么办？' },
+        { speaker: 'Kate', text: 'I don\'t know. If I tell her, she\'ll be angry.', translation: '我不知道。如果我告诉她，她会生气的。' },
+        { speaker: 'Ben', text: 'But if you don\'t tell her, she\'ll be more angry when she finds out.', translation: '但如果你不告诉她，她发现后会更生气的。' },
+        { speaker: 'Kate', text: 'You\'re right. What should I do?', translation: '你说得对。我该怎么办？' },
+        { speaker: 'Ben', text: 'You should tell her the truth and say sorry. You should also buy her a new wallet.', translation: '你应该告诉她真相并道歉。你还应该给她买一个新钱包。' },
+        { speaker: 'Kate', text: 'But I don\'t have enough money. What should I do?', translation: '但我没有足够的钱。我该怎么办？' },
+        { speaker: 'Ben', text: 'If you don\'t have enough money, you should talk to your parents. They can help you.', translation: '如果你没有足够的钱，你应该和父母谈谈。他们可以帮你。' },
+        { speaker: 'Kate', text: 'That\'s good advice. Thank you, Ben!', translation: '这个建议很好。谢谢你，Ben！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'Teenagers\' Problems and Advice',
+      text: 'Many teenagers have problems. Sometimes they don\'t know what to do. Here are some common problems and advice.\n\nProblem 1: "I\'m always worried about my exams. I can\'t sleep well at night."\nAdvice: You should plan your study time well. If you prepare early, you will feel less worried. Don\'t stay up too late. If you get enough sleep, you\'ll think more clearly.\n\nProblem 2: "My best friend is angry with me because I didn\'t go to her birthday party."\nAdvice: You should talk to her and explain why you couldn\'t go. If you are honest, she will understand. You shouldn\'t wait too long to say sorry.\n\nProblem 3: "I spend too much time playing computer games. My parents are angry."\nAdvice: You should make a plan for your free time. If you finish your homework first, your parents won\'t be angry. You can play games, but you shouldn\'t play for too long.\n\nRemember: Everyone has problems. If you have a problem, you should talk to someone you trust. Don\'t keep it to yourself.',
+      annotations: [
+        { word: 'common', meaning: '常见的' },
+        { word: 'explain', meaning: '解释' },
+        { word: 'honest', meaning: '诚实的' },
+        { word: 'prepare', meaning: '准备' },
+        { word: 'keep to yourself', meaning: '闷在心里' },
+      ],
+      questions: [
+        { q: 'What advice is given for exam worries?', a: 'You should plan your study time well, prepare early, and get enough sleep.' },
+        { q: 'Why is the best friend angry in Problem 2?', a: 'Because the writer didn\'t go to her birthday party.' },
+        { q: 'What should you do if you spend too much time on games?', a: 'You should make a plan, finish homework first, and not play for too long.' },
+        { q: 'What should you do when you have a problem?', a: 'You should talk to someone you trust and not keep it to yourself.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用动词的正确形式填空（注意 if 条件句的时态）',
+      data: ['If it ___ (rain) tomorrow, we will stay at home.', 'If you ___ (study) hard, you will pass the exam.', 'I will call you if I ___ (have) time.', 'If she ___ (not go) to the party, she will miss the fun.'],
+      answer: ['rains', 'study', 'have', 'doesn\'t go'],
+    },
+    {
+      type: 'match',
+      instruction: '将 if 从句与主句配对，组成合理的句子',
+      data: { 'If you eat too much': ['you\'ll get fat'], 'If you study hard': ['you\'ll get good grades'], 'If it rains': ['we\'ll stay home'], 'If you exercise every day': ['you\'ll be healthy'] },
+      answer: { 'If you eat too much': 'you\'ll get fat', 'If you study hard': 'you\'ll get good grades', 'If it rains': 'we\'ll stay home', 'If you exercise every day': 'you\'ll be healthy' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'If it will rain, I stay at home.',
+        'You should to talk to your parents.',
+        'If he don\'t hurry, he\'ll be late.',
+        'She should stays in bed and rest.',
+      ],
+      answer: [
+        'will rain → rains; stay → will stay',
+        'should to talk → should talk',
+        'don\'t → doesn\'t',
+        'stays → stay',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['if / you / the / party / to / go / you\'ll / have / great / a / time (.)', 'should / she / her / talk / to / parents (.)', 'if / rains / it / we / will / home / stay (.))'],
+      answer: [
+        'If you go to the party, you\'ll have a great time.',
+        'She should talk to her parents.',
+        'If it rains, we will stay home.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '用 should 或 shouldn\'t 填空',
+      data: ['You ___ tell her the truth.', 'He ___ stay up too late before the exam.', 'She ___ eat more vegetables and fruit.', 'You ___ worry too much about it.'],
+      answer: ['should', "shouldn't", 'should', "shouldn't"],
+    },
+  ],
+  essays: [
+    {
+      title: 'If I Have a Problem',
+      body: 'Everyone has problems sometimes. When I have a problem, I always try to find a way to solve it.\n\nIf I have a problem with my studies, I will ask my teachers or classmates for help. I think talking about the problem is the best way to solve it. If I don\'t understand something, I should ask questions. My teachers are always happy to help me.\n\nIf I have a problem with my friends, I will talk to them honestly. Sometimes friends have misunderstandings. If I talk to them, we can understand each other better. I shouldn\'t keep my feelings to myself.\n\nIf I feel worried or sad, I will talk to my parents. They are very understanding. They always give me good advice. If I tell them my problems, they will help me find solutions.\n\nI think the most important thing is not to give up. If we try our best, we can solve any problem. Remember, if you have a problem, you should talk to someone you trust.',
+      level: 'A',
+      keyPhrases: ['solve problems', 'ask for help', 'misunderstandings', 'give up'],
+      wordCount: 146,
+      topic: '解决问题',
+    },
+  ],
+}

@@ -1,0 +1,150 @@
+import type { Unit } from '../types'
+
+export const g7u6: Unit = {
+  id: 'g7u6',
+  title: 'A Day in the Life',
+  grade: 7,
+  semester: '上',
+  unitNumber: 9,
+  topic: 'Daily routines and time management',
+  objectives: [
+    'Learn vocabulary for daily routines and time expressions',
+    'Use "What time/When" to ask about schedules',
+    'Understand third-person singular verb forms in present simple',
+    'Describe a typical day using proper time expressions',
+  ],
+  words: [
+    { word: 'shower', phonetic: '/ˈʃaʊə/', pos: 'n./v.', meaning: '淋浴；淋浴器', example: 'I take a shower every morning.', exampleTranslation: '我每天早上淋浴。' },
+    { word: 'brush', phonetic: '/brʌʃ/', pos: 'v./n.', meaning: '（用刷子）刷；刷子', example: 'I brush my teeth twice a day.', exampleTranslation: '我每天刷两次牙。' },
+    { word: 'tooth', phonetic: '/tuːθ/', pos: 'n.', meaning: '牙齿（复数teeth）', example: 'Brush your teeth before bed.', exampleTranslation: '睡前刷牙。' },
+    { word: 'duty', phonetic: '/ˈdjuːti/', pos: 'n.', meaning: '值班；职责', example: 'It\'s my duty to clean the blackboard today.', exampleTranslation: '今天轮到我值日擦黑板。' },
+    { word: 'usually', phonetic: '/ˈjuːʒuəli/', pos: 'adv.', meaning: '通常地；一般地', example: 'I usually get up at six thirty.', exampleTranslation: '我通常六点半起床。' },
+    { word: 'reporter', phonetic: '/rɪˈpɔːtə/', pos: 'n.', meaning: '记者', example: 'The reporter asks about my daily routine.', exampleTranslation: '记者问我的日常作息。' },
+    { word: 'around', phonetic: '/əˈraʊnd/', pos: 'adv./prep.', meaning: '大约；环绕；到处', example: 'I go to bed around 9:30.', exampleTranslation: '我大约九点半上床睡觉。' },
+    { word: 'homework', phonetic: '/ˈhəʊmwɜːk/', pos: 'n.', meaning: '家庭作业', example: 'I do my homework after dinner.', exampleTranslation: '我在晚饭后做作业。' },
+    { word: 'saying', phonetic: '/ˈseɪɪŋ/', pos: 'n.', meaning: '谚语；格言', example: '"Early to bed, early to rise" is a good saying.', exampleTranslation: '"早睡早起"是一句好谚语。' },
+    { word: 'rise', phonetic: '/raɪz/', pos: 'v.', meaning: '起床；升起；增长', example: 'The sun rises at six in the morning.', exampleTranslation: '太阳早上六点升起。' },
+    { word: 'stay', phonetic: '/steɪ/', pos: 'v.', meaning: '停留；待', example: 'I stay at school until 4:30.', exampleTranslation: '我在学校待到四点半。' },
+    { word: 'routine', phonetic: '/ruːˈtiːn/', pos: 'n.', meaning: '常规', example: 'My daily routine is very simple.', exampleTranslation: '我的日常作息很简单。' },
+    { word: 'restaurant', phonetic: '/ˈrestrɒnt/', pos: 'n.', meaning: '餐馆；餐厅', example: 'We sometimes eat at a restaurant.', exampleTranslation: '我们有时在餐馆吃饭。' },
+    { word: 'housework', phonetic: '/ˈhaʊswɜːk/', pos: 'n.', meaning: '家务劳动', example: 'I help my mother with housework on weekends.', exampleTranslation: '周末我帮妈妈做家务。' },
+    { word: 'while', phonetic: '/waɪl/', pos: 'n./conj.', meaning: '一段时间；在……期间', example: 'I read a book while waiting for the bus.', exampleTranslation: '等公共汽车时我读了一本书。' },
+    { word: 'weekend', phonetic: '/ˌwiːkˈend/', pos: 'n.', meaning: '周末', example: 'I play tennis on weekends.', exampleTranslation: '我在周末打网球。' },
+    { word: 'daily', phonetic: '/ˈdeɪli/', pos: 'adj.', meaning: '每日的；日常的', example: 'Walking is my daily exercise.', exampleTranslation: '散步是我的日常锻炼。' },
+    { word: 'finish', phonetic: '/ˈfɪnɪʃ/', pos: 'v.', meaning: '结束；完成', example: 'I finish my homework before 8:00.', exampleTranslation: '我在八点前完成作业。' },
+    { word: 'break', phonetic: '/breɪk/', pos: 'n.', meaning: '休息；间断', example: 'We have a ten-minute break between classes.', exampleTranslation: '课间我们有十分钟休息。' },
+    { word: 'quarter', phonetic: '/ˈkwɔːtə/', pos: 'n.', meaning: '一刻钟；四分之一', example: 'It\'s a quarter past seven.', exampleTranslation: '七点十五分。' },
+  ],
+  grammar: [
+    {
+      title: 'What time/When引导的特殊疑问句',
+      explanation: '用"What time...?"询问具体时间，"When...?"可以询问时间或日期。回答用at + 时间点。注意：o\'clock用于整点，half past表示"半"，a quarter past/to表示"过/差一刻"。',
+      examples: [
+        '— What time do you usually get up? — I usually get up at 6:30.',
+        '— When does she go to school? — She goes to school at 7:00.',
+        'What time is it now? — It\'s a quarter past eight.',
+        '— When do you have PE? — On Monday and Wednesday.',
+      ],
+      comparisons: [
+        '中文时间表达"六点半"，英语用"half past six"或直接说"six thirty"。',
+        '中文"几点"对应"What time"，问日期或笼统时间用"When"。',
+      ],
+    },
+    {
+      title: '一般现在时第三人称单数',
+      explanation: '当主语是he/she/it或单数名词时，动词要加-s或-es。否定句用doesn\'t + 动词原形。助动词does用于第三人称疑问句。',
+      examples: [
+        'He gets up at 6:00 every day. → 他每天六点起床。',
+        'She doesn\'t like early mornings. → 她不喜欢早起。',
+        '— Does he play tennis? — Yes, he does.',
+        'She brushes her teeth after breakfast.',
+      ],
+      comparisons: [
+        '中文动词不随主语变化（"我起床""他起床"动词相同），英语第三人称单数动词要变化。',
+        '中文否定加"不"，英语第三人称用doesn\'t + 动词原形（不是doesn\'t gets up）。 ',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Talking About Daily Routines',
+      scene: 'A school reporter is interviewing a student about his daily routine.',
+      lines: [
+        { speaker: 'Reporter', text: 'Hi, Li Ming! Can I ask you about your daily routine?', translation: '嗨，李明！我能问你的日常作息吗？' },
+        { speaker: 'Li Ming', text: 'Sure! What do you want to know?', translation: '当然可以！你想知道什么？' },
+        { speaker: 'Reporter', text: 'What time do you usually get up?', translation: '你通常几点起床？' },
+        { speaker: 'Li Ming', text: 'I usually get up at half past six. Then I take a shower and brush my teeth.', translation: '我通常六点半起床。然后我淋浴和刷牙。' },
+        { speaker: 'Reporter', text: 'When do you go to school?', translation: '你什么时候去上学？' },
+        { speaker: 'Li Ming', text: 'I go to school at a quarter past seven.', translation: '我七点一刻去上学。' },
+        { speaker: 'Reporter', text: 'What do you do after school?', translation: '放学后你做什么？' },
+        { speaker: 'Li Ming', text: 'I finish my homework first. Then I help with housework. I go to bed around nine.', translation: '我先完成作业。然后帮忙做家务。我大约九点上床睡觉。' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'A Busy Day',
+      text: 'Li Ming is a student in Grade 7. He has a busy day every day. He usually gets up at 6:30. He takes a shower and brushes his teeth. Then he has breakfast at 7:00. He goes to school at 7:15. Classes start at 8:00. He has four classes in the morning and three in the afternoon. There is a short break between classes. He has lunch at school around 12:00. After school, he goes home at 4:30. He does his homework before dinner. After dinner, he helps his mother with housework. He sometimes reads a book for a while. He goes to bed at about 9:00. His daily routine is busy but happy!',
+      annotations: [
+        { word: 'busy', meaning: '忙碌的' },
+        { word: 'start', meaning: '开始' },
+        { word: 'short', meaning: '短暂的' },
+        { word: 'about', meaning: '大约' },
+      ],
+      questions: [
+        { q: 'What time does Li Ming get up?', a: 'He gets up at 6:30.' },
+        { q: 'How many classes does he have in the morning?', a: 'He has four classes in the morning.' },
+        { q: 'When does he do his homework?', a: 'He does his homework before dinner.' },
+        { q: 'What time does he go to bed?', a: 'He goes to bed at about 9:00.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用动词的正确形式填空（注意第三人称单数）。',
+      data: ['She ___ (get) up at 6:30.', 'He ___ (brush) his teeth every morning.', 'My mother ___ (go) to work at 8:00.', 'Tom ___ (finish) his homework before dinner.'],
+      answer: ['gets', 'brushes', 'goes', 'finishes'],
+    },
+    {
+      type: 'match',
+      instruction: '将时间表达与对应的时间配对。',
+      data: { expressions: ['half past six', 'a quarter past seven', 'a quarter to eight', 'seven o\'clock'], times: ['7:00', '7:15', '7:45', '6:30'] },
+      answer: { 'half past six': '6:30', 'a quarter past seven': '7:15', 'a quarter to eight': '7:45', 'seven o\'clock': '7:00' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误。',
+      data: ['She get up at 6:30.', 'He don\'t like early mornings.', 'Does he gets up early?', 'I brushes my teeth every day.'],
+      answer: ['She gets up at 6:30.', 'He doesn\'t like early mornings.', 'Does he get up early?', 'I brush my teeth every day.'],
+    },
+    {
+      type: 'reorder',
+      instruction: '将单词重新排列成正确的句子。',
+      data: ['time / what / you / do / usually / get up', 'at / she / school / to / goes / seven', 'homework / my / I / after / do / dinner', 'bed / around / I / to / go / nine'],
+      answer: ['What time do you usually get up?', 'She goes to school at seven.', 'I do my homework after dinner.', 'I go to bed around nine.'],
+    },
+    {
+      type: 'fill',
+      instruction: '根据汉语提示填入正确的时间介词（at/in/on）。',
+      data: ['I get up ___ 6:30.（在具体时间点）', 'We have classes ___ the morning.（在上午）', 'I play tennis ___ weekends.（在周末）', 'She goes to bed ___ night.（在晚上）'],
+      answer: ['at', 'in', 'on', 'at'],
+    },
+    {
+      type: 'match',
+      instruction: '将日常活动与对应的时间配对。',
+      data: { activities: ['have breakfast', 'go to school', 'have lunch', 'go to bed'], times: ['around 12:00', 'about 9:00', 'at 7:00', 'at 7:15'] },
+      answer: { 'have breakfast': 'at 7:00', 'go to school': 'at 7:15', 'have lunch': 'around 12:00', 'go to bed': 'about 9:00' },
+    },
+  ],
+  essays: [
+    {
+      title: 'My Daily Routine',
+      body: 'I am a student in Grade 7. I have a busy but happy daily routine. I usually get up at half past six. First, I take a shower and brush my teeth. Then I have breakfast at seven o\'clock. I go to school at a quarter past seven. Classes start at eight. I have four classes in the morning and three in the afternoon. I have lunch at school. After school, I go home at half past four. I finish my homework before dinner. After dinner, I help my mother with housework. Then I read a book for a while. I go to bed at about nine. "Early to bed, early to rise" is my motto!',
+      level: 'B',
+      keyPhrases: ['I usually get up at...', 'Then I have breakfast at...', 'After school, I...', 'I go to bed at...'],
+      wordCount: 124,
+      topic: 'Daily routine',
+    },
+  ],
+}

@@ -1,0 +1,161 @@
+import type { Unit } from '../types'
+
+export const g8u1: Unit = {
+  id: 'g8u1',
+  title: 'Where did you go on vacation?',
+  grade: 8,
+  semester: '上',
+  unitNumber: 1,
+  topic: 'Holidays and vacation experiences',
+  objectives: [
+    '掌握复合不定代词的用法',
+    '熟练运用一般过去时描述假期经历',
+    '能够用英语谈论旅行和假期活动',
+  ],
+  words: [
+    { word: 'anyone', phonetic: '/ˈeniwʌn/', pos: 'pron.', meaning: '任何人', example: 'Did anyone go to the beach yesterday?', exampleTranslation: '昨天有人去海滩了吗？' },
+    { word: 'anywhere', phonetic: '/ˈeniweə(r)/', pos: 'adv.', meaning: '任何地方', example: 'I didn\'t go anywhere last weekend.', exampleTranslation: '上周末我没去任何地方。' },
+    { word: 'wonderful', phonetic: '/ˈwʌndəfl/', pos: 'adj.', meaning: '精彩的；极好的', example: 'We had a wonderful time in Beijing.', exampleTranslation: '我们在北京度过了一段美好的时光。' },
+    { word: 'few', phonetic: '/fjuː/', pos: 'adj.', meaning: '很少的；几乎没有的', example: 'There were few people in the park.', exampleTranslation: '公园里几乎没有几个人。' },
+    { word: 'quite a few', phonetic: '/kwaɪt ə fjuː/', pos: 'phrase', meaning: '相当多', example: 'Quite a few students went to the summer camp.', exampleTranslation: '相当多的学生去了夏令营。' },
+    { word: 'most', phonetic: '/məʊst/', pos: 'adj.', meaning: '最多的；大多数的', example: 'Most of the students like English.', exampleTranslation: '大多数学生喜欢英语。' },
+    { word: 'something', phonetic: '/ˈsʌmθɪŋ/', pos: 'pron.', meaning: '某事；某物', example: 'I bought something special for my mother.', exampleTranslation: '我给妈妈买了一些特别的东西。' },
+    { word: 'nothing', phonetic: '/ˈnʌθɪŋ/', pos: 'pron.', meaning: '没有什么；没有一件东西', example: 'There was nothing to do at home.', exampleTranslation: '在家里没有什么可做的。' },
+    { word: 'myself', phonetic: '/maɪˈself/', pos: 'pron.', meaning: '我自己', example: 'I enjoyed myself at the party.', exampleTranslation: '我在聚会上玩得很开心。' },
+    { word: 'everyone', phonetic: '/ˈevriwʌn/', pos: 'pron.', meaning: '每人；人人', example: 'Everyone had a good time on the trip.', exampleTranslation: '每个人在旅行中都玩得很开心。' },
+    { word: 'yourself', phonetic: '/jɔːˈself/', pos: 'pron.', meaning: '你自己', example: 'Did you dress yourself today?', exampleTranslation: '今天你自己穿的衣服吗？' },
+    { word: 'bored', phonetic: '/bɔːd/', pos: 'adj.', meaning: '厌倦的；烦闷的', example: 'I felt bored at home all day.', exampleTranslation: '我整天待在家里感到很无聊。' },
+    { word: 'diary', phonetic: '/ˈdaɪəri/', pos: 'n.', meaning: '日记；日记簿', example: 'She writes a diary every evening.', exampleTranslation: '她每天晚上写日记。' },
+    { word: 'activity', phonetic: '/ækˈtɪvəti/', pos: 'n.', meaning: '活动', example: 'We did many activities in the summer camp.', exampleTranslation: '我们在夏令营做了很多活动。' },
+    { word: 'decide', phonetic: '/dɪˈsaɪd/', pos: 'v.', meaning: '决定；选定', example: 'We decided to go to the mountains.', exampleTranslation: '我们决定去山里。' },
+    { word: 'try', phonetic: '/traɪ/', pos: 'v.', meaning: '尝试；设法；努力', example: 'I tried paragliding last summer.', exampleTranslation: '去年夏天我尝试了滑翔伞。' },
+    { word: 'bird', phonetic: '/bɜːd/', pos: 'n.', meaning: '鸟；禽', example: 'We saw many beautiful birds in the forest.', exampleTranslation: '我们在森林里看到了许多美丽的鸟。' },
+    { word: 'umbrella', phonetic: '/ʌmˈbrelə/', pos: 'n.', meaning: '伞；雨伞', example: 'I forgot to bring my umbrella.', exampleTranslation: '我忘记带雨伞了。' },
+    { word: 'wet', phonetic: '/wet/', pos: 'adj.', meaning: '湿的；潮湿的', example: 'We got wet in the rain.', exampleTranslation: '我们被雨淋湿了。' },
+    { word: 'hungry', phonetic: '/ˈhʌŋɡri/', pos: 'adj.', meaning: '饥饿的', example: 'I was so hungry after the long walk.', exampleTranslation: '走了那么长的路之后我饿极了。' },
+  ],
+  grammar: [
+    {
+      title: '复合不定代词',
+      explanation: '由 some-, any-, every-, no- 与 -thing, -one, -body 构成的代词叫做复合不定代词。它们在句中可作主语、宾语或表语。修饰复合不定代词的形容词要放在其后（后置定语）。',
+      examples: [
+        'I bought something special for my mom.',
+        'Did anyone see my dictionary?',
+        'There was nothing interesting on TV last night.',
+        'Everyone in our class went to the park.',
+      ],
+      comparisons: [
+        'I have something to tell you. (肯定句用 something)',
+        'I don\'t have anything to tell you. (否定句用 anything)',
+        'I have nothing to tell you. (nothing = not anything)',
+      ],
+    },
+    {
+      title: '一般过去时',
+      explanation: '一般过去时表示过去某个时间发生的动作或存在的状态。规则动词在词尾加 -ed，不规则动词需要特殊记忆。常与 yesterday, last week, two days ago 等时间状语连用。',
+      examples: [
+        'I went to Shanghai last summer vacation.',
+        'She didn\'t visit her grandparents last weekend.',
+        'Did they play volleyball on the beach?',
+        'We stayed at home and watched a movie yesterday.',
+      ],
+      comparisons: [
+        'I go to school every day. (一般现在时)',
+        'I went to the park yesterday. (一般过去时)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Talking about Summer Vacation',
+      scene: 'Two classmates meet at school after the summer vacation.',
+      lines: [
+        { speaker: 'Tom', text: 'Hey, Lisa! Where did you go on vacation?', translation: '嘿，Lisa！你去哪里度假了？' },
+        { speaker: 'Lisa', text: 'I went to Sanya with my family. It was wonderful!', translation: '我和家人去了三亚。太棒了！' },
+        { speaker: 'Tom', text: 'That sounds great! Did you do anything special there?', translation: '听起来很棒！你在那里做了什么特别的事吗？' },
+        { speaker: 'Lisa', text: 'Yes, I tried scuba diving. I saw many beautiful fish!', translation: '是的，我尝试了潜水。我看到了很多漂亮的鱼！' },
+        { speaker: 'Tom', text: 'Wow! How was the weather?', translation: '哇！天气怎么样？' },
+        { speaker: 'Lisa', text: 'It was sunny and hot every day. What about you, Tom?', translation: '每天都是晴朗炎热的天气。你呢，Tom？' },
+        { speaker: 'Tom', text: 'I visited my grandparents in the countryside.', translation: '我去乡下看望了爷爷奶奶。' },
+        { speaker: 'Lisa', text: 'Did you have a good time?', translation: '你玩得开心吗？' },
+        { speaker: 'Tom', text: 'Yes! I fed the chickens and picked apples. It was fun!', translation: '是的！我喂了鸡还摘了苹果。很有趣！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'A Trip to Remember',
+      text: 'Last summer, my family and I went to Beijing for our vacation. We stayed there for five days. On the first day, we visited the Great Wall. It was very long and beautiful. I felt tired but excited. The next day, we went to the Palace Museum. There were so many interesting things to see. I learned a lot about Chinese history. On the third day, we ate some famous Beijing duck for dinner. It was delicious! We also bought some gifts for our friends. On the last day, we took a lot of photos in the Summer Palace. Everyone in my family enjoyed the trip very much. I hope I can go there again someday.',
+      annotations: [
+        { word: 'tired', meaning: '疲劳的' },
+        { word: 'excited', meaning: '兴奋的' },
+        { word: 'history', meaning: '历史' },
+        { word: 'delicious', meaning: '美味的' },
+        { word: 'someday', meaning: '某一天' },
+      ],
+      questions: [
+        { q: 'Where did the writer go for vacation last summer?', a: 'The writer went to Beijing.' },
+        { q: 'How many days did they stay in Beijing?', a: 'They stayed there for five days.' },
+        { q: 'What did they do on the first day?', a: 'They visited the Great Wall.' },
+        { q: 'What did they eat on the third day?', a: 'They ate famous Beijing duck.' },
+        { q: 'Did the writer enjoy the trip?', a: 'Yes, everyone in the family enjoyed the trip very much.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用适当的复合不定代词填空',
+      data: ['I bought ___ special for my birthday.', 'Did ___ go to the park yesterday?', 'There was ___ to eat in the fridge.', '___ is here. Let\'s begin the class.'],
+      answer: ['something', 'anyone', 'nothing', 'Everyone'],
+    },
+    {
+      type: 'match',
+      instruction: '将单词与其中文意思配对',
+      data: { words: ['wonderful', 'activity', 'decide', 'hungry', 'umbrella'], meanings: ['饥饿的', '精彩的', '决定', '活动', '雨伞'] },
+      answer: { wonderful: '精彩的', activity: '活动', decide: '决定', hungry: '饥饿的', umbrella: '雨伞' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'I buyed a new book yesterday.',
+        'Did you went to the beach last week?',
+        'She didn\'t found her keys.',
+        'We was very happy on the trip.',
+      ],
+      answer: [
+        'buyed → bought',
+        'went → go',
+        'found → find',
+        'was → were',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['vacation / did / where / you / go / on (?)', 'something / I / special / bought / mom / for / my (.)', 'a / we / time / had / wonderful (.))'],
+      answer: [
+        'Where did you go on vacation?',
+        'I bought something special for my mom.',
+        'We had a wonderful time.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '用动词的过去式填空',
+      data: ['I ___ (go) to the museum last Sunday.', 'She ___ (not visit) her uncle yesterday.', 'They ___ (eat) some ice cream after dinner.', 'We ___ (see) a movie last night.'],
+      answer: ['went', 'didn\'t visit', 'ate', 'saw'],
+    },
+  ],
+  essays: [
+    {
+      title: 'My Summer Vacation',
+      body: 'Last summer vacation, I went to Qingdao with my parents. We went there by train. The weather was sunny and warm. We stayed in a hotel near the sea.\n\nOn the first day, we went to the beach. I swam in the sea and built sandcastles with my father. The water was cool and clean. In the evening, we ate seafood in a restaurant near the beach. It was very delicious.\n\nThe next day, we visited the underwater world. I saw many kinds of fish and sea animals. I took a lot of photos there. My mother bought some beautiful shells as souvenirs.\n\nWe stayed in Qingdao for three days. I felt very happy during the trip. I hope I can go there again next year. It was really an unforgettable vacation.',
+      level: 'A',
+      keyPhrases: ['went to Qingdao', 'built sandcastles', 'underwater world', 'unforgettable vacation'],
+      wordCount: 132,
+      topic: '假期经历',
+    },
+  ],
+}

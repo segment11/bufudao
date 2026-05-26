@@ -1,0 +1,185 @@
+import type { Unit } from '../types'
+
+export const g9u3: Unit = {
+  id: 'g9u3',
+  title: 'Could you please tell me where the restrooms are?',
+  grade: 9,
+  semester: '上',
+  unitNumber: 3,
+  topic: 'Asking for information politely',
+  objectives: [
+    '掌握 wh-疑问词引导的宾语从句',
+    '学会用 Could you please... 礼貌地询问信息',
+    '能够用英语问路和指路',
+    '理解礼貌用语在不同场合的重要性',
+  ],
+  words: [
+    { word: 'restroom', phonetic: '/ˈrestruːm/', pos: 'n.', meaning: '洗手间；厕所', example: 'Could you tell me where the restroom is?', exampleTranslation: '你能告诉我洗手间在哪里吗？' },
+    { word: 'stamp', phonetic: '/stæmp/', pos: 'n.', meaning: '邮票；印章', example: 'I need to buy some stamps to send these letters.', exampleTranslation: '我需要买一些邮票来寄这些信。' },
+    { word: 'postcard', phonetic: '/ˈpəʊstkɑːd/', pos: 'n.', meaning: '明信片', example: 'She sent me a postcard from Paris.', exampleTranslation: '她从巴黎给我寄了一张明信片。' },
+    { word: 'pardon', phonetic: '/ˈpɑːdn/', pos: 'interj.', meaning: '原谅；再说一遍', example: 'Pardon me, could you say that again?', exampleTranslation: '对不起，你能再说一遍吗？' },
+    { word: 'bathroom', phonetic: '/ˈbɑːθruːm/', pos: 'n.', meaning: '浴室；洗手间', example: 'The bathroom is on the second floor.', exampleTranslation: '洗手间在二楼。' },
+    { word: 'rush', phonetic: '/rʌʃ/', pos: 'v.', meaning: '仓促；急促', example: 'Do not rush when you are speaking English.', exampleTranslation: '说英语时不要着急。' },
+    { word: 'suggest', phonetic: '/səˈdʒest/', pos: 'v.', meaning: '建议；提议', example: 'I suggest that we visit the museum first.', exampleTranslation: '我建议我们先参观博物馆。' },
+    { word: 'grape', phonetic: '/ɡreɪp/', pos: 'n.', meaning: '葡萄', example: 'The grapes in this market are very sweet.', exampleTranslation: '这个市场的葡萄非常甜。' },
+    { word: 'central', phonetic: '/ˈsentrəl/', pos: 'adj.', meaning: '中心的；中央的', example: 'The hotel is in the central part of the city.', exampleTranslation: '这家酒店在市中心。' },
+    { word: 'mail', phonetic: '/meɪl/', pos: 'n.', meaning: '邮件；邮寄', example: 'I need to mail this package today.', exampleTranslation: '我今天需要邮寄这个包裹。' },
+    { word: 'fascinating', phonetic: '/ˈfæsɪneɪtɪŋ/', pos: 'adj.', meaning: '迷人的；极有吸引力的', example: 'The museum has a fascinating collection of ancient art.', exampleTranslation: '这个博物馆有迷人的古代艺术收藏。' },
+    { word: 'convenient', phonetic: '/kənˈviːniənt/', pos: 'adj.', meaning: '便利的；方便的', example: 'It is very convenient to take the subway here.', exampleTranslation: '在这里乘地铁非常方便。' },
+    { word: 'corner', phonetic: '/ˈkɔːnə(r)/', pos: 'n.', meaning: '角落；拐角', example: 'The bookstore is on the corner of Main Street.', exampleTranslation: '书店在主街的拐角处。' },
+    { word: 'polite', phonetic: '/pəˈlaɪt/', pos: 'adj.', meaning: '有礼貌的；客气的', example: 'It is polite to say "please" when you ask for help.', exampleTranslation: '请求帮助时说"请"是有礼貌的。' },
+    { word: 'direction', phonetic: '/dəˈrekʃn/', pos: 'n.', meaning: '方向；方位', example: 'Can you give me directions to the train station?', exampleTranslation: '你能给我指一下去火车站的方向吗？' },
+    { word: 'request', phonetic: '/rɪˈkwest/', pos: 'n.', meaning: '要求；请求', example: 'He made a polite request for more information.', exampleTranslation: '他礼貌地请求获得更多信息。' },
+    { word: 'address', phonetic: '/əˈdres/', pos: 'n.', meaning: '地址；通讯处', example: 'Please write down your address on the envelope.', exampleTranslation: '请在信封上写下你的地址。' },
+    { word: 'underground', phonetic: '/ˈʌndəɡraʊnd/', pos: 'adj.', meaning: '地下的', example: 'You can take the underground to get there faster.', exampleTranslation: '你可以坐地铁更快地到达那里。' },
+    { word: 'course', phonetic: '/kɔːs/', pos: 'n.', meaning: '课程；过程', example: 'Of course, I can help you with your English.', exampleTranslation: '当然，我可以帮你学英语。' },
+    { word: 'staff', phonetic: '/stɑːf/', pos: 'n.', meaning: '管理人员；职工', example: 'The hotel staff are very friendly and helpful.', exampleTranslation: '酒店的工作人员非常友好且乐于助人。' },
+  ],
+  grammar: [
+    {
+      title: 'wh-疑问词引导的宾语从句',
+      explanation: '特殊疑问句变为宾语从句时，要用原来的疑问词（what, where, when, how, why 等）引导，从句必须用陈述语序（主语在前，谓语在后），且标点符号跟随主句。',
+      examples: [
+        'Could you tell me where the restrooms are?',
+        'I wonder how I can get to the post office.',
+        'Do you know when the store closes?',
+        'She asked what time the movie would start.',
+      ],
+      comparisons: [
+        'Where is the bank? → Can you tell me where the bank is? (疑问句变宾语从句)',
+        'Where is the bank? → Can you tell me where is the bank. (错误：从句用了疑问语序)',
+      ],
+    },
+    {
+      title: '礼貌地询问信息',
+      explanation: '在英语中，直接提问可能会显得不够礼貌。使用 Could you please tell me...? / Excuse me, do you know...? / I wonder... 等句型可以更加委婉、礼貌地询问信息。',
+      examples: [
+        'Could you please tell me how to get to the library?',
+        'Excuse me, do you know where I can buy stamps?',
+        'I wonder if you could help me find the way.',
+        'Can you tell me when the bus arrives?',
+      ],
+      comparisons: [
+        'Where is the restroom? (直接提问，不够礼貌)',
+        'Could you please tell me where the restroom is? (委婉提问，更礼貌)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Asking for Directions',
+      scene: 'A tourist is asking a local person for directions in a city.',
+      lines: [
+        { speaker: 'Tourist', text: 'Excuse me, could you please tell me where the nearest post office is?', translation: '打扰一下，请问最近的邮局在哪里？' },
+        { speaker: 'Local', text: 'Sure. Go straight along this road and turn left at the second traffic light.', translation: '好的。沿着这条路直走，在第二个红绿灯左转。' },
+        { speaker: 'Tourist', text: 'Turn left at the second traffic light. Got it. Is it far from here?', translation: '在第二个红绿灯左转。明白了。离这里远吗？' },
+        { speaker: 'Local', text: 'Not really. It is about a ten-minute walk. You will see it on your right.', translation: '不太远。大约步行十分钟。你会在右手边看到它。' },
+        { speaker: 'Tourist', text: 'By the way, do you know when it closes today?', translation: '顺便问一下，你知道它今天几点关门吗？' },
+        { speaker: 'Local', text: 'I think it closes at 5 p.m. on weekdays.', translation: '我想工作日是下午五点关门。' },
+        { speaker: 'Tourist', text: 'Thank you so much! One more question — is there a good restaurant nearby?', translation: '非常感谢！还有一个问题——附近有好餐厅吗？' },
+        { speaker: 'Local', text: 'Yes, I suggest you try the Chinese restaurant on the corner. The food is delicious.', translation: '有的，我建议你试试拐角处的那家中餐厅。食物很美味。' },
+        { speaker: 'Tourist', text: 'That sounds great! Thanks for your help. Have a nice day!', translation: '听起来不错！谢谢你的帮助。祝你今天愉快！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'Asking Politely',
+      text: 'When you visit a foreign country, it is important to know how to ask for help politely. Good speakers change the way they speak in different situations. The expressions they use might depend on whom they are speaking to or how well they know each other.\n\nIn some situations, it is all right to ask direct questions, for example, when you talk with your classmates. But in other situations, it might seem impolite to ask direct questions, such as when you are speaking to your teacher or a stranger.\n\nUsually, polite questions are longer. They include expressions such as "Could you please...?" or "Can I ask...?" It might seem more difficult to speak politely than directly. However, it is important to learn how to use the right language in different situations. This will help you communicate better with other people.\n\nFor example, asking "Where are the restrooms?" might be fine between friends. But if you say to a stranger, "Excuse me, I wonder if you could help me. Could you please tell me where the restrooms are?", it sounds much more polite. Good communication requires not only language skills but also politeness.',
+      annotations: [
+        { word: 'impolite', meaning: '不礼貌的' },
+        { word: 'expression', meaning: '表达；用语' },
+        { word: 'direct', meaning: '直接的' },
+        { word: 'require', meaning: '需要' },
+        { word: 'communicate', meaning: '交流；沟通' },
+      ],
+      questions: [
+        { q: 'Why is it important to ask for help politely?', a: 'Because it helps you communicate better with other people.' },
+        { q: 'When is it all right to ask direct questions?', a: 'It is all right when you talk with your classmates or close friends.' },
+        { q: 'How are polite questions usually different from direct ones?', a: 'Polite questions are usually longer and include expressions such as "Could you please...?"' },
+        { q: 'What does good communication require?', a: 'It requires not only language skills but also politeness.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '将直接疑问句改为宾语从句',
+      data: [
+        'Where is the bank? → Could you tell me ___?',
+        'When does the store open? → Do you know ___?',
+        'How can I get to the museum? → Can you tell me ___?',
+        'What time does the train leave? → I wonder ___.',
+      ],
+      answer: [
+        'where the bank is',
+        'when the store opens',
+        'how I can get to the museum',
+        'what time the train leaves',
+      ],
+    },
+    {
+      type: 'match',
+      instruction: '将单词与其中文意思配对',
+      data: { words: ['convenient', 'polite', 'fascinating', 'suggest', 'direction'], meanings: ['方向', '有礼貌的', '建议', '便利的', '迷人的'] },
+      answer: { convenient: '便利的', polite: '有礼貌的', fascinating: '迷人的', suggest: '建议', direction: '方向' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正宾语从句中的语序错误',
+      data: [
+        'Can you tell me where is the post office?',
+        'I wonder how does he get to school.',
+        'Do you know when will the movie start?',
+        'She asked where did I buy the book.',
+      ],
+      answer: [
+        'where is the post office → where the post office is',
+        'how does he get → how he gets',
+        'when will the movie start → when the movie will start',
+        'where did I buy → where I bought',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的礼貌问句',
+      data: [
+        'could / tell / you / me / where / the / is / please / restroom / (?)',
+        'you / do / know / I / where / can / stamps / buy / (?)',
+        'please / could / you / how / get / tell / I / can / to / the / bank / me / (?)',
+      ],
+      answer: [
+        'Could you please tell me where the restroom is?',
+        'Do you know where I can buy stamps?',
+        'Could you please tell me how I can get to the bank?',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '根据语境填入适当的礼貌用语',
+      data: [
+        '___ me, could you tell me the way to the hospital?',
+        'Could you ___ tell me where the bus stop is?',
+        'I ___ if you could help me with this question.',
+        '___ course, I can help you.',
+      ],
+      answer: ['Excuse', 'please', 'wonder', 'Of'],
+    },
+    {
+      type: 'match',
+      instruction: '将场景与适当的表达方式配对',
+      data: { words: ['Asking a stranger for directions', 'Talking with a close friend', 'Speaking to a teacher', 'Asking a classmate'], meanings: ['Where is the library?', 'Could you please tell me where the library is?', 'Excuse me, I wonder if you could tell me where the library is.', 'Do you know where the library is?'] },
+      answer: { 'Asking a stranger for directions': 'Excuse me, I wonder if you could tell me where the library is.', 'Talking with a close friend': 'Where is the library?', 'Speaking to a teacher': 'Could you please tell me where the library is?', 'Asking a classmate': 'Do you know where the library is?' },
+    },
+  ],
+  essays: [
+    {
+      title: 'The Importance of Being Polite',
+      body: 'Politeness is very important in our daily life. When we communicate with others, using polite language can help us build better relationships and avoid misunderstandings.\n\nIn English-speaking countries, people often use polite expressions when they ask for help. For example, instead of saying "Give me that book," they would say "Could you please pass me that book?" This makes the request sound much softer and more respectful.\n\nI remember an experience that taught me the importance of being polite. One day, I went to a post office to send a package. At first, I asked the staff directly, "Where can I send this?" The staff member did not seem very happy. Then I realized I should be more polite, so I said, "Excuse me, could you please tell me where I can send this package?" The staff member smiled and helped me right away.\n\nThis experience taught me that the way we speak matters a lot. Polite language shows respect for others and makes people more willing to help us. Whether we are asking for directions, ordering food, or requesting information, using polite expressions is always a good habit.\n\nIn conclusion, being polite is not just about following rules. It is about showing kindness and respect to everyone we meet.',
+      level: 'A',
+      keyPhrases: ['avoid misunderstandings', 'instead of', 'seem very happy', 'right away', 'whether...or'],
+      wordCount: 147,
+      topic: '礼貌的重要性',
+    },
+  ],
+}

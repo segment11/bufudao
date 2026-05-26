@@ -1,0 +1,150 @@
+import type { Unit } from '../types'
+
+export const g7u1: Unit = {
+  id: 'g7u1',
+  title: 'You and Me',
+  grade: 7,
+  semester: '上',
+  unitNumber: 4,
+  topic: 'Making friends and getting to know each other',
+  objectives: [
+    'Learn to introduce yourself and others',
+    'Use be verbs correctly in sentences',
+    'Use personal pronouns and possessive adjectives',
+    'Talk about hobbies and personal information',
+  ],
+  words: [
+    { word: 'make', phonetic: '/meɪk/', pos: 'v.', meaning: '使成为；制造', example: 'Let\'s make friends.', exampleTranslation: '让我们交朋友吧。' },
+    { word: 'friend', phonetic: '/frend/', pos: 'n.', meaning: '朋友', example: 'She is my best friend.', exampleTranslation: '她是我最好的朋友。' },
+    { word: 'full', phonetic: '/fʊl/', pos: 'adj.', meaning: '完整的；满的', example: 'My full name is Li Ming.', exampleTranslation: '我的全名是李明。' },
+    { word: 'grade', phonetic: '/ɡreɪd/', pos: 'n.', meaning: '年级；等级', example: 'I am in Grade 7.', exampleTranslation: '我在七年级。' },
+    { word: 'classmate', phonetic: '/ˈklɑːsmeɪt/', pos: 'n.', meaning: '同班同学', example: 'She is my classmate.', exampleTranslation: '她是我的同班同学。' },
+    { word: 'country', phonetic: '/ˈkʌntri/', pos: 'n.', meaning: '国家（复数countries）', example: 'China is a big country.', exampleTranslation: '中国是一个大国。' },
+    { word: 'same', phonetic: '/seɪm/', pos: 'adj.', meaning: '相同的', example: 'We are in the same class.', exampleTranslation: '我们在同一个班。' },
+    { word: 'both', phonetic: '/bəʊθ/', pos: 'pron.', meaning: '两个；两者都', example: 'We both like music.', exampleTranslation: '我们都喜欢音乐。' },
+    { word: 'band', phonetic: '/bænd/', pos: 'n.', meaning: '乐队', example: 'He plays guitar in a band.', exampleTranslation: '他在一个乐队弹吉他。' },
+    { word: 'pot', phonetic: '/pɒt/', pos: 'n.', meaning: '锅', example: 'Mum is cooking with a big pot.', exampleTranslation: '妈妈在用一口大锅做饭。' },
+    { word: 'tofu', phonetic: '/ˈtəʊfuː/', pos: 'n.', meaning: '豆腐', example: 'I like eating tofu.', exampleTranslation: '我喜欢吃豆腐。' },
+    { word: 'guitar', phonetic: '/ɡɪˈtɑː/', pos: 'n.', meaning: '吉他', example: 'Can you play the guitar?', exampleTranslation: '你会弹吉他吗？' },
+    { word: 'tennis', phonetic: '/ˈtenɪs/', pos: 'n.', meaning: '网球', example: 'I often play tennis after school.', exampleTranslation: '我经常放学后打网球。' },
+    { word: 'hobby', phonetic: '/ˈhɒbi/', pos: 'n.', meaning: '业余爱好（复数hobbies）', example: 'My hobby is reading.', exampleTranslation: '我的爱好是阅读。' },
+    { word: 'introduce', phonetic: '/ˌɪntrəˈdjuːs/', pos: 'v.', meaning: '介绍', example: 'Let me introduce myself.', exampleTranslation: '让我介绍一下我自己。' },
+    { word: 'yourself', phonetic: '/jɔːˈself/', pos: 'pron.', meaning: '你自己', example: 'Please introduce yourself.', exampleTranslation: '请介绍一下你自己。' },
+    { word: 'personal', phonetic: '/ˈpɜːsənl/', pos: 'adj.', meaning: '个人的；私人的', example: 'This is my personal information.', exampleTranslation: '这是我的个人信息。' },
+    { word: 'information', phonetic: '/ˌɪnfəˈmeɪʃn/', pos: 'n.', meaning: '信息；消息', example: 'I need some information about the club.', exampleTranslation: '我需要一些关于社团的信息。' },
+    { word: 'would', phonetic: '/wʊd/', pos: 'v.', meaning: '想；将会', example: 'Would you like to join us?', exampleTranslation: '你想加入我们吗？' },
+    { word: 'even', phonetic: '/ˈiːvn/', pos: 'adv.', meaning: '甚至；连', example: 'She even speaks three languages.', exampleTranslation: '她甚至会说三种语言。' },
+  ],
+  grammar: [
+    {
+      title: 'Be动词的用法及缩写形式',
+      explanation: 'Be动词有三种形式：am、is、are。I搭配am，he/she/it搭配is，you/we/they搭配are。口语中常用缩写：I\'m、he\'s、she\'s、it\'s、you\'re、we\'re、they\'re。否定形式在be动词后加not：isn\'t、aren\'t（am not通常不缩写）。',
+      examples: [
+        'I\'m from Shanghai. → 我来自上海。',
+        'She\'s my new classmate. → 她是我的新同学。',
+        'They\'re in the same grade. → 他们在同一年级。',
+        'He isn\'t from Beijing. → 他不是北京人。',
+      ],
+      comparisons: [
+        '中文"我是""你是""他是"中"是"不变，英语中be动词必须根据主语变化。',
+        '中文否定加"不"（"我不是"），英语在be动词后加not（"I am not"）。',
+      ],
+    },
+    {
+      title: '人称代词与物主代词',
+      explanation: '人称代词分主格（做主语）和宾格（做宾语）：I/me、you/you、he/him、she/her、it/it、we/us、they/them。形容词性物主代词放在名词前：my、your、his、her、its、our、their。',
+      examples: [
+        'I like him. He is nice. → 我喜欢他。他很好。',
+        'This is her book. → 这是她的书。',
+        'We love our school. → 我们热爱我们的学校。',
+        'Can you help me with my homework? → 你能帮我做作业吗？',
+      ],
+      comparisons: [
+        '中文"我的书""他的书"中"的"是通用的，英语中my、his、her等各不相同。',
+        '中文第三人称"他/她/它"同音，英语中he/she/it区分明确。',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Making New Friends',
+      scene: 'First day of school, two students meet for the first time in the classroom.',
+      lines: [
+        { speaker: 'Li Ming', text: 'Hello! My name is Li Ming. What\'s your name?', translation: '你好！我叫李明。你叫什么名字？' },
+        { speaker: 'Lucy', text: 'Hi, I\'m Lucy. Nice to meet you!', translation: '嗨，我是Lucy。很高兴认识你！' },
+        { speaker: 'Li Ming', text: 'Nice to meet you too! Where are you from?', translation: '我也很高兴认识你！你是哪里人？' },
+        { speaker: 'Lucy', text: 'I\'m from the UK. What about you?', translation: '我来自英国。你呢？' },
+        { speaker: 'Li Ming', text: 'I\'m from Shanghai. What\'s your hobby, Lucy?', translation: '我来自上海。你的爱好是什么，Lucy？' },
+        { speaker: 'Lucy', text: 'I like playing tennis. And I can play the guitar.', translation: '我喜欢打网球。我还会弹吉他。' },
+        { speaker: 'Li Ming', text: 'That\'s cool! I like music too. Would you like to be friends?', translation: '太酷了！我也喜欢音乐。你愿意做朋友吗？' },
+        { speaker: 'Lucy', text: 'Of course! Let\'s make friends. We\'re in the same class!', translation: '当然！让我们做朋友吧。我们在同一个班！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'My New Classmates',
+      text: 'I am Li Ming. I am a student in Grade 7. This term, I have two new classmates. Tom is from the UK. He is 12 years old. His hobby is playing tennis. He can play the guitar too. Lucy is from Shanghai. She is 13 years old. She likes reading books. Her favourite subject is English. Tom, Lucy and I are good friends now. We are in the same class. We often play together after school. I am happy to have such good friends!',
+      annotations: [
+        { word: 'term', meaning: '学期' },
+        { word: 'such', meaning: '如此的；这样的' },
+        { word: 'often', meaning: '经常' },
+        { word: 'together', meaning: '一起' },
+      ],
+      questions: [
+        { q: 'Where is Tom from?', a: 'He is from the UK.' },
+        { q: 'What is Lucy\'s favourite subject?', a: 'Her favourite subject is English.' },
+        { q: 'How old is Tom?', a: 'He is 12 years old.' },
+        { q: 'What do the three friends do after school?', a: 'They often play together after school.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用am、is或are填空。',
+      data: ['I ___ a student.', 'She ___ my friend.', 'They ___ classmates.', 'We ___ in the same class.', 'He ___ from the UK.'],
+      answer: ['am', 'is', 'are', 'are', 'is'],
+    },
+    {
+      type: 'match',
+      instruction: '将人称代词主格与对应的形容词性物主代词配对。',
+      data: { subjects: ['I', 'he', 'she', 'we', 'they'], possessives: ['their', 'my', 'his', 'our', 'her'] },
+      answer: { 'I': 'my', 'he': 'his', 'she': 'her', 'we': 'our', 'they': 'their' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误。',
+      data: ['I am from chinese.', 'She have a new friend.', 'His name are Tom.', 'We is classmates.'],
+      answer: ['I am from China.', 'She has a new friend.', 'His name is Tom.', 'We are classmates.'],
+    },
+    {
+      type: 'reorder',
+      instruction: '将单词重新排列成正确的句子。',
+      data: ['name / my / is / Li Ming', 'from / I / Shanghai / am', 'she / is / where / from', 'friends / let\'s / make'],
+      answer: ['My name is Li Ming.', 'I am from Shanghai.', 'Where is she from?', 'Let\'s make friends.'],
+    },
+    {
+      type: 'fill',
+      instruction: '用正确的物主代词填空（my/your/his/her/our/their）。',
+      data: ['This is ___ (我) book.', '___ (她) name is Lucy.', '___ (他们) teacher is Mr Wang.', 'Is this ___ (你) pen?'],
+      answer: ['my', 'Her', 'Their', 'your'],
+    },
+    {
+      type: 'match',
+      instruction: '将英文单词与中文意思配对。',
+      data: { words: ['classmate', 'hobby', 'introduce', 'country'], meanings: ['国家', '同班同学', '业余爱好', '介绍'] },
+      answer: { classmate: '同班同学', hobby: '业余爱好', introduce: '介绍', country: '国家' },
+    },
+  ],
+  essays: [
+    {
+      title: 'Introduce Yourself',
+      body: 'Hello! My name is Li Ming. I am a student in Grade 7. I am 12 years old. I am from Shanghai, China. My hobby is playing tennis. I also like music. I can play the guitar a little. I have a good friend. His name is Tom. He is from the UK. We are in the same class. We both like sports. After school, we often play tennis together. I am happy at school. Would you like to be my friend?',
+      level: 'B',
+      keyPhrases: ['My name is...', 'I am from...', 'My hobby is...', 'I have a good friend.', 'Would you like to...'],
+      wordCount: 95,
+      topic: 'Self-introduction',
+    },
+  ],
+}

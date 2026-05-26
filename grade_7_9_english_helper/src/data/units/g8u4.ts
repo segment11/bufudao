@@ -1,0 +1,162 @@
+import type { Unit } from '../types'
+
+export const g8u4: Unit = {
+  id: 'g8u4',
+  title: "What's the best movie theater?",
+  grade: 8,
+  semester: '上',
+  unitNumber: 4,
+  topic: 'Comparing places and things; making preferences',
+  objectives: [
+    '掌握形容词和副词最高级的构成和用法',
+    '能够用最高级比较三个或以上的人或事物',
+    '学会不规则比较级和最高级的用法',
+  ],
+  words: [
+    { word: 'theater', phonetic: '/ˈθɪətə(r)/', pos: 'n.', meaning: '剧院；剧场；电影院', example: 'Let\'s go to the movie theater tonight.', exampleTranslation: '我们今晚去看电影吧。' },
+    { word: 'comfortable', phonetic: '/ˈkʌmftəbl/', pos: 'adj.', meaning: '舒适的；充裕的', example: 'This sofa is very comfortable.', exampleTranslation: '这个沙发非常舒适。' },
+    { word: 'seat', phonetic: '/siːt/', pos: 'n.', meaning: '座位；坐处', example: 'I found a seat near the window.', exampleTranslation: '我找到了一个靠窗的座位。' },
+    { word: 'screen', phonetic: '/skriːn/', pos: 'n.', meaning: '屏幕；银幕', example: 'The cinema has the biggest screen in town.', exampleTranslation: '那家电影院有城里最大的银幕。' },
+    { word: 'close', phonetic: '/kləʊs/', pos: 'adj.', meaning: '关；合拢；接近的', example: 'My home is close to the school.', exampleTranslation: '我家离学校很近。' },
+    { word: 'ticket', phonetic: '/ˈtɪkɪt/', pos: 'n.', meaning: '票；入场券', example: 'I bought two tickets for the concert.', exampleTranslation: '我买了两张音乐会的票。' },
+    { word: 'worst', phonetic: '/wɜːst/', pos: 'adj./adv.', meaning: '最坏的；最差的', example: 'That was the worst movie I\'ve ever seen.', exampleTranslation: '那是我看过的最差的电影。' },
+    { word: 'cheaply', phonetic: '/ˈtʃiːpli/', pos: 'adv.', meaning: '便宜地；低廉地', example: 'You can buy clothes more cheaply online.', exampleTranslation: '你可以在网上更便宜地买到衣服。' },
+    { word: 'song', phonetic: '/sɒŋ/', pos: 'n.', meaning: '歌曲；歌唱', example: 'She sang a beautiful song at the party.', exampleTranslation: '她在聚会上唱了一首优美的歌。' },
+    { word: 'choose', phonetic: '/tʃuːz/', pos: 'v.', meaning: '选择；决定', example: 'You can choose any color you like.', exampleTranslation: '你可以选择任何你喜欢的颜色。' },
+    { word: 'carefully', phonetic: '/ˈkeəfəli/', pos: 'adv.', meaning: '仔细地；认真地', example: 'Please listen carefully to the teacher.', exampleTranslation: '请认真听老师讲课。' },
+    { word: 'reporter', phonetic: '/rɪˈpɔːtə(r)/', pos: 'n.', meaning: '记者', example: 'The reporter asked many questions.', exampleTranslation: '那位记者问了很多问题。' },
+    { word: 'fresh', phonetic: '/freʃ/', pos: 'adj.', meaning: '新鲜的；清新的', example: 'The vegetables here are very fresh.', exampleTranslation: '这里的蔬菜很新鲜。' },
+    { word: 'comfortably', phonetic: '/ˈkʌmftəbli/', pos: 'adv.', meaning: '舒服地；舒适地', example: 'We sat comfortably in the soft chairs.', exampleTranslation: '我们舒适地坐在柔软的椅子上。' },
+    { word: 'service', phonetic: '/ˈsɜːvɪs/', pos: 'n.', meaning: '服务', example: 'The restaurant has good service.', exampleTranslation: '那家餐厅服务很好。' },
+    { word: 'pretty', phonetic: '/ˈprɪti/', pos: 'adv./adj.', meaning: '相当；十分；漂亮的', example: 'The test was pretty difficult.', exampleTranslation: '考试相当难。' },
+    { word: 'menu', phonetic: '/ˈmenjuː/', pos: 'n.', meaning: '菜单', example: 'Can I see the menu, please?', exampleTranslation: '请给我看看菜单好吗？' },
+    { word: 'act', phonetic: '/ækt/', pos: 'v.', meaning: '行动；表演', example: 'He acts very well in the movie.', exampleTranslation: '他在电影里演得很好。' },
+    { word: 'meal', phonetic: '/miːl/', pos: 'n.', meaning: '一餐；膳食', example: 'We had a big meal at the restaurant.', exampleTranslation: '我们在餐厅吃了一顿大餐。' },
+    { word: 'creative', phonetic: '/kriˈeɪtɪv/', pos: 'adj.', meaning: '创造性的；有创造力的', example: 'She is a creative artist.', exampleTranslation: '她是一位有创造力的艺术家。' },
+  ],
+  grammar: [
+    {
+      title: '形容词和副词的最高级',
+      explanation: '最高级用于三者或三者以上的比较，表示"最..."。基本结构为 "the + 最高级 + (名词) + of/in..."。单音节词在词尾加 -est；多音节词在前面加 most。最高级前面通常要加 the。',
+      examples: [
+        'Tom is the tallest student in our class.',
+        'This is the most beautiful park in the city.',
+        'She runs the fastest of all the students.',
+        'Movie World has the biggest screens.',
+      ],
+      comparisons: [
+        'good → better → the best',
+        'bad → worse → the worst',
+        'many/much → more → the most',
+        'little → less → the least',
+      ],
+    },
+    {
+      title: '不规则比较级和最高级',
+      explanation: '有些形容词和副词的比较级和最高级变化是不规则的，需要特殊记忆：good/well → better → best；bad/badly → worse → worst；many/much → more → most；little → less → least；far → farther → farthest。',
+      examples: [
+        'This is the best restaurant in town.',
+        'That was the worst day of my life.',
+        'She has the most books in our class.',
+        'He lives the farthest from school.',
+      ],
+      comparisons: [
+        'This is good. (原级)',
+        'This is better than that. (比较级)',
+        'This is the best of all. (最高级)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Choosing a Movie Theater',
+      scene: 'Two friends are deciding which movie theater to go to.',
+      lines: [
+        { speaker: 'Jenny', text: 'What\'s the best movie theater in town?', translation: '城里最好的电影院是哪家？' },
+        { speaker: 'Sam', text: 'I think Sun Cinema is the best. It has the biggest screens.', translation: '我觉得太阳影院最好。它有最大的银幕。' },
+        { speaker: 'Jenny', text: 'But is it the closest to our school?', translation: '但它离我们学校最近吗？' },
+        { speaker: 'Sam', text: 'No, Moon Theater is the closest. But it has the worst sound.', translation: '不，月亮剧院最近。但它的音响最差。' },
+        { speaker: 'Jenny', text: 'What about the tickets? Which one is the cheapest?', translation: '票价呢？哪一家最便宜？' },
+        { speaker: 'Sam', text: 'Star Cinema is the cheapest. Tickets are only 30 yuan.', translation: '星辰影院最便宜。票价只要30元。' },
+        { speaker: 'Jenny', text: 'Which one has the most comfortable seats?', translation: '哪家的座位最舒适？' },
+        { speaker: 'Sam', text: 'Sun Cinema has the most comfortable seats. And the best service, too.', translation: '太阳影院的座位最舒适。而且服务也是最好的。' },
+        { speaker: 'Jenny', text: 'OK, let\'s go to Sun Cinema then!', translation: '好吧，那我们去太阳影院！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'The Best Places in Our Town',
+      text: 'We did a survey about the best places in our town. Here are the results.\n\nThe best movie theater is Sun Cinema. It has the biggest screens and the most comfortable seats. The tickets are not the cheapest, but the service is the best. Many people like to watch movies there.\n\nThe best restaurant is Happy Restaurant. It has the most delicious food and the friendliest service. The prices are pretty good, too. A meal there costs about 50 yuan per person. It is also the cleanest restaurant in town.\n\nThe best clothes store is Mr. Cool\'s Clothes Store. You can buy clothes the most cheaply there. It has the best quality clothes. Many young people like to shop there.\n\nThe best radio station is 97.9 FM. It plays the most interesting music. The DJs choose songs the most carefully. They always play the most popular songs.',
+      annotations: [
+        { word: 'survey', meaning: '调查' },
+        { word: 'quality', meaning: '质量' },
+        { word: 'radio station', meaning: '广播电台' },
+        { word: 'DJ', meaning: '音乐节目主持人' },
+        { word: 'popular', meaning: '受欢迎的' },
+      ],
+      questions: [
+        { q: 'Why is Sun Cinema the best movie theater?', a: 'Because it has the biggest screens, the most comfortable seats, and the best service.' },
+        { q: 'How much does a meal at Happy Restaurant cost per person?', a: 'About 50 yuan per person.' },
+        { q: 'Why do young people like Mr. Cool\'s Clothes Store?', a: 'Because they can buy clothes the most cheaply there and it has the best quality.' },
+        { q: 'Which radio station plays the most interesting music?', a: '97.9 FM plays the most interesting music.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用所给形容词的最高级填空',
+      data: ['Tom is ___ (tall) student in our class.', 'This is ___ (good) movie I have ever seen.', 'She is ___ (beautiful) of the three girls.', 'That was ___ (bad) day of my life.'],
+      answer: ['the tallest', 'the best', 'the most beautiful', 'the worst'],
+    },
+    {
+      type: 'match',
+      instruction: '将形容词与其最高级配对',
+      data: { words: ['good', 'expensive', 'comfortable', 'bad', 'cheap'], meanings: ['the worst', 'the most comfortable', 'the best', 'the cheapest', 'the most expensive'] },
+      answer: { good: 'the best', expensive: 'the most expensive', comfortable: 'the most comfortable', bad: 'the worst', cheap: 'the cheapest' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'She is most beautiful girl in our school.',
+        'This is the goodest restaurant in town.',
+        'He is the most tallest in his class.',
+        'Which is the more expensive, A, B or C?',
+      ],
+      answer: [
+        'most beautiful → the most beautiful',
+        'goodest → best',
+        'most tallest → tallest',
+        'more expensive → most expensive',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['the / best / what / theater / movie / is (?)', 'tallest / the / Tom / in / is / class / our (.)', 'the / has / screens / biggest / it (.))'],
+      answer: [
+        'What is the best movie theater?',
+        'Tom is the tallest in our class.',
+        'It has the biggest screens.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '根据句意用比较级或最高级填空',
+      data: ['This bag is heavy, but that one is ___. (heavy)', 'Of the three boys, Tom is ___. (tall)', 'This movie is ___ than that one. (interesting)', 'She is ___ singer in our school. (good)'],
+      answer: ['heavier', 'the tallest', 'more interesting', 'the best'],
+    },
+  ],
+  essays: [
+    {
+      title: 'The Best Place in My Town',
+      body: 'There are many great places in my town, but I think the best one is Central Park.\n\nCentral Park is the biggest park in our town. It is in the center of the city, so it is very easy to get there. There are many tall trees and beautiful flowers. In spring, the flowers are the most beautiful. Many people like to take walks there.\n\nThe park has the cleanest air in town. You can exercise there comfortably. There is a big lake in the park. You can go boating on the lake. The tickets are the cheapest — only 10 yuan!\n\nThere is also a small restaurant near the lake. It has the most delicious ice cream. The service is the friendliest. I often go there with my friends on weekends.\n\nI think Central Park is the best place to relax in my town. Welcome to visit it!',
+      level: 'A',
+      keyPhrases: ['the biggest park', 'the cleanest air', 'the most delicious', 'the friendliest service'],
+      wordCount: 142,
+      topic: '比较场所',
+    },
+  ],
+}

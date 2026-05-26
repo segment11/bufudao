@@ -1,0 +1,155 @@
+import type { Unit } from '../types'
+
+export const g8u8: Unit = {
+  id: 'g8u8',
+  title: 'How do you make a banana milk shake?',
+  grade: 8,
+  semester: '上',
+  unitNumber: 8,
+  topic: 'Cooking and food preparation',
+  objectives: [
+    '掌握祈使句表示指令和步骤的用法',
+    '学会区分可数名词与不可数名词',
+    '能够描述食物制作过程和步骤',
+  ],
+  words: [
+    { word: 'shake', phonetic: '/ʃeɪk/', pos: 'n./v.', meaning: '摇动；抖动；奶昔', example: 'I\'d like a strawberry milk shake.', exampleTranslation: '我想要一杯草莓奶昔。' },
+    { word: 'blender', phonetic: '/ˈblendə(r)/', pos: 'n.', meaning: '食物搅拌器；果汁机', example: 'Put the fruit into the blender.', exampleTranslation: '把水果放进搅拌器里。' },
+    { word: 'peel', phonetic: '/piːl/', pos: 'v.', meaning: '剥皮；削皮', example: 'Please peel three bananas.', exampleTranslation: '请削三根香蕉的皮。' },
+    { word: 'pour', phonetic: '/pɔː(r)/', pos: 'v.', meaning: '倒出；倾倒', example: 'Pour the milk into the glass.', exampleTranslation: '把牛奶倒入玻璃杯中。' },
+    { word: 'sugar', phonetic: '/ˈʃʊɡə(r)/', pos: 'n.', meaning: '糖', example: 'Don\'t add too much sugar.', exampleTranslation: '不要加太多糖。' },
+    { word: 'cheese', phonetic: '/tʃiːz/', pos: 'n.', meaning: '干酪；奶酪', example: 'I like cheese sandwiches.', exampleTranslation: '我喜欢奶酪三明治。' },
+    { word: 'popcorn', phonetic: '/ˈpɒpkɔːn/', pos: 'n.', meaning: '爆米花', example: 'Let\'s make some popcorn.', exampleTranslation: '我们来爆些爆米花吧。' },
+    { word: 'corn', phonetic: '/kɔːn/', pos: 'n.', meaning: '玉米；谷物', example: 'The corn is ready to harvest.', exampleTranslation: '玉米可以收获了。' },
+    { word: 'sandwich', phonetic: '/ˈsænwɪtʃ/', pos: 'n.', meaning: '三明治', example: 'I had a sandwich for lunch.', exampleTranslation: '我午饭吃了一个三明治。' },
+    { word: 'butter', phonetic: '/ˈbʌtə(r)/', pos: 'n.', meaning: '黄油；奶油', example: 'Spread some butter on the bread.', exampleTranslation: '在面包上涂一些黄油。' },
+    { word: 'turkey', phonetic: '/ˈtɜːki/', pos: 'n.', meaning: '火鸡', example: 'We eat turkey on Thanksgiving Day.', exampleTranslation: '我们在感恩节吃火鸡。' },
+    { word: 'lettuce', phonetic: '/ˈletɪs/', pos: 'n.', meaning: '生菜；莴苣', example: 'Add some lettuce to the sandwich.', exampleTranslation: '在三明治里加一些生菜。' },
+    { word: 'piece', phonetic: '/piːs/', pos: 'n.', meaning: '片；块；段', example: 'Cut the cake into eight pieces.', exampleTranslation: '把蛋糕切成八块。' },
+    { word: 'traditional', phonetic: '/trəˈdɪʃənl/', pos: 'adj.', meaning: '传统的；惯例的', example: 'Dumplings are traditional Chinese food.', exampleTranslation: '饺子是传统的中国食物。' },
+    { word: 'autumn', phonetic: '/ˈɔːtəm/', pos: 'n.', meaning: '秋天；秋季', example: 'Leaves fall from trees in autumn.', exampleTranslation: '秋天树叶从树上掉落。' },
+    { word: 'pepper', phonetic: '/ˈpepə(r)/', pos: 'n.', meaning: '胡椒粉；柿子椒', example: 'Add some pepper to the soup.', exampleTranslation: '在汤里加一些胡椒粉。' },
+    { word: 'fill', phonetic: '/fɪl/', pos: 'v.', meaning: '装满；填满', example: 'Fill the glass with water.', exampleTranslation: '把杯子装满水。' },
+    { word: 'plate', phonetic: '/pleɪt/', pos: 'n.', meaning: '盘子；碟子', example: 'Put the food on the plate.', exampleTranslation: '把食物放在盘子上。' },
+    { word: 'cover', phonetic: '/ˈkʌvə(r)/', pos: 'v./n.', meaning: '覆盖；盖子', example: 'Cover the pot with a lid.', exampleTranslation: '用盖子盖住锅。' },
+    { word: 'temperature', phonetic: '/ˈtemprətʃə(r)/', pos: 'n.', meaning: '温度；气温', example: 'Cook the turkey at a high temperature.', exampleTranslation: '用高温烤火鸡。' },
+  ],
+  grammar: [
+    {
+      title: '祈使句表示指令和步骤',
+      explanation: '祈使句以动词原形开头，用于给出指令、说明步骤或表示请求。否定祈使句在动词前加 Don\'t。常用于食谱、操作说明等场景中。表示顺序的连接词有 first, next, then, finally 等。',
+      examples: [
+        'Peel three bananas.',
+        'Don\'t add too much sugar.',
+        'First, cut up the bananas. Next, put them in the blender.',
+        'Pour the milk into the blender and turn it on.',
+      ],
+      comparisons: [
+        'You peel the banana. (陈述句)',
+        'Peel the banana. (祈使句 — 直接指令)',
+      ],
+    },
+    {
+      title: '可数名词与不可数名词',
+      explanation: '可数名词有单数和复数形式，可以用 a/an/number 修饰，可以用 how many 提问。不可数名词没有复数形式，用 how much 提问数量。常用量词：a cup of, a piece of, a spoon of 等。',
+      examples: [
+        'How many bananas do we need? — We need three bananas.',
+        'How much milk do we need? — We need one cup of milk.',
+        'Put two pieces of bread on the plate.',
+        'Add a spoon of sugar to the coffee.',
+      ],
+      comparisons: [
+        'two apples (可数名词，有复数)',
+        'two cups of milk (不可数名词，用量词)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Making a Banana Milk Shake',
+      scene: 'Anna is teaching Tom how to make a banana milk shake.',
+      lines: [
+        { speaker: 'Anna', text: 'Tom, do you know how to make a banana milk shake?', translation: 'Tom，你知道怎么做香蕉奶昔吗？' },
+        { speaker: 'Tom', text: 'No, I don\'t. Can you teach me?', translation: '我不知道。你能教我吗？' },
+        { speaker: 'Anna', text: 'Sure! First, peel three bananas.', translation: '当然！首先，剥三根香蕉的皮。' },
+        { speaker: 'Tom', text: 'OK. What\'s next?', translation: '好的。接下来呢？' },
+        { speaker: 'Anna', text: 'Next, cut up the bananas and put them in the blender.', translation: '接下来，把香蕉切碎放进搅拌器里。' },
+        { speaker: 'Tom', text: 'Then pour some milk into the blender?', translation: '然后倒一些牛奶进搅拌器？' },
+        { speaker: 'Anna', text: 'That\'s right! Then add some sugar and turn on the blender.', translation: '对了！然后加一些糖，打开搅拌器。' },
+        { speaker: 'Tom', text: 'How long should I blend it?', translation: '我应该搅拌多久？' },
+        { speaker: 'Anna', text: 'About thirty seconds. Finally, pour the shake into a glass and enjoy!', translation: '大约三十秒。最后，把奶昔倒进杯子里，享受吧！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'How to Make a Turkey Sandwich',
+      text: 'Do you know how to make a turkey sandwich? It\'s very easy. Here is the recipe.\n\nFirst, put a piece of bread on a plate. Then spread some butter on the bread. Next, put some lettuce on the butter. After that, put two pieces of turkey on the lettuce. You can also add some cheese if you like. Then put another piece of bread on top.\n\nIf you want to make the sandwich more delicious, you can add some pepper and salt. Some people also like to put tomato slices inside.\n\nA turkey sandwich is a traditional American food. Many people eat it for lunch. It is easy to make and very delicious. You can try making one at home!',
+      annotations: [
+        { word: 'recipe', meaning: '食谱' },
+        { word: 'spread', meaning: '涂；抹' },
+        { word: 'slice', meaning: '薄片' },
+        { word: 'delicious', meaning: '美味的' },
+        { word: 'on top', meaning: '在最上面' },
+      ],
+      questions: [
+        { q: 'What is the first step to make a turkey sandwich?', a: 'First, put a piece of bread on a plate.' },
+        { q: 'What do you spread on the bread?', a: 'Spread some butter on the bread.' },
+        { q: 'What can you add to make the sandwich more delicious?', a: 'You can add some pepper, salt, or tomato slices.' },
+        { q: 'When do many American people eat turkey sandwiches?', a: 'Many people eat turkey sandwiches for lunch.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用 how many 或 how much 填空',
+      data: ['___ bananas do we need?', '___ milk do you want?', '___ bread did you buy?', '___ eggs are there in the fridge?'],
+      answer: ['How many', 'How much', 'How much', 'How many'],
+    },
+    {
+      type: 'reorder',
+      instruction: '将步骤按正确顺序排列',
+      data: ['Pour the milk shake into a glass.', 'Peel three bananas.', 'Turn on the blender.', 'Put the bananas in the blender.', 'Cut up the bananas.'],
+      answer: ['Peel three bananas.', 'Cut up the bananas.', 'Put the bananas in the blender.', 'Turn on the blender.', 'Pour the milk shake into a glass.'],
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'How many milk do you need?',
+        'First, peel the banana and put them in the blender.',
+        'Pour the milk in the blender.',
+        'Don\'t adding too much sugar.',
+      ],
+      answer: [
+        'How many → How much',
+        'the banana → the bananas',
+        'in → into',
+        'adding → add',
+      ],
+    },
+    {
+      type: 'match',
+      instruction: '将动词与其中文意思配对',
+      data: { words: ['peel', 'pour', 'cut up', 'turn on', 'mix'], meanings: ['打开', '倒', '切碎', '混合', '剥皮'] },
+      answer: { peel: '剥皮', pour: '倒', 'cut up': '切碎', 'turn on': '打开', mix: '混合' },
+    },
+    {
+      type: 'fill',
+      instruction: '用 first, next, then, finally 填空',
+      data: ['___, wash the apples.', '___, cut them into small pieces.', '___, put them in a bowl and add some yogurt.', '___, mix them well and enjoy!'],
+      answer: ['First', 'Next', 'Then', 'Finally'],
+    },
+  ],
+  essays: [
+    {
+      title: 'How to Make Dumplings',
+      body: 'Dumplings are traditional Chinese food. They are delicious and easy to make. Let me tell you how to make dumplings.\n\nFirst, you need to prepare the ingredients. You need some flour, water, meat, and vegetables. You can use pork or beef, and cabbage or leeks.\n\nNext, make the dough. Mix the flour with water and knead it into a smooth ball. Then cover it with a cloth and wait for thirty minutes.\n\nThen, make the filling. Cut up the meat and vegetables very carefully. Add some salt, pepper, and soy sauce. Mix them well.\n\nAfter that, make the dumpling wrappers. Cut the dough into small pieces. Roll each piece into a round, thin wrapper. Put some filling in the middle of the wrapper. Fold it and press the edges together.\n\nFinally, boil the dumplings in hot water. When they float on the water, they are ready!\n\nDumplings are best eaten with family. They are not only delicious but also a symbol of family reunion.',
+      level: 'A',
+      keyPhrases: ['traditional Chinese food', 'ingredients', 'dough', 'family reunion'],
+      wordCount: 146,
+      topic: '食物制作',
+    },
+  ],
+}

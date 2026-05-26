@@ -1,0 +1,160 @@
+import type { Unit } from '../types'
+
+export const g8u7: Unit = {
+  id: 'g8u7',
+  title: 'Will people have robots?',
+  grade: 8,
+  semester: '上',
+  unitNumber: 7,
+  topic: 'Future life and predictions',
+  objectives: [
+    '掌握 will 引导的一般将来时的肯定、否定和疑问句',
+    '学会用 there will be 结构进行预测',
+    '能够表达对未来生活的预测和畅想',
+  ],
+  words: [
+    { word: 'paper', phonetic: '/ˈpeɪpə(r)/', pos: 'n.', meaning: '纸', example: 'We won\'t use paper money in the future.', exampleTranslation: '将来我们不会使用纸币了。' },
+    { word: 'pollution', phonetic: '/pəˈluːʃn/', pos: 'n.', meaning: '污染；污染物', example: 'Air pollution is a serious problem.', exampleTranslation: '空气污染是一个严重的问题。' },
+    { word: 'prediction', phonetic: '/prɪˈdɪkʃn/', pos: 'n.', meaning: '预测；预言', example: 'His prediction about the weather was right.', exampleTranslation: '他对天气的预测是正确的。' },
+    { word: 'future', phonetic: '/ˈfjuːtʃə(r)/', pos: 'n.', meaning: '将来；未来', example: 'What will the future be like?', exampleTranslation: '未来会是什么样子？' },
+    { word: 'pollute', phonetic: '/pəˈluːt/', pos: 'v.', meaning: '污染', example: 'Don\'t pollute the rivers.', exampleTranslation: '不要污染河流。' },
+    { word: 'environment', phonetic: '/ɪnˈvaɪrənmənt/', pos: 'n.', meaning: '环境', example: 'We should protect the environment.', exampleTranslation: '我们应该保护环境。' },
+    { word: 'planet', phonetic: '/ˈplænɪt/', pos: 'n.', meaning: '行星', example: 'Earth is the third planet from the sun.', exampleTranslation: '地球是距太阳第三近的行星。' },
+    { word: 'earth', phonetic: '/ɜːθ/', pos: 'n.', meaning: '地球；泥土', example: 'The earth goes around the sun.', exampleTranslation: '地球绕着太阳转。' },
+    { word: 'plant', phonetic: '/plɑːnt/', pos: 'v./n.', meaning: '种植；植物', example: 'We should plant more trees.', exampleTranslation: '我们应该种更多的树。' },
+    { word: 'part', phonetic: '/pɑːt/', pos: 'n.', meaning: '部分；参加', example: 'Everyone should play a part in protecting the earth.', exampleTranslation: '每个人都应该参与保护地球。' },
+    { word: 'peace', phonetic: '/piːs/', pos: 'n.', meaning: '和平', example: 'People all over the world want peace.', exampleTranslation: '全世界的人都希望和平。' },
+    { word: 'sky', phonetic: '/skaɪ/', pos: 'n.', meaning: '天空', example: 'Look at the stars in the sky!', exampleTranslation: '看天空中的星星！' },
+    { word: 'astronaut', phonetic: '/ˈæstrənɔːt/', pos: 'n.', meaning: '宇航员', example: 'The astronaut walked in space.', exampleTranslation: '那位宇航员在太空中行走了。' },
+    { word: 'apartment', phonetic: '/əˈpɑːtmənt/', pos: 'n.', meaning: '公寓房间', example: 'They live in a small apartment.', exampleTranslation: '他们住在一间小公寓里。' },
+    { word: 'rocket', phonetic: '/ˈrɒkɪt/', pos: 'n.', meaning: '火箭', example: 'The rocket flew into the sky.', exampleTranslation: '火箭飞上了天空。' },
+    { word: 'space', phonetic: '/speɪs/', pos: 'n.', meaning: '空间；太空', example: 'I want to travel to space.', exampleTranslation: '我想去太空旅行。' },
+    { word: 'human', phonetic: '/ˈhjuːmən/', pos: 'n./adj.', meaning: '人的；人类', example: 'Humans will live on Mars in the future.', exampleTranslation: '将来人类将在火星上生活。' },
+    { word: 'dangerous', phonetic: '/ˈdeɪndʒərəs/', pos: 'adj.', meaning: '有危险的；不安全的', example: 'It is dangerous to swim alone.', exampleTranslation: '独自游泳很危险。' },
+    { word: 'already', phonetic: '/ɔːlˈredi/', pos: 'adv.', meaning: '已经', example: 'Scientists have already built robots.', exampleTranslation: '科学家们已经制造了机器人。' },
+    { word: 'factory', phonetic: '/ˈfæktri/', pos: 'n.', meaning: '工厂', example: 'The factory makes cars.', exampleTranslation: '那家工厂制造汽车。' },
+  ],
+  grammar: [
+    {
+      title: 'will 引导的一般将来时',
+      explanation: 'will + 动词原形，表示对将来的预测或临时决定。will 适用于所有人称。否定形式为 will not (won\'t)。疑问句将 will 提到主语前。常与 in the future, tomorrow, next year 等时间状语连用。',
+      examples: [
+        'People will have robots in their homes.',
+        'There will be more pollution in the future.',
+        'Kids won\'t go to school. They\'ll study at home on computers.',
+        'Will people live to be 200 years old?',
+      ],
+      comparisons: [
+        'She is going to visit Shanghai. (计划好的)',
+        'She will visit Shanghai one day. (预测)',
+      ],
+    },
+    {
+      title: 'there will be 结构',
+      explanation: 'there will be 是 there is/are 的将来时形式，表示"将会有..."。否定形式为 there won\'t be，疑问句将 will 提到 there 前。注意 there will be 后接名词，不能与 have 连用。',
+      examples: [
+        'There will be more trees in the city.',
+        'There will be less free time.',
+        'There won\'t be any paper money.',
+        'Will there be world peace?',
+      ],
+      comparisons: [
+        'There is a park near my home. (现在有)',
+        'There will be a park near my home. (将来会有)',
+        'There will be a park. (正确) / There will have a park. (错误)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Predictions about the Future',
+      scene: 'Two students are discussing what life will be like in the future.',
+      lines: [
+        { speaker: 'Nick', text: 'What do you think the future will be like, Jill?', translation: 'Jill，你觉得未来会是什么样子？' },
+        { speaker: 'Jill', text: 'I think there will be more robots. They will help people do many things.', translation: '我认为会有更多的机器人。它们会帮助人们做很多事情。' },
+        { speaker: 'Nick', text: 'That sounds great! Will kids go to school?', translation: '听起来不错！孩子们还会去上学吗？' },
+        { speaker: 'Jill', text: 'No, I don\'t think so. Kids will study at home on computers.', translation: '我觉得不会了。孩子们将在家里用电脑学习。' },
+        { speaker: 'Nick', text: 'Will people live longer?', translation: '人们会活得更长吗？' },
+        { speaker: 'Jill', text: 'Yes, people will live to be 200 years old!', translation: '是的，人们将会活到200岁！' },
+        { speaker: 'Nick', text: 'What about the environment? Will there be less pollution?', translation: '环境呢？污染会减少吗？' },
+        { speaker: 'Jill', text: 'I hope so. People will plant more trees and drive less.', translation: '我希望如此。人们会种更多的树，少开车。' },
+        { speaker: 'Nick', text: 'I hope our predictions come true!', translation: '我希望我们的预测能成真！' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'Life in 2050',
+      text: 'What will life be like in 2050? Some scientists make the following predictions.\n\nFirst, robots will be everywhere. They will help people do housework, cook meals, and even teach children. People will have more free time to enjoy life.\n\nSecond, people will live longer. Scientists say that in 2050, the average person will live to be over 100 years old. Medicine will be much better than it is now.\n\nThird, people might live on other planets. Scientists are planning to build cities on Mars. Rockets will take people there. It may be dangerous, but many people want to try.\n\nHowever, there will also be problems. There will be more people on earth, so there will be less space. The environment may become worse if we don\'t protect it. We should play a part in saving the earth now.\n\nWhat do you think about the future? Do you think these predictions will come true?',
+      annotations: [
+        { word: 'average', meaning: '平均的' },
+        { word: 'everywhere', meaning: '到处' },
+        { word: 'might', meaning: '可能' },
+        { word: 'save', meaning: '拯救' },
+        { word: 'come true', meaning: '实现；成真' },
+      ],
+      questions: [
+        { q: 'What will robots do in 2050?', a: 'Robots will help people do housework, cook meals, and even teach children.' },
+        { q: 'How long will the average person live in 2050?', a: 'The average person will live to be over 100 years old.' },
+        { q: 'Where might people live besides earth?', a: 'People might live on Mars.' },
+        { q: 'What problems will there be in the future?', a: 'There will be more people on earth, less space, and the environment may become worse.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用 will 或 won\'t 填空',
+      data: ['People ___ have robots in their homes.', 'Kids ___ go to school. They\'ll study at home.', 'There ___ be more pollution if we don\'t protect the earth.', '___ people live on Mars in the future?'],
+      answer: ['will', "won't", 'will', 'Will'],
+    },
+    {
+      type: 'match',
+      instruction: '将单词与其中文意思配对',
+      data: { words: ['pollution', 'astronaut', 'rocket', 'planet', 'environment'], meanings: ['火箭', '宇航员', '行星', '环境', '污染'] },
+      answer: { pollution: '污染', astronaut: '宇航员', rocket: '火箭', planet: '行星', environment: '环境' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'There will have a new hospital in our town.',
+        'People will lives to be 200 years old.',
+        'Will there are more robots in the future?',
+        'She willn\'t go to school tomorrow.',
+      ],
+      answer: [
+        'will have → will be',
+        'lives → live',
+        'Will there are → Will there be',
+        'willn\'t → won\'t',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['will / robots / have / homes / in / people / their (.)', 'be / there / trees / will / more (?)', 'to / will / people / live / longer (.))'],
+      answer: [
+        'People will have robots in their homes.',
+        'Will there be more trees?',
+        'People will live longer.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '用 more, less 或 fewer 填空',
+      data: ['There will be ___ people in the future.', 'There will be ___ water because of pollution.', 'There will be ___ cars on the road.', 'We should plant ___ trees.'],
+      answer: ['more', 'less', 'fewer', 'more'],
+    },
+  ],
+  essays: [
+    {
+      title: 'My Life in the Future',
+      body: 'What will my life be like in twenty years? Let me make some predictions.\n\nIn twenty years, I think I will live in a big apartment in a modern city. The apartment will have many smart robots. They will help me clean the room, cook meals, and do the laundry. I will have more free time to enjoy life.\n\nI think I will be a scientist. I will work in a big laboratory and study how to protect the environment. I hope to find new ways to reduce pollution and make our planet cleaner and greener.\n\nIn my free time, I will travel to different places. Maybe I will even travel to space! I think space travel will become cheaper and safer in the future. I hope I can see the earth from space one day.\n\nI also think people will live longer and healthier lives. Doctors will find cures for many diseases. People will eat healthier food and exercise more.\n\nI hope my predictions will come true. I believe the future will be wonderful!',
+      level: 'A',
+      keyPhrases: ['smart robots', 'protect the environment', 'space travel', 'come true'],
+      wordCount: 147,
+      topic: '未来预测',
+    },
+  ],
+}

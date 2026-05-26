@@ -1,0 +1,161 @@
+import type { Unit } from '../types'
+
+export const g8u2: Unit = {
+  id: 'g8u2',
+  title: 'How often do you exercise?',
+  grade: 8,
+  semester: '上',
+  unitNumber: 2,
+  topic: 'Free time activities and lifestyle habits',
+  objectives: [
+    '掌握频率副词的用法和位置',
+    '学会用 how often 提问和回答活动频率',
+    '能够描述自己的课余活动和生活习惯',
+  ],
+  words: [
+    { word: 'housework', phonetic: '/ˈhaʊswɜːk/', pos: 'n.', meaning: '家务劳动；家务事', example: 'I help my mother with the housework every weekend.', exampleTranslation: '我每个周末帮妈妈做家务。' },
+    { word: 'hardly', phonetic: '/ˈhɑːdli/', pos: 'adv.', meaning: '几乎不；简直不', example: 'She hardly ever watches TV.', exampleTranslation: '她几乎从来不看电视。' },
+    { word: 'ever', phonetic: '/ˈevə(r)/', pos: 'adv.', meaning: '曾经；在任何时候', example: 'Do you ever play tennis after school?', exampleTranslation: '你放学后打过网球吗？' },
+    { word: 'once', phonetic: '/wʌns/', pos: 'adv.', meaning: '一次；曾经', example: 'I go to the cinema once a month.', exampleTranslation: '我每个月去看一次电影。' },
+    { word: 'twice', phonetic: '/twaɪs/', pos: 'adv.', meaning: '两倍；两次', example: 'She practices the piano twice a week.', exampleTranslation: '她每周练习两次钢琴。' },
+    { word: 'Internet', phonetic: '/ˈɪntənet/', pos: 'n.', meaning: '因特网；互联网', example: 'He spends too much time on the Internet.', exampleTranslation: '他在网上花了太多时间。' },
+    { word: 'program', phonetic: '/ˈprəʊɡræm/', pos: 'n.', meaning: '节目；程序', example: 'My favorite TV program is Animal World.', exampleTranslation: '我最喜欢的电视节目是动物世界。' },
+    { word: 'full', phonetic: '/fʊl/', pos: 'adj.', meaning: '满的；充满的', example: 'My schedule is full this week.', exampleTranslation: '我这周的日程排满了。' },
+    { word: 'swing', phonetic: '/swɪŋ/', pos: 'n.', meaning: '摇摆；秋千', example: 'The children are playing on the swing.', exampleTranslation: '孩子们在荡秋千。' },
+    { word: 'maybe', phonetic: '/ˈmeɪbi/', pos: 'adv.', meaning: '或许；大概；可能', example: 'Maybe he will come to the party tonight.', exampleTranslation: '也许他今晚会来参加聚会。' },
+    { word: 'least', phonetic: '/liːst/', pos: 'adj.', meaning: '最小的；最少的', example: 'You should exercise at least three times a week.', exampleTranslation: '你应该每周至少锻炼三次。' },
+    { word: 'health', phonetic: '/helθ/', pos: 'n.', meaning: '健康；人的身体(或精神)状态', example: 'Good health is very important for everyone.', exampleTranslation: '良好的健康对每个人都很重要。' },
+    { word: 'result', phonetic: '/rɪˈzʌlt/', pos: 'n.', meaning: '结果；后果', example: 'Here are the results of our survey.', exampleTranslation: '这是我们调查的结果。' },
+    { word: 'percent', phonetic: '/pəˈsent/', pos: 'n.', meaning: '百分之...', example: 'Ninety percent of the students like sports.', exampleTranslation: '百分之九十的学生喜欢运动。' },
+    { word: 'online', phonetic: '/ˌɒnˈlaɪn/', pos: 'adj.', meaning: '在线的；联网的', example: 'She often chats with friends online.', exampleTranslation: '她经常和朋友们在网上聊天。' },
+    { word: 'television', phonetic: '/ˈtelɪvɪʒn/', pos: 'n.', meaning: '电视机；电视', example: 'He watches television for two hours every day.', exampleTranslation: '他每天看两小时电视。' },
+    { word: 'although', phonetic: '/ɔːlˈðəʊ/', pos: 'conj.', meaning: '虽然；尽管', example: 'Although he is busy, he exercises every day.', exampleTranslation: '虽然他很忙，但他每天锻炼。' },
+    { word: 'through', phonetic: '/θruː/', pos: 'prep.', meaning: '以；凭借；穿过', example: 'You can learn a lot through reading.', exampleTranslation: '你可以通过阅读学到很多。' },
+    { word: 'mind', phonetic: '/maɪnd/', pos: 'n.', meaning: '头脑；心智', example: 'A healthy mind is in a healthy body.', exampleTranslation: '健康的头脑寓于健康的身体。' },
+    { word: 'such', phonetic: '/sʌtʃ/', pos: 'adj.', meaning: '这样的；如此的', example: 'I have never seen such a beautiful place.', exampleTranslation: '我从未见过如此美丽的地方。' },
+  ],
+  grammar: [
+    {
+      title: '频率副词',
+      explanation: '频率副词用来表示动作发生的频率，按频率从高到低排列为：always(100%) > usually(80%) > often(60%) > sometimes(40%) > hardly ever(10%) > never(0%)。频率副词通常放在实义动词之前，be动词、助动词或情态动词之后。',
+      examples: [
+        'I always get up at six o\'clock.',
+        'She usually walks to school.',
+        'He sometimes plays basketball after school.',
+        'They hardly ever eat junk food.',
+      ],
+      comparisons: [
+        'She always does her homework. (总是做)',
+        'She sometimes does her homework. (有时做)',
+        'She never does her homework. (从不做)',
+      ],
+    },
+    {
+      title: '用 how often 表达频率',
+      explanation: 'how often 用来提问某事发生的频率。回答可以用频率副词，也可以用 "once/twice/three times + a day/week/month/year" 等表达。',
+      examples: [
+        '— How often do you exercise? — I exercise three times a week.',
+        '— How often does she read books? — She reads every day.',
+        '— How often do they go shopping? — They go shopping once a month.',
+        '— How often do you surf the Internet? — I surf it every evening.',
+      ],
+      comparisons: [
+        'How often do you play sports? (问频率)',
+        'How long do you play sports? (问时长)',
+        'How many sports do you play? (问数量)',
+      ],
+    },
+  ],
+  dialogues: [
+    {
+      title: 'Asking about Free Time Activities',
+      scene: 'Two friends are talking about their free time activities.',
+      lines: [
+        { speaker: 'Jack', text: 'Hi, Anna! How often do you exercise?', translation: '嗨，Anna！你多久锻炼一次？' },
+        { speaker: 'Anna', text: 'I exercise every day. I usually go running in the morning.', translation: '我每天都锻炼。我通常在早上去跑步。' },
+        { speaker: 'Jack', text: 'That\'s great! How often do you watch TV?', translation: '太棒了！你多久看一次电视？' },
+        { speaker: 'Anna', text: 'I hardly ever watch TV. I prefer reading books.', translation: '我几乎不看电视。我更喜欢看书。' },
+        { speaker: 'Jack', text: 'What about going online? Do you use the Internet often?', translation: '上网呢？你经常用互联网吗？' },
+        { speaker: 'Anna', text: 'I go online about twice a week. I use it to check my emails.', translation: '我大约每周上网两次。我用它来查看邮件。' },
+        { speaker: 'Jack', text: 'Do you help with housework?', translation: '你帮忙做家务吗？' },
+        { speaker: 'Anna', text: 'Yes, I always help my mom on weekends. What about you?', translation: '是的，我总是在周末帮妈妈。你呢？' },
+        { speaker: 'Jack', text: 'I sometimes help with housework, but I often play soccer with my friends.', translation: '我有时帮忙做家务，但我经常和朋友们踢足球。' },
+      ],
+    },
+  ],
+  readings: [
+    {
+      title: 'Healthy Habits',
+      text: 'Last month, we asked 100 students about their free time activities. Here are the results.\n\nEighty-five percent of the students exercise every day. They think it is good for their health. Most students play basketball or run in the park. Ten percent of the students exercise only once or twice a week. Five percent never exercise.\n\nAs for homework, most students do homework every day. Some students do homework three or four times a week. Only a few students hardly ever do homework.\n\nAbout watching TV, the results are interesting. Sixty percent of the students watch TV every day. Twenty percent watch TV three or four times a week. Twenty percent hardly ever watch TV. They think watching too much TV is bad for their eyes.\n\nThe best way to relax is through exercise. It is healthy for the mind and the body. Exercise such as playing sports is fun, and you can spend time with your friends and family.',
+      annotations: [
+        { word: 'survey', meaning: '调查' },
+        { word: 'junk food', meaning: '垃圾食品' },
+        { word: 'relax', meaning: '放松' },
+        { word: 'body', meaning: '身体' },
+        { word: 'spend', meaning: '花费' },
+      ],
+      questions: [
+        { q: 'How many students were asked about their free time activities?', a: '100 students were asked.' },
+        { q: 'What percent of students exercise every day?', a: 'Eighty-five percent of the students exercise every day.' },
+        { q: 'What do twenty percent of students think about watching too much TV?', a: 'They think watching too much TV is bad for their eyes.' },
+        { q: 'What is the best way to relax according to the passage?', a: 'The best way to relax is through exercise.' },
+      ],
+    },
+  ],
+  exercises: [
+    {
+      type: 'fill',
+      instruction: '用频率副词填空 (always, usually, often, sometimes, hardly ever, never)',
+      data: ['I ___ get up at 6:00. I get up at 6:00 every day.', 'She ___ eats junk food. She eats it only once a year.', 'Tom ___ plays soccer after school. He plays it four times a week.', 'My dad ___ cooks dinner. He doesn\'t know how to cook.'],
+      answer: ['always', 'hardly ever', 'often', 'never'],
+    },
+    {
+      type: 'match',
+      instruction: '将短语与其中文意思配对',
+      data: { words: ['once a week', 'twice a month', 'three times a year', 'every day', 'hardly ever'], meanings: ['每天', '一年三次', '几乎不', '一周一次', '一个月两次'] },
+      answer: { 'once a week': '一周一次', 'twice a month': '一个月两次', 'three times a year': '一年三次', 'every day': '每天', 'hardly ever': '几乎不' },
+    },
+    {
+      type: 'correct',
+      instruction: '找出并改正句子中的错误',
+      data: [
+        'I often don\'t eat breakfast.',
+        'She always is late for school.',
+        'How often do you plays soccer?',
+        'He watches sometimes TV in the evening.',
+      ],
+      answer: [
+        'often don\'t → don\'t often',
+        'always is → is always',
+        'plays → play',
+        'watches sometimes → sometimes watches',
+      ],
+    },
+    {
+      type: 'reorder',
+      instruction: '将下列单词重新排列成正确的句子',
+      data: ['often / you / how / do / exercise (?)', 'always / he / his / does / homework (.)', 'a / she / week / surfs / twice / Internet / the (.))'],
+      answer: [
+        'How often do you exercise?',
+        'He always does his homework.',
+        'She surfs the Internet twice a week.',
+      ],
+    },
+    {
+      type: 'fill',
+      instruction: '根据句意填入合适的频率表达',
+      data: ['I drink milk ___ (一天两次).', 'She visits her grandma ___ (一个月一次).', 'We have a school meeting ___ (一周一次).'],
+      answer: ['twice a day', 'once a month', 'once a week'],
+    },
+  ],
+  essays: [
+    {
+      title: 'My Lifestyle',
+      body: 'I think I have a healthy lifestyle. Let me tell you about my daily habits.\n\nI always get up early, at about six thirty in the morning. Then I go running in the park near my home. I exercise for about thirty minutes every day. After that, I have a healthy breakfast. I usually eat bread, eggs and drink a glass of milk.\n\nI go to school by bike. At school, I often play basketball with my classmates during the break. I like sports very much. I think exercise helps me study better.\n\nIn the evening, I sometimes watch TV for about half an hour, but I hardly ever play computer games. I usually do my homework first, and then read some books before going to bed.\n\nOn weekends, I sometimes help my parents with housework. I also go swimming twice a month. I believe good habits can help me stay healthy and happy.',
+      level: 'A',
+      keyPhrases: ['healthy lifestyle', 'daily habits', 'go running', 'stay healthy'],
+      wordCount: 148,
+      topic: '生活习惯',
+    },
+  ],
+}
