@@ -1,0 +1,311 @@
+import type { Chapter } from '../types'
+
+export const pingMianZhiJiaoZuoBiaoXi: Chapter = {
+  id: 'ping-mian-zhi-jiao-zuo-biao-xi',
+  title: '平面直角坐标系',
+  grade: 7,
+  semester: '下',
+  unit: 7,
+  icon: '📊',
+  description: '有序数对、平面直角坐标系、坐标方法的简单应用',
+  sections: [
+    {
+      id: 'you-xu-shu-dui',
+      title: '有序数对',
+      summary: '理解有序数对的概念，学会用有序数对表示物体的位置。',
+      knowledgePoints: [
+        {
+          id: 'yxsd-1',
+          title: '有序数对的概念',
+          content:
+            '有顺序的两个数a与b组成的数对，叫做有序数对，记作(a, b)。注意(a, b)与(b, a)表示不同的位置（当a≠b时）。',
+          formula: '有序数对(a, b)，a和b有固定的顺序',
+          examples: ['(3, 5)表示第3列第5行的位置', '(5, 3)表示第5列第3行的位置', '(3,5)和(5,3)表示不同的位置'],
+        },
+        {
+          id: 'yxsd-2',
+          title: '用有序数对表示位置',
+          content:
+            '利用有序数对可以准确地表示出一个位置。日常生活中经常用有序数对来表示位置，如电影院的座位、棋盘上棋子的位置等。',
+          examples: [
+            '电影院中"5排3座"可记作(5, 3)',
+            '经纬度也是一种有序数对',
+            '教室中"第2列第4行"记作(2, 4)',
+          ],
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-yxsd-cp',
+          type: 'svg',
+          title: '用有序数对表示位置',
+          description: '在简单的网格上展示用有序数对(列, 行)表示不同点的位置。',
+          component: 'CoordinatePlane',
+          props: {
+            xRange: [0, 6],
+            yRange: [0, 6],
+            points: [
+              { x: 2, y: 3, label: 'A(2,3)' },
+              { x: 4, y: 5, label: 'B(4,5)' },
+              { x: 5, y: 1, label: 'C(5,1)' },
+              { x: 1, y: 4, label: 'D(1,4)' },
+            ],
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'yxsd-p1',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '有序数对(3, 5)表示的意义是（　）',
+          options: ['3行5列', '3列5行', '第5个第3个', '3加5'],
+          answer: 'B',
+          steps: ['有序数对(a,b)中，第一个数表示列，第二个数表示行', '(3,5)表示3列5行'],
+        },
+        {
+          id: 'yxsd-p2',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '下列有序数对中，与(2, 3)表示同一位置的是（　）',
+          options: ['(3, 2)', '(2, 3)', '(3, 3)', '(2, 2)'],
+          answer: 'B',
+          steps: ['有序数对有顺序性', '只有(2,3)和(2,3)相同'],
+        },
+        {
+          id: 'yxsd-p3',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '如果约定"列数在前，排数在后"，那么"第4列第2排"记作 ____。',
+          answer: '(4, 2)',
+        },
+        {
+          id: 'yxsd-p4',
+          type: 'choice',
+          difficulty: 'medium',
+          question: '如图，点A在"第2列第4行"的位置，记作(2, 4)，则点B在"第5列第1行"的位置，记作（　）',
+          options: ['(1, 5)', '(5, 1)', '(5, 4)', '(2, 1)'],
+          answer: 'B',
+          steps: ['约定列数在前，排数在后', '第5列第1行记作(5,1)'],
+        },
+      ],
+    },
+    {
+      id: 'ping-mian-zhi-jiao-zuo-biao-xi-ji-chu',
+      title: '平面直角坐标系',
+      summary: '认识平面直角坐标系，理解x轴、y轴、原点、象限等概念，掌握点的坐标特征。',
+      knowledgePoints: [
+        {
+          id: 'pmzb-1',
+          title: '平面直角坐标系的建立',
+          content:
+            '在平面内画两条互相垂直、原点重合的数轴，组成平面直角坐标系。水平的数轴称为x轴或横轴，向右为正方向；竖直的数轴称为y轴或纵轴，向上为正方向；两轴交点O称为原点。',
+          formula: 'x轴（横轴）：水平方向，向右为正\ny轴（纵轴）：竖直方向，向上为正\n原点O：(0, 0)',
+        },
+        {
+          id: 'pmzb-2',
+          title: '象限',
+          content:
+            'x轴和y轴将坐标平面分成四个部分，右上角为第一象限，按逆时针方向依次为第二象限、第三象限、第四象限。注意：坐标轴上的点不属于任何象限。',
+          formula: '第一象限(+,+)；第二象限(-,+)；第三象限(-,-)；第四象限(+,-)',
+          examples: ['点(2,3)在第一象限', '点(-1,4)在第二象限', '点(-2,-3)在第三象限', '点(3,-1)在第四象限'],
+        },
+        {
+          id: 'pmzb-3',
+          title: '点的坐标特征',
+          content:
+            'x轴上的点的纵坐标为0，即(x, 0)；y轴上的点的横坐标为0，即(0, y)。第一象限：x>0, y>0；第二象限：x<0, y>0；第三象限：x<0, y<0；第四象限：x>0, y<0。',
+          formula: 'x轴上的点：(a, 0)\ny轴上的点：(0, b)\n原点：(0, 0)',
+          examples: ['点(3, 0)在x轴上', '点(0, -5)在y轴上', '点(0, 0)是原点'],
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-pmzb-cp',
+          type: 'svg',
+          title: '平面直角坐标系与四个象限',
+          description: '展示平面直角坐标系中四个象限以及各象限中点的坐标特征。',
+          component: 'CoordinatePlane',
+          props: {
+            xRange: [-6, 6],
+            yRange: [-6, 6],
+            points: [
+              { x: 3, y: 4, label: 'A(3,4) 第一象限' },
+              { x: -4, y: 3, label: 'B(-4,3) 第二象限' },
+              { x: -3, y: -2, label: 'C(-3,-2) 第三象限' },
+              { x: 2, y: -4, label: 'D(2,-4) 第四象限' },
+              { x: 5, y: 0, label: 'E(5,0) x轴上' },
+              { x: 0, y: -3, label: 'F(0,-3) y轴上' },
+            ],
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'pmzb-p1',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '在平面直角坐标系中，点(-2, 3)所在的象限是（　）',
+          options: ['第一象限', '第二象限', '第三象限', '第四象限'],
+          answer: 'B',
+          steps: ['横坐标-2<0，纵坐标3>0', '(-,+)对应第二象限'],
+        },
+        {
+          id: 'pmzb-p2',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '在平面直角坐标系中，点(3, -4)所在的象限是（　）',
+          options: ['第一象限', '第二象限', '第三象限', '第四象限'],
+          answer: 'D',
+          steps: ['横坐标3>0，纵坐标-4<0', '(+,-)对应第四象限'],
+        },
+        {
+          id: 'pmzb-p3',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '点P在x轴上，且横坐标为-3，则点P的坐标为 ____。',
+          answer: '(-3, 0)',
+          steps: ['x轴上的点纵坐标为0', '所以P(-3, 0)'],
+        },
+        {
+          id: 'pmzb-p4',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '在平面直角坐标系中，点(0, -2)在（　）',
+          options: ['第一象限', 'x轴上', 'y轴上', '第四象限'],
+          answer: 'C',
+          steps: ['横坐标为0，说明点在y轴上'],
+        },
+        {
+          id: 'pmzb-p5',
+          type: 'fill',
+          difficulty: 'medium',
+          question: '已知点M(a-1, a+3)在第二象限，则a的取值范围是 ____。',
+          answer: '-3<a<1',
+          steps: [
+            '第二象限的点满足x<0, y>0',
+            'a-1<0，即a<1',
+            'a+3>0，即a>-3',
+            '所以-3<a<1',
+          ],
+          hint: '第二象限的点的坐标特征是(-, +)。',
+        },
+        {
+          id: 'pmzb-p6',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '已知点A(m, 3)和点B(2, n)关于y轴对称，求m和n的值。',
+          answer: 'm=-2, n=3',
+          steps: [
+            '关于y轴对称的两点，纵坐标相同，横坐标互为相反数',
+            '所以n=3, m=-2',
+          ],
+          hint: '关于y轴对称的点：横坐标互为相反数，纵坐标相同。',
+        },
+      ],
+    },
+    {
+      id: 'zuo-biao-fang-fa-ying-yong',
+      title: '坐标方法的简单应用',
+      summary: '学会用坐标表示地理位置，掌握图形平移与坐标变化的关系。',
+      knowledgePoints: [
+        {
+          id: 'zbfy-1',
+          title: '用坐标表示地理位置',
+          content:
+            '利用平面直角坐标系可以表示地理位置。方法：①建立适当的坐标系，选择一个适当的点作为原点；②确定x轴和y轴的方向；③选取适当的比例尺，标出各点的坐标。',
+          examples: ['学校在(2, 3)处，公园在(-1, 5)处', '可以选择某个地点为原点来建立坐标系'],
+        },
+        {
+          id: 'zbfy-2',
+          title: '图形的平移与坐标变化',
+          content:
+            '在平面直角坐标系中，将点(x, y)向右（或左）平移a个单位长度，得到(x+a, y)（或(x-a, y)）；将点(x, y)向上（或下）平移b个单位长度，得到(x, y+b)（或(x, y-b)）。',
+          formula: '向右平移a个单位：(x, y) → (x+a, y)\n向左平移a个单位：(x, y) → (x-a, y)\n向上平移b个单位：(x, y) → (x, y+b)\n向下平移b个单位：(x, y) → (x, y-b)',
+          examples: ['点(2, 3)向右平移4个单位得到(6, 3)', '点(2, 3)向上平移2个单位得到(2, 5)'],
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-zbfy-cp',
+          type: 'svg',
+          title: '图形的平移与坐标变化',
+          description: '展示一个三角形平移前后各顶点坐标的变化。',
+          component: 'CoordinatePlane',
+          props: {
+            xRange: [-2, 8],
+            yRange: [-1, 7],
+            points: [
+              { x: 1, y: 1, label: 'A(1,1)' },
+              { x: 3, y: 1, label: 'B(3,1)' },
+              { x: 2, y: 4, label: 'C(2,4)' },
+              { x: 4, y: 3, label: "A'(4,3)" },
+              { x: 6, y: 3, label: "B'(6,3)" },
+              { x: 5, y: 6, label: "C'(5,6)" },
+            ],
+            lines: [
+              { from: [1, 1], to: [3, 1] },
+              { from: [3, 1], to: [2, 4] },
+              { from: [2, 4], to: [1, 1] },
+              { from: [4, 3], to: [6, 3] },
+              { from: [6, 3], to: [5, 6] },
+              { from: [5, 6], to: [4, 3] },
+            ],
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'zbfy-p1',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '将点(2, 3)向右平移3个单位，得到的点的坐标是（　）',
+          options: ['(5, 3)', '(2, 6)', '(-1, 3)', '(2, 0)'],
+          answer: 'A',
+          steps: ['向右平移3个单位，横坐标+3', '(2+3, 3) = (5, 3)'],
+        },
+        {
+          id: 'zbfy-p2',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '将点(-1, 4)向下平移2个单位，得到的点的坐标是（　）',
+          options: ['(-3, 4)', '(1, 4)', '(-1, 2)', '(-1, 6)'],
+          answer: 'C',
+          steps: ['向下平移2个单位，纵坐标-2', '(-1, 4-2) = (-1, 2)'],
+        },
+        {
+          id: 'zbfy-p3',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '将点A(3, -2)先向右平移4个单位，再向上平移3个单位，得到的点的坐标是 ____。',
+          answer: '(7, 1)',
+          steps: ['向右平移4个单位：(3+4, -2) = (7, -2)', '向上平移3个单位：(7, -2+3) = (7, 1)'],
+        },
+        {
+          id: 'zbfy-p4',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '已知三角形ABC的三个顶点分别为A(1, 1)、B(3, 1)、C(2, 4)，将三角形ABC向左平移2个单位，再向下平移1个单位，求平移后各顶点的坐标。',
+          answer: "A'(-1, 0)，B'(1, 0)，C'(0, 3)",
+          steps: [
+            'A(1,1)→A\'(1-2, 1-1)=A\'(-1, 0)',
+            'B(3,1)→B\'(3-2, 1-1)=B\'(1, 0)',
+            'C(2,4)→C\'(2-2, 4-1)=C\'(0, 3)',
+          ],
+        },
+        {
+          id: 'zbfy-p5',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '已知点A(2, 5)平移后得到点A\'(6, 2)，说出平移的方向和距离。',
+          answer: '向右平移4个单位，再向下平移3个单位。',
+          steps: [
+            '横坐标变化：6-2=4，向右平移4个单位',
+            '纵坐标变化：2-5=-3，向下平移3个单位',
+          ],
+          hint: '比较平移前后横纵坐标的变化量。',
+        },
+      ],
+    },
+  ],
+}

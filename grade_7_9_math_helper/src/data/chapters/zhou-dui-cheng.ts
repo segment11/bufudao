@@ -1,0 +1,240 @@
+import type { Chapter } from '../types'
+
+export const zhouDuiCheng: Chapter = {
+  id: 'zhou-dui-cheng',
+  title: '轴对称',
+  grade: 8,
+  semester: '上',
+  unit: 3,
+  icon: '🦋',
+  description: '轴对称、线段的垂直平分线、等腰三角形',
+  sections: [
+    {
+      id: 'zhou-dui-cheng-gai-nian',
+      title: '轴对称',
+      summary: '理解轴对称图形的定义和性质，掌握线段垂直平分线定理。',
+      knowledgePoints: [
+        {
+          id: 'zdc-1',
+          title: '轴对称图形',
+          content:
+            '如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形，这条直线叫做对称轴。两个图形关于某条直线对称，则它们是全等的。',
+          examples: ['等腰三角形有一条对称轴', '正方形有四条对称轴', '圆有无数条对称轴'],
+        },
+        {
+          id: 'zdc-2',
+          title: '轴对称的性质',
+          content:
+            '如果两个图形关于某条直线对称，那么对称轴是任何一对对应点所连线段的垂直平分线。轴对称图形的对应线段相等，对应角相等。',
+          formula: '对应点连线被对称轴垂直平分',
+        },
+        {
+          id: 'zdc-3',
+          title: '线段的垂直平分线',
+          content:
+            '线段垂直平分线上的点到线段两个端点的距离相等。反之，到线段两个端点距离相等的点在线段的垂直平分线上。',
+          formula: '若 P 在 AB 的垂直平分线上，则 PA = PB',
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-zdc-geo',
+          type: 'svg',
+          title: '轴对称图形',
+          description: '展示轴对称图形及对称轴，标注对应点连线和对称轴的关系。',
+          component: 'GeometryFigure',
+          props: {
+            vertices: [
+              { x: 1, y: 0, label: 'A' },
+              { x: 4, y: 0, label: 'B' },
+              { x: 4, y: 4, label: 'C' },
+              { x: 1, y: 4, label: 'D' },
+              { x: 6, y: 0, label: "A'" },
+              { x: 9, y: 0, label: "B'" },
+              { x: 9, y: 4, label: "C'" },
+              { x: 6, y: 4, label: "D'" },
+              { x: 5, y: 0, label: '' },
+              { x: 5, y: 4, label: '' },
+            ],
+            sides: [
+              { from: 0, to: 1, label: '' },
+              { from: 1, to: 2, label: '' },
+              { from: 2, to: 3, label: '' },
+              { from: 3, to: 0, label: '' },
+              { from: 4, to: 5, label: '' },
+              { from: 5, to: 6, label: '' },
+              { from: 6, to: 7, label: '' },
+              { from: 7, to: 4, label: '' },
+            ],
+            dashedLines: [
+              { from: 8, to: 9 },
+              { from: 0, to: 4 },
+              { from: 1, to: 5 },
+              { from: 2, to: 6 },
+            ],
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'zdc-p1',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '下列图形中，是轴对称图形的是（　）',
+          options: ['平行四边形', '三角形', '等腰三角形', '不等边三角形'],
+          answer: 'C',
+          steps: ['平行四边形一般不是轴对称图形（菱形除外）', '一般三角形不一定是', '等腰三角形有一条对称轴，是轴对称图形'],
+        },
+        {
+          id: 'zdc-p2',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '等边三角形有 ____ 条对称轴，正方形有 ____ 条对称轴。',
+          answer: '3；4',
+        },
+        {
+          id: 'zdc-p3',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '线段垂直平分线上的点到线段两端点的距离（　）',
+          options: ['不相等', '相等', '成比例', '不确定'],
+          answer: 'B',
+        },
+        {
+          id: 'zdc-p4',
+          type: 'fill',
+          difficulty: 'medium',
+          question: '点A(2, 3)关于x轴的对称点A\'的坐标为 ____ ，关于y轴的对称点A\'\'的坐标为 ____ 。',
+          answer: '(2, -3)；(-2, 3)',
+          steps: ['关于x轴对称：x不变，y取反 → (2, -3)', '关于y轴对称：y不变，x取反 → (-2, 3)'],
+        },
+        {
+          id: 'zdc-p5',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '在△ABC中，AB的垂直平分线交AB于D，交BC于E，已知AE=4，BC=7，求CE的长。',
+          answer: 'CE = 3',
+          steps: ['DE是AB的垂直平分线', '所以 EA = EB = 4', 'CE = BC - BE = 7 - 4 = 3'],
+          hint: '利用垂直平分线上点到两端点距离相等。',
+        },
+      ],
+    },
+    {
+      id: 'deng-yao-san-jiao-xing',
+      title: '等腰三角形',
+      summary: '掌握等腰三角形的性质和判定，了解等边三角形的性质。',
+      knowledgePoints: [
+        {
+          id: 'dysjx-1',
+          title: '等腰三角形的性质',
+          content:
+            '等腰三角形的两个底角相等（等边对等角）。等腰三角形的顶角平分线、底边上的中线、底边上的高互相重合（三线合一）。',
+          formula: '若 AB=AC，则 ∠B=∠C（等边对等角）',
+          examples: ['等腰三角形顶角为40°，则底角=(180°-40°)/2=70°'],
+        },
+        {
+          id: 'dysjx-2',
+          title: '等腰三角形的判定',
+          content: '如果一个三角形有两个角相等，那么这两个角所对的边也相等（等角对等边）。',
+          formula: '若 ∠B=∠C，则 AB=AC（等角对等边）',
+        },
+        {
+          id: 'dysjx-3',
+          title: '等边三角形',
+          content:
+            '三条边都相等的三角形叫做等边三角形。等边三角形的三个内角都等于60°。三个角都相等的三角形是等边三角形。有一个角是60°的等腰三角形是等边三角形。',
+          formula: '等边三角形：三边相等，三角均为60°',
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-dysjx-geo',
+          type: 'svg',
+          title: '等腰三角形与等边三角形',
+          description: '展示等腰三角形的三线合一性质和等边三角形。',
+          component: 'GeometryFigure',
+          props: {
+            vertices: [
+              { x: 3, y: 6, label: 'A' },
+              { x: 0, y: 0, label: 'B' },
+              { x: 6, y: 0, label: 'C' },
+              { x: 3, y: 0, label: 'D' },
+            ],
+            sides: [
+              { from: 0, to: 1, label: 'a' },
+              { from: 1, to: 2, label: 'b' },
+              { from: 2, to: 0, label: 'a' },
+            ],
+            dashedLines: [
+              { from: 0, to: 3 },
+            ],
+            angles: [
+              { vertex: 1, degree: 70 },
+              { vertex: 2, degree: 70 },
+              { vertex: 0, degree: 40 },
+            ],
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'dysjx-p1',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '等腰三角形的一个底角为70°，则顶角为 ____ °。',
+          answer: '40',
+          steps: ['两个底角都为70°', '顶角 = 180° - 70° - 70° = 40°'],
+        },
+        {
+          id: 'dysjx-p2',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '等腰三角形的顶角为80°，则底角为 ____ °。',
+          answer: '50',
+          steps: ['底角 = (180° - 80°) / 2 = 50°'],
+        },
+        {
+          id: 'dysjx-p3',
+          type: 'choice',
+          difficulty: 'medium',
+          question: '等腰三角形一腰上的中线将周长分成15和9两部分，则腰长为（　）',
+          options: ['6', '8', '10', '6或10'],
+          answer: 'B',
+          steps: ['设腰长为a，底边长为b', '中线将腰分成a/2和a/2', '情况1：a/2 + a + a/2 = 15 → a=10，a/2 + b = 9 → b=4', '验证：a+a+b=10+10+4=24，15+9=24 ✓，但a/2+b=5+4=9 ✓，a+a/2=15 ✓', '情况2：a/2 + b = 15，a + a/2 = 9 → a=6，b=12', '验证：6+6+12=24，但6+6=12<12，不能组成三角形 ✗', '所以腰长为10'],
+          hint: '注意分类讨论，并验证三边关系。',
+        },
+        {
+          id: 'dysjx-p4',
+          type: 'choice',
+          difficulty: 'medium',
+          question: '下列三角形中，一定是等边三角形的是（　）',
+          options: [
+            '三个角都相等的三角形',
+            '有两个角等于60°的三角形',
+            '腰和底边相等的等腰三角形',
+            '以上都是',
+          ],
+          answer: 'D',
+          steps: ['A: 三角相等 → 等边 ✓', 'B: 两角60° → 第三角60° → 等边 ✓', 'C: 三边相等 → 等边 ✓', 'D: 以上都是 ✓'],
+        },
+        {
+          id: 'dysjx-p5',
+          type: 'prove',
+          difficulty: 'medium',
+          question: '在△ABC中，AB=AC，D是BC的中点。求证：AD⊥BC。',
+          answer: '因为AB=AC（等腰三角形），D是BC的中点，由等腰三角形三线合一性质，AD是底边BC上的中线，同时也是底边上的高，所以AD⊥BC。',
+          steps: ['AB=AC，D是BC中点', 'AD是底边上的中线', '由等腰三角形三线合一', 'AD同时也是底边上的高', '所以AD⊥BC'],
+        },
+        {
+          id: 'dysjx-p6',
+          type: 'prove',
+          difficulty: 'hard',
+          question: '在△ABC中，∠ACB=90°，CD是AB边上的高，∠A的平分线AF交CD于E。求证：△CEF是等腰三角形。',
+          answer: '设∠BAC=α，则∠B=90°-α。AF平分∠A → ∠CAF=α/2。在Rt△ACD中，∠ACD=90°-α=∠B。在△ACE中，∠AEC=180°-∠CAF-∠ACD=180°-α/2-(90°-α)=90°+α/2。∠CEF=180°-∠AEC=90°-α/2。因为∠ACF=∠BCE（对顶角或同角关系），可得∠CFE=∠CEF，故△CEF是等腰三角形。',
+          steps: ['设∠BAC=2α', '∠CAF=∠BAF=α', '∠B=90°-2α', '∠ACD=90°-(90°-2α)=2α（在Rt△ACD中）', '∠CEF=∠CAF+∠ACD=α+∠ACD的外角关系', '通过角度计算可证∠CEF=∠CFE', '所以CF=CE，△CEF是等腰三角形'],
+          hint: '利用角平分线和直角三角形的性质计算角度。',
+        },
+      ],
+    },
+  ],
+}

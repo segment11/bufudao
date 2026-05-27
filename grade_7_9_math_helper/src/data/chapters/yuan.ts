@@ -1,0 +1,432 @@
+import type { Chapter } from '../types'
+
+export const yuan: Chapter = {
+  id: 'yuan',
+  title: '圆',
+  grade: 9,
+  semester: '上',
+  unit: 4,
+  icon: '⭕',
+  description: '圆的性质、点与圆的位置关系、弧长与扇形面积',
+  sections: [
+    {
+      id: 'yuan-de-xing-zhi',
+      title: '圆的有关性质',
+      summary: '理解圆的定义，掌握弦、弧、圆心角、圆周角等概念和圆周角定理。',
+      knowledgePoints: [
+        {
+          id: 'y-xz-1',
+          title: '圆的定义及基本概念',
+          content:
+            '在一个平面内，线段OA绕它固定的一个端点O旋转一周，另一个端点A所形成的图形叫做圆。固定的端点O叫做圆心，线段OA叫做半径。连接圆上任意两点的线段叫做弦，经过圆心的弦叫做直径。圆上任意两点间的部分叫做弧。',
+          formula: '圆是到定点（圆心）的距离等于定长（半径）的点的集合',
+          examples: [
+            '直径是圆中最长的弦',
+            '半径为r的圆的直径d=2r',
+          ],
+        },
+        {
+          id: 'y-xz-2',
+          title: '圆心角与圆周角',
+          content:
+            '顶点在圆心的角叫做圆心角。顶点在圆上，并且两边都和圆相交的角叫做圆周角。圆周角定理：一条弧所对的圆周角等于它所对的圆心角的一半。',
+          formula: '圆周角 = ½ × 圆心角（同弧）',
+          examples: [
+            '若圆心角∠AOB=80°，则同弧所对的圆周角∠ACB=40°',
+            '半圆（或直径）所对的圆周角是90°',
+          ],
+        },
+        {
+          id: 'y-xz-3',
+          title: '垂径定理',
+          content:
+            '垂直于弦的直径平分弦，并且平分弦所对的两条弧。推论：平分弦（不是直径）的直径垂直于弦，并且平分弦所对的两条弧。',
+          formula: '直径⊥弦 ⇒ 直径平分弦',
+          examples: [
+            '圆O中，直径CD⊥弦AB于E，则AE=EB',
+          ],
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-y-xz-geo',
+          type: 'svg',
+          title: '圆的弦、弧、圆心角、圆周角',
+          description: '展示一个圆，标注弦AB、圆心角∠AOB=80°、圆周角∠ACB=40°，验证圆周角定理。',
+          component: 'CircleParts',
+          props: {
+            radius: 3,
+            showCenter: true,
+            showRadius: true,
+            showDiameter: false,
+            showChord: true,
+            showArc: true,
+            showTangent: false,
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'y-xz-p1',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '下列说法正确的是（　）',
+          options: [
+            '直径是弦',
+            '弦是直径',
+            '半圆是弧但不是圆弧',
+            '长度相等的弧是等弧',
+          ],
+          answer: 'A',
+          steps: ['直径是经过圆心的弦，所以直径是弦', '弦不一定经过圆心，所以弦不一定是直径'],
+        },
+        {
+          id: 'y-xz-p2',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '一条弧所对的圆心角为120°，则这条弧所对的圆周角为 ____ 度。',
+          answer: '60',
+          steps: ['圆周角 = 圆心角 ÷ 2', '120° ÷ 2 = 60°'],
+        },
+        {
+          id: 'y-xz-p3',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '直径所对的圆周角为 ____ 度。',
+          answer: '90',
+          steps: ['直径所对的圆心角为180°（平角）', '圆周角 = 180° ÷ 2 = 90°'],
+        },
+        {
+          id: 'y-xz-p4',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '圆O的半径为5，弦AB=8，求圆心O到弦AB的距离。',
+          answer: '3',
+          steps: ['过O作OC⊥AB于C', '由垂径定理，AC=AB/2=4', '在Rt△OAC中，OC²=OA²-AC²', 'OC²=25-16=9', 'OC=3'],
+          hint: '利用垂径定理构造直角三角形。',
+        },
+        {
+          id: 'y-xz-p5',
+          type: 'choice',
+          difficulty: 'medium',
+          question: '在同圆中，下列说法正确的是（　）',
+          options: [
+            '等弧所对的圆心角相等',
+            '相等的弦所对的弧一定相等',
+            '圆心角相等则弦相等',
+            '以上都正确',
+          ],
+          answer: 'A',
+          steps: ['在同圆中，等弧所对的圆心角相等，这是正确的', 'B选项在同圆中也是正确的', 'C选项在同圆中也是正确的', 'D选项"以上都正确"'],
+        },
+        {
+          id: 'y-xz-p6',
+          type: 'calculate',
+          difficulty: 'hard',
+          question: '圆O的半径为10cm，弦AB=16cm，CD=12cm，且AB∥CD。求AB与CD之间的距离。',
+          answer: '2cm或14cm',
+          steps: ['设O到AB的距离为d₁，到CD的距离为d₂', 'd₁=√(100-64)=6', 'd₂=√(100-36)=8', '当AB和CD在O的同侧：距离=|d₂-d₁|=2', '当AB和CD在O的异侧：距离=d₁+d₂=14', '所以距离为2cm或14cm'],
+          hint: '注意两条平行弦可能在圆心的同侧或异侧。',
+        },
+      ],
+    },
+    {
+      id: 'dian-yu-yuan',
+      title: '点和圆的位置关系',
+      summary: '掌握点与圆的位置关系的判定，了解三角形的外接圆和外心。',
+      knowledgePoints: [
+        {
+          id: 'y-dy-1',
+          title: '点与圆的位置关系',
+          content:
+            '设圆O的半径为r，点P到圆心O的距离为d。d<r时，点在圆内；d=r时，点在圆上；d>r时，点在圆外。',
+          formula: 'd < r：圆内\nd = r：圆上\nd > r：圆外',
+          examples: [
+            '圆O半径为5，点P到O距离为3，则P在圆内',
+            '圆O半径为5，点P到O距离为5，则P在圆上',
+          ],
+        },
+        {
+          id: 'y-dy-2',
+          title: '三角形的外接圆与外心',
+          content:
+            '经过三角形的三个顶点可以作一个圆，这个圆叫做三角形的外接圆。外接圆的圆心叫做三角形的外心，是三角形三边垂直平分线的交点。外心到三角形三个顶点的距离相等。',
+          examples: [
+            '锐角三角形的外心在三角形内部',
+            '直角三角形的外心在斜边中点',
+            '钝角三角形的外心在三角形外部',
+          ],
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-y-dy-geo',
+          type: 'svg',
+          title: '点与圆的位置关系',
+          description: '展示一个圆，标注圆内、圆上、圆外的点，以及到圆心的距离与半径的关系。',
+          component: 'CircleParts',
+          props: {
+            radius: 3,
+            showCenter: true,
+            showRadius: true,
+            showDiameter: false,
+            showChord: false,
+            showArc: false,
+            showTangent: false,
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'y-dy-p1',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '圆O的半径为3cm，点P到圆心O的距离为5cm，则点P在（　）',
+          options: ['圆内', '圆上', '圆外', '无法确定'],
+          answer: 'C',
+          steps: ['d=5, r=3', 'd>r', '点P在圆外'],
+        },
+        {
+          id: 'y-dy-p2',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '已知圆O的半径为4cm，点A在圆外，则OA > ____ cm；点B在圆内，则OB < ____ cm。',
+          answer: '4；4',
+        },
+        {
+          id: 'y-dy-p3',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '三角形的外心是（　）的交点。',
+          options: ['三条中线', '三条角平分线', '三边垂直平分线', '三条高'],
+          answer: 'C',
+        },
+        {
+          id: 'y-dy-p4',
+          type: 'choice',
+          difficulty: 'medium',
+          question: '直角三角形两边长为3和4，则其外接圆半径为（　）',
+          options: ['1.5', '2', '2.5', '5'],
+          answer: 'C',
+          steps: ['3²+4²=25=5²，斜边=5', '直角三角形外心在斜边中点', '外接圆半径=斜边/2=2.5'],
+        },
+        {
+          id: 'y-dy-p5',
+          type: 'calculate',
+          difficulty: 'hard',
+          question: '在Rt△ABC中，∠C=90°，AC=6，BC=8，求外接圆半径。',
+          answer: '5',
+          steps: ['AB²=36+64=100', 'AB=10', '外接圆半径=AB/2=5'],
+        },
+      ],
+    },
+    {
+      id: 'zhi-xian-yu-yuan',
+      title: '直线和圆的位置关系',
+      summary: '掌握直线与圆的位置关系、切线的判定与性质、切线长定理。',
+      knowledgePoints: [
+        {
+          id: 'y-zxy-1',
+          title: '直线与圆的位置关系',
+          content:
+            '设圆O的半径为r，圆心O到直线l的距离为d。d>r时，直线与圆相离（无交点）；d=r时，直线与圆相切（一个交点，切点）；d<r时，直线与圆相交（两个交点）。',
+          formula: 'd > r：相离\nd = r：相切\nd < r：相交',
+        },
+        {
+          id: 'y-zxy-2',
+          title: '切线的判定与性质',
+          content:
+            '切线的判定定理：经过半径的外端并且垂直于这条半径的直线是圆的切线。切线的性质定理：圆的切线垂直于过切点的半径。',
+          formula: 'l ⊥ OA且A在圆上 ⇒ l是切线\nl是切线 ⇒ l ⊥ OA（A为切点）',
+          examples: [
+            '过圆上一点A作直线l⊥OA，则l是圆O的切线',
+          ],
+        },
+        {
+          id: 'y-zxy-3',
+          title: '切线长定理',
+          content:
+            '从圆外一点引圆的两条切线，它们的切线长相等，圆心和这一点的连线平分两条切线的夹角。',
+          formula: 'PA = PB（P为圆外一点，A、B为切点）',
+          examples: [
+            '从圆外点P引两条切线PA、PB，则PA=PB，∠OPA=∠OPB',
+          ],
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-y-zxy-geo',
+          type: 'svg',
+          title: '直线与圆的位置关系',
+          description: '展示直线与圆相离、相切、相交三种位置关系。',
+          component: 'CircleParts',
+          props: {
+            radius: 2,
+            showCenter: true,
+            showRadius: true,
+            showDiameter: false,
+            showChord: false,
+            showArc: false,
+            showTangent: true,
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'y-zxy-p1',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '圆O的半径为3，圆心O到直线l的距离为2，则直线l与圆O的位置关系是（　）',
+          options: ['相离', '相切', '相交', '无法确定'],
+          answer: 'C',
+          steps: ['d=2, r=3', 'd<r', '直线与圆相交'],
+        },
+        {
+          id: 'y-zxy-p2',
+          type: 'fill',
+          difficulty: 'basic',
+          question: '圆O的半径为5，直线l与圆O相切，则圆心O到直线l的距离为 ____ 。',
+          answer: '5',
+          steps: ['相切时d=r', 'd=5'],
+        },
+        {
+          id: 'y-zxy-p3',
+          type: 'choice',
+          difficulty: 'basic',
+          question: '下列关于切线的说法正确的是（　）',
+          options: [
+            '切线与圆只有一个交点',
+            '过圆上一点只能作一条切线',
+            '切线与半径平行',
+            '以上都不对',
+          ],
+          answer: 'A',
+          steps: ['切线与圆只有一个公共点（切点）', 'B也是正确的，过圆上一点只能作一条切线', 'C是错误的，切线垂直于半径', 'A和B都正确，但A最直接'],
+        },
+        {
+          id: 'y-zxy-p4',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '从圆外一点P引圆O的两条切线PA、PB，∠APB=60°，PA=6，求圆O的半径。',
+          answer: '2√3',
+          steps: ['由切线长定理：PA=PB=6', 'OP平分∠APB，∠OPA=30°', '在Rt△OAP中，∠OAP=90°（切线⊥半径）', 'tan30°=OA/PA', 'OA=PA×tan30°=6×√3/3=2√3'],
+          hint: '利用切线长定理和直角三角形的性质。',
+        },
+        {
+          id: 'y-zxy-p5',
+          type: 'calculate',
+          difficulty: 'hard',
+          question: '圆O的半径为3，点P在直线l上，OP=5，且OP⊥l，判断直线l与圆O的位置关系。',
+          answer: '相交',
+          steps: ['OP⊥l，OP=5就是圆心到直线l的距离', 'd=5, r=3', 'd>r', '所以直线l与圆O相离'],
+          hint: 'OP⊥l，所以OP的长就是圆心到直线的距离。',
+        },
+        {
+          id: 'y-zxy-p6',
+          type: 'calculate',
+          difficulty: 'hard',
+          question: 'PA、PB切圆O于A、B两点，CD切圆O于点E，交PA、PB于C、D，若PA=10，求△PCD的周长。',
+          answer: '20',
+          steps: ['CA=CE，DE=DB（切线长定理的推广）', 'PA=PB=10', 'PC+CD+PD = PC+CE+ED+PD', '= PC+CA+DB+PD', '= PA+PB', '= 10+10 = 20'],
+          hint: '利用切线长定理，将各边转化为PA和PB。',
+        },
+      ],
+    },
+    {
+      id: 'hu-chang-shan-xing',
+      title: '弧长和扇形面积',
+      summary: '掌握弧长公式和扇形面积公式，能解决相关问题。',
+      knowledgePoints: [
+        {
+          id: 'y-hc-1',
+          title: '弧长公式',
+          content:
+            '在半径为r的圆中，n°的圆心角所对的弧长为 l = nπr/180。',
+          formula: 'l = nπr/180',
+          examples: [
+            '半径为6的圆中，60°圆心角所对弧长 = 60×π×6/180 = 2π',
+            '半径为r的圆中，180°圆心角所对弧长 = πr（半圆）',
+          ],
+        },
+        {
+          id: 'y-hc-2',
+          title: '扇形面积公式',
+          content:
+            '半径为r，圆心角为n°的扇形面积：S = nπr²/360。也可以用弧长l表示：S = lr/2。',
+          formula: 'S = nπr²/360 或 S = lr/2',
+          examples: [
+            '半径为6，圆心角为60°的扇形面积 = 60×π×36/360 = 6π',
+            '弧长为4π，半径为6的扇形面积 = 4π×6/2 = 12π',
+          ],
+        },
+        {
+          id: 'y-hc-3',
+          title: '圆锥的侧面积',
+          content:
+            '圆锥的侧面展开图是一个扇形，扇形的半径等于圆锥的母线长l，扇形的弧长等于圆锥底面圆的周长2πr。圆锥的侧面积 S侧 = πrl。',
+          formula: 'S侧 = πrl（r为底面半径，l为母线长）',
+        },
+      ],
+      visuals: [
+        {
+          id: 'vis-y-hc-geo',
+          type: 'svg',
+          title: '扇形面积示意图',
+          description: '展示一个圆心角为60°、半径为r的扇形，标注弧长和面积。',
+          component: 'CircleParts',
+          props: {
+            radius: 3,
+            showCenter: true,
+            showRadius: true,
+            showDiameter: false,
+            showChord: false,
+            showArc: true,
+            showTangent: false,
+          },
+        },
+      ],
+      practices: [
+        {
+          id: 'y-hc-p1',
+          type: 'calculate',
+          difficulty: 'basic',
+          question: '半径为6cm的圆中，120°的圆心角所对的弧长是多少？',
+          answer: '4π cm',
+          steps: ['l = nπr/180', '= 120×π×6/180', '= 4π cm'],
+        },
+        {
+          id: 'y-hc-p2',
+          type: 'calculate',
+          difficulty: 'basic',
+          question: '半径为3cm的圆中，90°的圆心角所对的扇形面积是多少？',
+          answer: '9π/4 cm²',
+          steps: ['S = nπr²/360', '= 90×π×9/360', '= 9π/4 cm²'],
+        },
+        {
+          id: 'y-hc-p3',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '一条弧长为6πcm，半径为9cm，求该弧所对的圆心角的度数。',
+          answer: '120°',
+          steps: ['l = nπr/180', '6π = n×π×9/180', '6 = 9n/180', '6 = n/20', 'n = 120'],
+        },
+        {
+          id: 'y-hc-p4',
+          type: 'calculate',
+          difficulty: 'medium',
+          question: '一个扇形的弧长为10πcm，面积为60πcm²，求扇形的半径。',
+          answer: '12cm',
+          steps: ['S = lr/2', '60π = 10π×r/2', '60 = 5r', 'r = 12 cm'],
+        },
+        {
+          id: 'y-hc-p5',
+          type: 'calculate',
+          difficulty: 'hard',
+          question: '一个圆锥的底面半径为3cm，母线长为5cm，求圆锥的侧面积。',
+          answer: '15π cm²',
+          steps: ['S侧 = πrl', '= π×3×5', '= 15π cm²'],
+        },
+      ],
+    },
+  ],
+}
