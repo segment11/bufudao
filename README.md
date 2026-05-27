@@ -8,3 +8,4 @@
 |------|------|
 | [grade_7_9_classical_chinese_helper](./grade_7_9_classical_chinese_helper/) | 文言文助学 — 帮助七至九年级学生背诵和理解文言文 |
 | [grade_7_9_english_helper](./grade_7_9_english_helper/) | 初中英语助学 — 帮助七至九年级学生学习英语 |
+| [grade_7_9_math_helper](./grade_7_9_math_helper/) | 初中数学助学 — 帮助七至九年级学生复习数学 |
