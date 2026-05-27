@@ -12,6 +12,8 @@ export function ReorderExercise({ instruction, scrambled, answer }: ReorderExerc
   const [remaining, setRemaining] = useState<string[]>(scrambled)
   const [submitted, setSubmitted] = useState(false)
 
+  const normalize = (str: string) => str.replace(/[^a-zA-Z]/g, '').toLowerCase()
+
   const moveToOrder = (word: string) => {
     setOrder([...order, word])
     setRemaining(remaining.filter((w) => w !== word))
@@ -42,14 +44,14 @@ export function ReorderExercise({ instruction, scrambled, answer }: ReorderExerc
               onClick={() => moveToRemaining(word)}
               className={`px-3 py-1.5 rounded text-sm font-medium transition-colors ${
                 submitted
-                  ? word === answer[i]
+                  ? normalize(word) === normalize(answer[i])
                     ? 'bg-green-100 text-green-700 border border-green-300'
                     : 'bg-red-100 text-red-700 border border-red-300'
                   : 'bg-blue-100 text-blue-700 border border-blue-300 hover:bg-blue-200'
               }`}
             >
               {word}
-              {submitted && (word === answer[i] ? <CheckCircle className="inline w-3 h-3 ml-1" /> : <XCircle className="inline w-3 h-3 ml-1" />)}
+              {submitted && (normalize(word) === normalize(answer[i]) ? <CheckCircle className="inline w-3 h-3 ml-1" /> : <XCircle className="inline w-3 h-3 ml-1" />)}
             </button>
           ))
         )}

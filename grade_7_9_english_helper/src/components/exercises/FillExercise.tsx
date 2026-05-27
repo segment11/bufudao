@@ -13,6 +13,11 @@ export function FillExercise({ instruction, sentences, answers }: FillExercisePr
 
   const handleCheck = () => setSubmitted(true)
 
+  const handleReset = () => {
+    setInputs(new Array(sentences.length).fill(''))
+    setSubmitted(false)
+  }
+
   return (
     <div className="bg-white border border-slate-200 rounded-xl p-5">
       <p className="text-sm font-medium text-slate-700 mb-4">{instruction}</p>
@@ -68,12 +73,20 @@ export function FillExercise({ instruction, sentences, answers }: FillExercisePr
           )
         })}
       </div>
-      <button
-        onClick={handleCheck}
-        className="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 transition-colors"
-      >
-        检查答案
-      </button>
+      <div className="flex gap-2 mt-4">
+        <button
+          onClick={handleReset}
+          className="px-4 py-2 bg-slate-100 text-slate-600 text-sm rounded-lg hover:bg-slate-200 transition-colors"
+        >
+          重置
+        </button>
+        <button
+          onClick={handleCheck}
+          className="px-4 py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 transition-colors"
+        >
+          检查答案
+        </button>
+      </div>
     </div>
   )
 }
