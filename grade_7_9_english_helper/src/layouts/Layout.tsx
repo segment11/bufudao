@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom'
 import type { ReactNode } from 'react'
 import { BookOpen, Sun, Moon } from 'lucide-react'
 import { useTheme } from '@/hooks/useTheme'
+import { SearchBar } from '@/components/SearchBar'
 
 interface LayoutProps {
   children: ReactNode
@@ -38,6 +39,8 @@ export function Layout({ children }: LayoutProps) {
                 </span>
               </nav>
             )}
+
+            <SearchBar />
 
             <button
               onClick={toggle}
