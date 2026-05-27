@@ -1,0 +1,98 @@
+import type { ClassicalText } from '../types'
+
+export const daDaoZhiHang: ClassicalText = {
+  id: 'da-dao-zhi-hang',
+  title: '大道之行也',
+  author: '戴圣',
+  grade: 8,
+  semester: '上',
+  unit: 3,
+  genre: '礼记',
+  paragraphs: [
+    {
+      id: 'p1',
+      original: '大道之行也，天下为公。选贤与能，讲信修睦。',
+      translation: '大道在天下实行的时候，天下是公共的。选择贤能的人，讲求诚信，培养和睦。',
+      annotations: [
+        { word: '大道', pinyin: 'dà dào', meaning: '指上古时代政治理想', type: '实词' },
+        { word: '为公', pinyin: 'wéi gōng', meaning: '成为公共的', type: '词类活用' },
+        { word: '与', pinyin: 'jǔ', meaning: '通"举"，选举', type: '通假字' },
+        { word: '修睦', pinyin: 'xiū mù', meaning: '培养和睦', type: '实词' },
+      ],
+      imagePrompt: 'Ancient sage king choosing virtuous capable ministers in open courtyard,天下为公 ideal society with meritocracy, grand ancient hall of governance, traditional Chinese ink painting style',
+      imagePath: '/images/texts/da-dao-zhi-hang-p1.jpg',
+    },
+    {
+      id: 'p2',
+      original: '故人不独亲其亲，不独子其子，使老有所终，壮有所用，幼有所长，矜、寡、孤、独、废疾者皆有所养，男有分，女有归。',
+      translation: '所以人们不只把自己的父母当作父母，不只把自己的孩子当作孩子，让老年人有归宿，壮年人有用处，幼儿有成长，鳏夫、寡妇、孤儿、独身老人、残疾人都有人供养，男子有职分，女子有夫家。',
+      annotations: [
+        { word: '亲其亲', pinyin: 'qīn qí qīn', meaning: '赡养自己的父母', type: '词类活用' },
+        { word: '子其子', pinyin: 'zǐ qí zǐ', meaning: '抚养自己的孩子', type: '词类活用' },
+        { word: '矜', pinyin: 'guān', meaning: '通"鳏"，老而无妻', type: '通假字' },
+        { word: '寡', pinyin: 'guǎ', meaning: '寡妇', type: '实词' },
+        { word: '孤', pinyin: 'gū', meaning: '孤儿', type: '实词' },
+        { word: '独', pinyin: 'dú', meaning: '独居老人', type: '实词' },
+        { word: '分', pinyin: 'fèn', meaning: '职分，职业', type: '实词' },
+        { word: '归', pinyin: 'guī', meaning: '夫家归宿', type: '实词' },
+      ],
+      imagePrompt: 'Elderly people cared for children nurtured all ages supported in ideal society, community caring for widowed orphaned disabled, harmonious utopia ancient society, traditional Chinese ink painting style',
+      imagePath: '/images/texts/da-dao-zhi-hang-p2.jpg',
+    },
+    {
+      id: 'p3',
+      original: '货恶其弃于地也，不必藏于己；力恶其不出于身也，不必为己。',
+      translation: '财物憎恨被丢弃在地上，但不一定藏在自己家里；力气憎恨不是从自己身上出来，但不一定为了自己。',
+      annotations: [
+        { word: '货恶', pinyin: 'huò wù', meaning: '财物憎恨', type: '实词' },
+        { word: '于地', pinyin: 'yú dì', meaning: '在地上', type: '虚词' },
+        { word: '藏于己', pinyin: 'cáng yú jǐ', meaning: '藏在自己家里', type: '词类活用' },
+        { word: '身', pinyin: 'shēn', meaning: '自身', type: '实词' },
+      ],
+      imagePrompt: 'Village people working together sharing resources no private ownership, goods shared not hoarded, people working not for personal gain, communist ideal ancient style, traditional Chinese ink painting style',
+      imagePath: '/images/texts/da-dao-zhi-hang-p3.jpg',
+    },
+    {
+      id: 'p4',
+      original: '是故谋闭而不兴，盗窃乱贼而不作，故外户而不闭。是谓大同。',
+      translation: '因此奸诈之心闭塞而不会兴起，偷盗财物作乱害人的事也不会发生，所以大门也不用关。这就叫做"大同"。',
+      annotations: [
+        { word: '谋闭', pinyin: 'móu bì', meaning: '奸诈之心闭塞', type: '实词' },
+        { word: '乱贼', pinyin: 'luàn zéi', meaning: '作乱害人的人', type: '实词' },
+        { word: '不作', pinyin: 'bù zuò', meaning: '不会发生', type: '实词' },
+        { word: '外户', pinyin: 'wài hù', meaning: '大门', type: '实词' },
+        { word: '大同', pinyin: 'dà tóng', meaning: '高度的和平与安宁', type: '实词' },
+      ],
+      imagePrompt: 'Peaceful village with doors unlocked no theft or robbery ancient ideal society Great Harmony, security and peace in utopian society, serene village scene, traditional Chinese ink painting style',
+      imagePath: '/images/texts/da-dao-zhi-hang-p4.jpg',
+    },
+  ],
+  historicalContext: {
+    dynasty: '秦汉',
+    era: '西汉（公元前1世纪）',
+    authorBio: '戴圣，字次君，西汉时期著名的礼学家，与叔父戴德合称"大小戴"，专门研究和传授《礼记》。',
+    writingBackground: '《礼记》是一部记载古代礼制的著作，本文描述了儒家理想中的"大同"社会，反映了古人对理想社会的向往。',
+    eraKeywords: ['西汉', '礼学', '大小戴', '儒家理想', '大同社会'],
+    highlightWords: ['天下为公', '选贤与能', '大同', '讲信修睦'],
+  },
+  geoContexts: [
+    { ancientName: '洛阳', modernName: '河南省洛阳市', relevance: '戴圣传授《礼记》之地' },
+  ],
+  memorizationAid: {
+    segments: [
+      { keyword: '天下为公', hint: '总纲' },
+      { keyword: '选贤与能', hint: '用人之道' },
+      { keyword: '讲信修睦', hint: '人际之道' },
+      { keyword: '老有所终', hint: '养老' },
+      { keyword: '壮有所用', hint: '就业' },
+      { keyword: '幼有所长', hint: '教育' },
+      { keyword: '矜寡孤独', hint: '弱势群体' },
+      { keyword: '货恶其弃', hint: '不藏私' },
+      { keyword: '大同', hint: '总结' },
+    ],
+    commonMistakes: [
+      { wrong: '选贤与能', correct: '选贤与（jǔ）能' },
+      { wrong: '矜寡孤独', correct: '矜（guān）寡孤独' },
+    ],
+  },
+}
