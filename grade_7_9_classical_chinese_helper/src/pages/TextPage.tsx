@@ -49,7 +49,7 @@ export function TextPage() {
                     <p className="mt-2 text-sm text-stone-500 leading-relaxed pl-4 border-l-2 border-stone-200">{para.translation}</p>
                     {para.imagePath && (
                       <div className="mt-3 pl-4">
-                        <img src={para.imagePath} alt="" className="max-w-xs max-h-40 rounded border border-stone-200 object-cover" />
+                        <img src={`${import.meta.env.BASE_URL}${para.imagePath.replace(/^\//, '')}`} alt="" className="max-w-xs max-h-40 rounded border border-stone-200 object-cover" />
                       </div>
                     )}
                   </div>

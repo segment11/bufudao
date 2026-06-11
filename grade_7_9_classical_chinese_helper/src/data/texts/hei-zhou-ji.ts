@@ -20,7 +20,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '因势象形', pinyin: 'yīn shì xiàng xíng', meaning: '顺着木头原来的样子模拟物象的形状', type: '实词' },
       ],
       imagePrompt: 'Master craftsman Wang Shuyuan carving exquisite miniature wooden boat with tiny figures and architecture on a workbench, incredibly detailed tiny wood carving process, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p1.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p1.jpg',
     },
     {
       id: 'p2',
@@ -33,7 +33,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '泛赤壁', pinyin: 'fàn chì bì', meaning: '泛游赤壁', type: '实词' },
       ],
       imagePrompt: 'Ancient scholar receiving tiny walnut seed boat carving as gift, Su Shi traveling to Red Cliff scene depicted on miniature boat, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p2.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p2.jpg',
     },
     {
       id: 'p3',
@@ -46,7 +46,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '箬篷', pinyin: 'ruò péng', meaning: '用竹叶做的船篷', type: '实词' },
       ],
       imagePrompt: 'Tiny walnut seed boat with open cabin covered by bamboo leaf awning, miniature architecture on seed boat, incredibly detailed tiny wooden boat with cabin, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p3.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p3.jpg',
     },
     {
       id: 'p4',
@@ -59,7 +59,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '糁之', pinyin: 'sǎn zhī', meaning: '涂抹在字上', type: '词类活用' },
       ],
       imagePrompt: 'Miniature walnut boat with eight windows four on each side, carved lattice railings, window opened showing calligraphy characters carved with blue pigment, tiny wooden boat details, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p4.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p4.jpg',
     },
     {
       id: 'p5',
@@ -73,7 +73,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '鲁直', pinyin: 'lǔ zhí', meaning: '黄庭坚的字', type: '实词' },
       ],
       imagePrompt: 'Three figures on bow of tiny boat Su Shi in center wearing tall hat with beard, monk Fu Yin on right, Huang Tingjian on left, three scholars on miniature wooden boat, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p5.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p5.jpg',
     },
     {
       id: 'p6',
@@ -85,7 +85,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '如有所语', pinyin: 'rú yǒu suǒ yǔ', meaning: '好像在说什么', type: '特殊句式' },
       ],
       imagePrompt: 'Su Shi and Huang Tingjian together viewing scroll painting on tiny boat, Su Shi holding right end touching Huangs back, Huang pointing at scroll as if speaking, scholarly friendship scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p6.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p6.jpg',
     },
     {
       id: 'p7',
@@ -96,7 +96,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '隐', pinyin: 'yǐn', meaning: '隐藏', type: '实词' },
       ],
       imagePrompt: 'Close view of two scholars knees nearly touching hidden under robes viewing scroll, subtle details of seated figures on tiny boat, intimate scholarly moment, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p7.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p7.jpg',
     },
     {
       id: 'p8',
@@ -111,7 +111,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '历历数也', pinyin: 'lì lì shǔ yě', meaning: '清清楚楚地可以数出来', type: '实词' },
       ],
       imagePrompt: 'Monk Fu Yin resembling Maitreya Buddha with bare chest looking up at sky, arm resting on boat left knee with prayer beads hanging, Buddhist monk figure on tiny boat, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p8.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p8.jpg',
     },
     {
       id: 'p9',
@@ -124,7 +124,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '桡', pinyin: 'ráo', meaning: '船桨', type: '实词' },
       ],
       imagePrompt: 'Two boatmen on tiny wooden boat one with topknot looking up left hand on crossbeam, other holding oar wearing hat looking into mirror, boatmen figures on miniature seed boat, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p9.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p9.jpg',
     },
     {
       id: 'p10',
@@ -136,7 +136,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '三十有一', pinyin: 'sān shí yǒu yī', meaning: '三十一', type: '通假字' },
       ],
       imagePrompt: 'Counting and cataloging all the tiny carved items on walnut seed boat five figures eight windows various objects, inventory of miniature wooden boat carving, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p10.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p10.jpg',
     },
     {
       id: 'p11',
@@ -148,7 +148,7 @@ export const heiZhouJi: ClassicalText = {
         { word: '矣哉', pinyin: 'yǐ zāi', meaning: '语气词连用，加强感叹', type: '虚词' },
       ],
       imagePrompt: 'Master craftsman admiring final masterpiece tiny walnut seed boat carving, craftsman filled with wonder and admiration at incredible skill, appreciation of artistic achievement, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hei-zhou-ji-p11.jpg',
+      imagePath: 'images/texts/hei-zhou-ji-p11.jpg',
     },
   ],
   historicalContext: {

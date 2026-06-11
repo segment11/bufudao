@@ -20,7 +20,7 @@ export const huXinTingKanXue: ClassicalText = {
         { word: '俱绝', pinyin: 'jù jué', meaning: '都消失了', type: '实词' },
       ],
       imagePrompt: 'West Lake during heavy snowfall three days, snow covering everything silent no birdsong or human voices, desolate frozen winter lake scene, serene snow landscape, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hu-xin-ting-kan-xue-p1.jpg',
+      imagePath: 'images/texts/hu-xin-ting-kan-xue-p1.jpg',
     },
     {
       id: 'p2',
@@ -37,7 +37,7 @@ export const huXinTingKanXue: ClassicalText = {
         { word: '两三粒', pinyin: 'liǎng sān lì', meaning: '像颗粒一样', type: '词类活用' },
       ],
       imagePrompt: 'Scholar in small boat wearing fur coat by brazier traveling to Pavilion in Lake Center watching snow, fog frost covering everything white, tiny boat like grass blade figures like grains in vast whiteness, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hu-xin-ting-kan-xue-p2.jpg',
+      imagePath: 'images/texts/hu-xin-ting-kan-xue-p2.jpg',
     },
     {
       id: 'p3',
@@ -53,7 +53,7 @@ export const huXinTingKanXue: ClassicalText = {
         { word: '客此', pinyin: 'kè cǐ', meaning: '客居在这里', type: '词类活用' },
       ],
       imagePrompt: 'Two scholars sitting on mats across from each other in lake pavilion, servant boy heating wine pot boiling, meeting unexpected guest in snow scene, chance encounter over wine, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hu-xin-ting-kan-xue-p3.jpg',
+      imagePath: 'images/texts/hu-xin-ting-kan-xue-p3.jpg',
     },
     {
       id: 'p4',
@@ -67,7 +67,7 @@ export const huXinTingKanXue: ClassicalText = {
         { word: '更有痴似相公者', pinyin: 'gèng yǒu chī sì xiàng gōng zhě', meaning: '还有和相公一样痴迷的人', type: '特殊句式' },
       ],
       imagePrompt: 'Boatman murmuring about crazy scholars who love snow, scholar leaving pavilion boarding boat, moonlight on snow lake peaceful moment, Zhang Dai and boat scene on West Lake, traditional Chinese ink painting style',
-      imagePath: '/images/texts/hu-xin-ting-kan-xue-p4.jpg',
+      imagePath: 'images/texts/hu-xin-ting-kan-xue-p4.jpg',
     },
   ],
   historicalContext: {

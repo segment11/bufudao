@@ -24,7 +24,7 @@ export const zouJiFengQiWangNaJian: ClassicalText = {
         { word: '不自信', pinyin: 'bù zì xìn', meaning: '不相信自己', type: '特殊句式' }
       ],
       imagePrompt: 'Handsome Zou Ji dressing and looking in mirror morning, asking wife about his beauty, domestic scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/zou-ji-feng-qi-wang-na-jian-p1.jpg'
+      imagePath: 'images/texts/zou-ji-feng-qi-wang-na-jian-p1.jpg'
     },
     {
       id: 'p2',
@@ -39,7 +39,7 @@ export const zouJiFengQiWangNaJian: ClassicalText = {
         { word: '远甚', pinyin: 'yuǎn shèn', meaning: '远远地', type: '实词' }
       ],
       imagePrompt: 'Zou Ji carefully comparing himself to visiting guest Xu Gong, realizing his wife flattered him, self-reflection scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/zou-ji-feng-qi-wang-na-jian-p2.jpg'
+      imagePath: 'images/texts/zou-ji-feng-qi-wang-na-jian-p2.jpg'
     },
     {
       id: 'p3',
@@ -53,7 +53,7 @@ export const zouJiFengQiWangNaJian: ClassicalText = {
         { word: '欲有求于我', pinyin: 'yù yǒu qiú yú wǒ', meaning: '想要对我有所求', type: '特殊句式' }
       ],
       imagePrompt: 'Zou Ji lying in bed at night contemplating why everyone praised his beauty, realizing hidden motives, private reflection scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/zou-ji-feng-qi-wang-na-jian-p3.jpg'
+      imagePath: 'images/texts/zou-ji-feng-qi-wang-na-jian-p3.jpg'
     },
     {
       id: 'p4',
@@ -73,7 +73,7 @@ export const zouJiFengQiWangNaJian: ClassicalText = {
         { word: '甚', pinyin: 'shèn', meaning: '厉害，严重', type: '实词' }
       ],
       imagePrompt: 'Zou Ji entering palace to advise King of Qi about being deceived by flattery, comparing personal experience to kings rule, royal audience scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/zou-ji-feng-qi-wang-na-jian-p4.jpg'
+      imagePath: 'images/texts/zou-ji-feng-qi-wang-na-jian-p4.jpg'
     },
     {
       id: 'p5',
@@ -89,7 +89,7 @@ export const zouJiFengQiWangNaJian: ClassicalText = {
         { word: '战胜于朝廷', pinyin: 'zhàn shèng yú cháo tíng', meaning: '在朝廷上战胜敌国', type: '特殊句式' }
       ],
       imagePrompt: 'King of Qi receiving tribute from envoys of Yan Zhao Han Wei states, result of heeding good advice, diplomatic victory scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/zou-ji-feng-qi-wang-na-jian-p5.jpg'
+      imagePath: 'images/texts/zou-ji-feng-qi-wang-na-jian-p5.jpg'
     }
   ],
   historicalContext: {

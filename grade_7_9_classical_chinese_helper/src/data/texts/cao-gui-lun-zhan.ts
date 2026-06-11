@@ -22,7 +22,7 @@ export const caoGuiLunZhan: ClassicalText = {
         { word: '乃', pinyin: 'nǎi', meaning: '于是', type: '虚词' }
       ],
       imagePrompt: ' humble scholar Cao Gui requesting audience with Duke of Lu before battle, asking to serve country, traditional Chinese ink painting style',
-      imagePath: '/images/texts/cao-gui-lun-zhan-p1.jpg'
+      imagePath: 'images/texts/cao-gui-lun-zhan-p1.jpg'
     },
     {
       id: 'p2',
@@ -40,7 +40,7 @@ export const caoGuiLunZhan: ClassicalText = {
         { word: '福', pinyin: 'fú', meaning: '赐福，保佑', type: '词类活用' }
       ],
       imagePrompt: 'Cao Gui questioning Duke of Lu about basis for war, three answers about resources and faith, dialogue scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/cao-gui-lun-zhan-p2.jpg'
+      imagePath: 'images/texts/cao-gui-lun-zhan-p2.jpg'
     },
     {
       id: 'p3',
@@ -55,7 +55,7 @@ export const caoGuiLunZhan: ClassicalText = {
         { word: '可以一战', pinyin: 'kě yǐ yī zhàn', meaning: '可以凭借这一点打一仗', type: '特殊句式' }
       ],
       imagePrompt: 'Duke promising fair justice for all cases, Cao Gui approving governance based on righteousness, trust between ruler and advisor, traditional Chinese ink painting style',
-      imagePath: '/images/texts/cao-gui-lun-zhan-p3.jpg'
+      imagePath: 'images/texts/cao-gui-lun-zhan-p3.jpg'
     },
     {
       id: 'p4',
@@ -72,7 +72,7 @@ export const caoGuiLunZhan: ClassicalText = {
         { word: '逐', pinyin: 'zhú', meaning: '追击', type: '实词' }
       ],
       imagePrompt: 'Battle scene at Chang Shao, Cao Gui advising when to attack and pursue enemy, strategic military wisdom, war chariot scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/cao-gui-lun-zhan-p4.jpg'
+      imagePath: 'images/texts/cao-gui-lun-zhan-p4.jpg'
     },
     {
       id: 'p5',
@@ -91,7 +91,7 @@ export const caoGuiLunZhan: ClassicalText = {
         { word: '靡', pinyin: 'mǐ', meaning: '倒下', type: '实词' }
       ],
       imagePrompt: 'Cao Gui explaining battle strategy to Duke after victory, analyzing enemy exhaustion and retreat signs, military wisdom revelation, traditional Chinese ink painting style',
-      imagePath: '/images/texts/cao-gui-lun-zhan-p5.jpg'
+      imagePath: 'images/texts/cao-gui-lun-zhan-p5.jpg'
     }
   ],
   historicalContext: {

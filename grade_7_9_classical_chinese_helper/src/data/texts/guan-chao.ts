@@ -23,7 +23,7 @@ export const guanChao: ClassicalText = {
         { word: '吞天沃日', pinyin: 'tūn tiān wò rì', meaning: '形容水势极大', type: '实词' },
       ],
       imagePrompt: "Magnificent Qiantang River tidal bore world greatest spectacle, massive silver wave surging from river mouth like jade wall snow mountain reaching sky, thunderous roar tidal wave, traditional Chinese ink painting style",
-      imagePath: '/images/texts/guan-chao-p1.jpg',
+      imagePath: 'images/texts/guan-chao-p1.jpg',
     },
     {
       id: 'p2',
@@ -39,7 +39,7 @@ export const guanChao: ClassicalText = {
         { word: '席地不容间', pinyin: 'xí dì bù róng jiān', meaning: '一席之地也不容空隙', type: '特殊句式' },
       ],
       imagePrompt: 'Hundreds of spectators along Qiantang River shore in elaborate dress jewelry, carriages horses blocking roads crowded tidal bore viewing, vendors selling food at high prices, bustling scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/guan-chao-p2.jpg',
+      imagePath: 'images/texts/guan-chao-p2.jpg',
     },
     {
       id: 'p3',
@@ -55,7 +55,7 @@ export const guanChao: ClassicalText = {
         { word: '踔厉', pinyin: 'chuō lì', meaning: '跳跃', type: '实词' },
       ],
       imagePrompt: 'Hundreds of warships and soldiers performing naval maneuvers Qiantang River, water forces demonstrating formations, brave wave-treaders dancing on waves competing with tide, martial display, traditional Chinese ink painting style',
-      imagePath: '/images/texts/guan-chao-p3.jpg',
+      imagePath: 'images/texts/guan-chao-p3.jpg',
     },
     {
       id: 'p4',
@@ -70,7 +70,7 @@ export const guanChao: ClassicalText = {
         { word: '看幕', pinyin: 'kàn mù', meaning: '观看潮水用的帐篷', type: '实词' },
       ],
       imagePrompt: 'Vast crowds in festive attire crowding Qiantang River banks watching tidal bore, elaborate viewing tents, street vendors bustling scene, ancient tide watching festival, traditional Chinese ink painting style',
-      imagePath: '/images/texts/guan-chao-p4.jpg',
+      imagePath: 'images/texts/guan-chao-p4.jpg',
     },
     {
       id: 'p5',
@@ -82,7 +82,7 @@ export const guanChao: ClassicalText = {
         { word: '笔管', pinyin: 'bǐ guǎn', meaning: '笔杆', type: '实词' },
       ],
       imagePrompt: 'Skillful wave-treaders performing daring feats on Qiantang tidal waves, acrobats holding breath underwater, incredibly skillful water performers, thrilling danger, traditional Chinese ink painting style',
-      imagePath: '/images/texts/guan-chao-p5.jpg',
+      imagePath: 'images/texts/guan-chao-p5.jpg',
     },
   ],
   historicalContext: {

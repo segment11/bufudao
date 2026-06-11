@@ -22,7 +22,7 @@ export const shengYuYouHuanSiYuAnLe: ClassicalText = {
         { word: '市', pinyin: 'shì', meaning: '奴隶市场', type: '实词' }
       ],
       imagePrompt: 'Six ancient sages rising from humble origins to greatness, from farmland to palace, from poverty to power, dramatic transformation scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/sheng-yu-you-huan-si-yu-an-le-p1.jpg'
+      imagePath: 'images/texts/sheng-yu-you-huan-si-yu-an-le-p1.jpg'
     },
     {
       id: 'p2',
@@ -40,7 +40,7 @@ export const shengYuYouHuanSiYuAnLe: ClassicalText = {
         { word: '曾益', pinyin: 'zēng yì', meaning: '增加，通"增"', type: '通假字' }
       ],
       imagePrompt: 'Ancient sage undergoing severe trials and hardships, suffering physical trials to build character, destined for greatness, traditional Chinese ink painting style',
-      imagePath: '/images/texts/sheng-yu-you-huan-si-yu-an-le-p2.jpg'
+      imagePath: 'images/texts/sheng-yu-you-huan-si-yu-an-le-p2.jpg'
     },
     {
       id: 'p3',
@@ -56,7 +56,7 @@ export const shengYuYouHuanSiYuAnLe: ClassicalText = {
         { word: '喻', pinyin: 'yù', meaning: '被人了解', type: '实词' }
       ],
       imagePrompt: 'Scholar deeply troubled in meditation, struggling with thoughts and worries, then breakthrough to wisdom, internal struggle and enlightenment, traditional Chinese ink painting style',
-      imagePath: '/images/texts/sheng-yu-you-huan-si-yu-an-le-p3.jpg'
+      imagePath: 'images/texts/sheng-yu-you-huan-si-yu-an-le-p3.jpg'
     },
     {
       id: 'p4',
@@ -71,7 +71,7 @@ export const shengYuYouHuanSiYuAnLe: ClassicalText = {
         { word: '外患', pinyin: 'wài huàn', meaning: '外来的祸患', type: '实词' }
       ],
       imagePrompt: 'Prosperous kingdom with wise ministers inside and enemies outside, national prosperity and crisis balance, palace and battlefield scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/sheng-yu-you-huan-si-yu-an-le-p4.jpg'
+      imagePath: 'images/texts/sheng-yu-you-huan-si-yu-an-le-p4.jpg'
     },
     {
       id: 'p5',
@@ -82,7 +82,7 @@ export const shengYuYouHuanSiYuAnLe: ClassicalText = {
         { word: '死于安乐', pinyin: 'sǐ yú ān lè', meaning: '因安逸而灭亡', type: '词类活用' }
       ],
       imagePrompt: 'Contrast between thriving in adversity versus perishing in comfort, hardship and peace duality, philosophical conclusion scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/sheng-yu-you-huan-si-yu-an-le-p5.jpg'
+      imagePath: 'images/texts/sheng-yu-you-huan-si-yu-an-le-p5.jpg'
     }
   ],
   historicalContext: {

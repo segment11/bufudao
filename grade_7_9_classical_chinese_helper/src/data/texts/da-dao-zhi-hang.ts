@@ -20,7 +20,7 @@ export const daDaoZhiHang: ClassicalText = {
         { word: '修睦', pinyin: 'xiū mù', meaning: '培养和睦', type: '实词' },
       ],
       imagePrompt: 'Ancient sage king choosing virtuous capable ministers in open courtyard,天下为公 ideal society with meritocracy, grand ancient hall of governance, traditional Chinese ink painting style',
-      imagePath: '/images/texts/da-dao-zhi-hang-p1.jpg',
+      imagePath: 'images/texts/da-dao-zhi-hang-p1.jpg',
     },
     {
       id: 'p2',
@@ -37,7 +37,7 @@ export const daDaoZhiHang: ClassicalText = {
         { word: '归', pinyin: 'guī', meaning: '夫家归宿', type: '实词' },
       ],
       imagePrompt: 'Elderly people cared for children nurtured all ages supported in ideal society, community caring for widowed orphaned disabled, harmonious utopia ancient society, traditional Chinese ink painting style',
-      imagePath: '/images/texts/da-dao-zhi-hang-p2.jpg',
+      imagePath: 'images/texts/da-dao-zhi-hang-p2.jpg',
     },
     {
       id: 'p3',
@@ -50,7 +50,7 @@ export const daDaoZhiHang: ClassicalText = {
         { word: '身', pinyin: 'shēn', meaning: '自身', type: '实词' },
       ],
       imagePrompt: 'Village people working together sharing resources no private ownership, goods shared not hoarded, people working not for personal gain, communist ideal ancient style, traditional Chinese ink painting style',
-      imagePath: '/images/texts/da-dao-zhi-hang-p3.jpg',
+      imagePath: 'images/texts/da-dao-zhi-hang-p3.jpg',
     },
     {
       id: 'p4',
@@ -64,7 +64,7 @@ export const daDaoZhiHang: ClassicalText = {
         { word: '大同', pinyin: 'dà tóng', meaning: '高度的和平与安宁', type: '实词' },
       ],
       imagePrompt: 'Peaceful village with doors unlocked no theft or robbery ancient ideal society Great Harmony, security and peace in utopian society, serene village scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/da-dao-zhi-hang-p4.jpg',
+      imagePath: 'images/texts/da-dao-zhi-hang-p4.jpg',
     },
   ],
   historicalContext: {

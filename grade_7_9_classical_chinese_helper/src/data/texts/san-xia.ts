@@ -23,7 +23,7 @@ export const sanXia: ClassicalText = {
         { word: '曦月', pinyin: 'xī yuè', meaning: '太阳和月亮', type: '实词' },
       ],
       imagePrompt: 'Three Gorges stretch of seven hundred li continuous mountains on both banks, towering peaks blocking sky and sun, dramatic Yangtze River gorge scenery, traditional Chinese ink painting style',
-      imagePath: '/images/texts/san-xia-p1.jpg',
+      imagePath: 'images/texts/san-xia-p1.jpg',
     },
     {
       id: 'p2',
@@ -37,7 +37,7 @@ export const sanXia: ClassicalText = {
         { word: '不以疾', pinyin: 'bù yǐ jí', meaning: '不认为快', type: '特殊句式' },
       ],
       imagePrompt: 'Summer torrential floods rising over cliffs Yangtze River rapids, boat traveling from White Emperor City to Jiangling in one day swift current, dramatic gorge flood scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/san-xia-p2.jpg',
+      imagePath: 'images/texts/san-xia-p2.jpg',
     },
     {
       id: 'p3',
@@ -52,7 +52,7 @@ export const sanXia: ClassicalText = {
         { word: '良多', pinyin: 'liáng duō', meaning: '实在很多', type: '虚词' },
       ],
       imagePrompt: 'Spring winter scenery Three Gorges white rapids green deep pools, strange shaped cypress trees on cliff peaks, waterfalls hanging and flying between rocks, clear water lush trees majestic mountains, traditional Chinese ink painting style',
-      imagePath: '/images/texts/san-xia-p3.jpg',
+      imagePath: 'images/texts/san-xia-p3.jpg',
     },
     {
       id: 'p4',
@@ -68,7 +68,7 @@ export const sanXia: ClassicalText = {
         { word: '沾裳', pinyin: 'zhān cháng', meaning: '沾湿衣裳', type: '词类活用' },
       ],
       imagePrompt: 'Frosty morning in Three Gorges gibbons howling sorrowfully in empty valley echo, autumn mists林寒涧肃 solemn atmosphere, ancient fishermen singing about Three Gorges, traditional Chinese ink painting style',
-      imagePath: '/images/texts/san-xia-p4.jpg',
+      imagePath: 'images/texts/san-xia-p4.jpg',
     },
   ],
   historicalContext: {

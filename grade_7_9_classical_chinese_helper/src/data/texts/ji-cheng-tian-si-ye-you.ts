@@ -23,7 +23,7 @@ export const jiChengTianSiYeYou: ClassicalText = {
         { word: '中庭', pinyin: 'zhōng tíng', meaning: '庭院中', type: '实词' },
       ],
       imagePrompt: 'Scholar Su Shi rising from bed at moonlight night in Yuanfeng year, moonlight streaming through door, scholar walking out happily to enjoy night scenery, moonlit night scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/ji-cheng-tian-si-ye-you-p1.jpg',
+      imagePath: 'images/texts/ji-cheng-tian-si-ye-you-p1.jpg',
     },
     {
       id: 'p2',
@@ -37,7 +37,7 @@ export const jiChengTianSiYeYou: ClassicalText = {
         { word: '盖', pinyin: 'gài', meaning: '原来是', type: '虚词' },
       ],
       imagePrompt: 'Courtyard transformed by moonlight like clear water, shadows of bamboo and cypress交织like algae and water plants, magical moonlit night garden scene, ethereal moonlight, traditional Chinese ink painting style',
-      imagePath: '/images/texts/ji-cheng-tian-si-ye-you-p2.jpg',
+      imagePath: 'images/texts/ji-cheng-tian-si-ye-you-p2.jpg',
     },
     {
       id: 'p3',
@@ -50,7 +50,7 @@ export const jiChengTianSiYeYou: ClassicalText = {
         { word: '如吾两人者耳', pinyin: 'rú wú liǎng rén zhě ěr', meaning: '像我们两个这样的人罢了', type: '特殊句式' },
       ],
       imagePrompt: 'Two scholars walking together in moonlit night courtyard bamboo and cypress shadows, carefree leisurely scholars appreciating moonlight, friendship and serenity, traditional Chinese ink painting style',
-      imagePath: '/images/texts/ji-cheng-tian-si-ye-you-p3.jpg',
+      imagePath: 'images/texts/ji-cheng-tian-si-ye-you-p3.jpg',
     },
   ],
   historicalContext: {

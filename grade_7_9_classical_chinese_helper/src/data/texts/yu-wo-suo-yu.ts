@@ -21,7 +21,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '取', pinyin: 'qǔ', meaning: '选取', type: '实词' }
       ],
       imagePrompt: 'Delicate fish and precious bear paw on weighing scale, dilemma choice scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p1.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p1.jpg'
     },
     {
       id: 'p2',
@@ -32,7 +32,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '义', pinyin: 'yì', meaning: '正义，道义', type: '实词' }
       ],
       imagePrompt: 'Scholar facing choice between life and righteousness, moral dilemma ancient China, philosophical scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p2.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p2.jpg'
     },
     {
       id: 'p3',
@@ -46,7 +46,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '避', pinyin: 'bì', meaning: '躲避', type: '实词' }
       ],
       imagePrompt: 'Ancient sage contemplating life death righteousness, philosophical meditation scene, deep moral reasoning, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p3.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p3.jpg'
     },
     {
       id: 'p4',
@@ -58,7 +58,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '何不为', pinyin: 'hé bù wéi', meaning: '什么事情不能做', type: '特殊句式' }
       ],
       imagePrompt: 'Rhetorical question scene with scholar analyzing human nature and morality, logical philosophical argument, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p4.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p4.jpg'
     },
     {
       id: 'p5',
@@ -69,7 +69,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '是故', pinyin: 'shì gù', meaning: '因为这个原因', type: '虚词' }
       ],
       imagePrompt: '论证逻辑推理场景，学者分析人性与道德抉择，传统中国水墨画风格',
-      imagePath: '/images/texts/yu-wo-suo-yu-p5.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p5.jpg'
     },
     {
       id: 'p6',
@@ -82,7 +82,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '勿丧', pinyin: 'wù sàng', meaning: '不丧失', type: '词类活用' }
       ],
       imagePrompt: 'Wise sage and ordinary people both possessing righteous heart, moral nature in humanity, philosophical scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p6.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p6.jpg'
     },
     {
       id: 'p7',
@@ -98,7 +98,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '不屑', pinyin: 'bù xiè', meaning: '认为不值得', type: '实词' }
       ],
       imagePrompt: 'Poor starving beggar refusing dignified food offered with contempt versus accepting with respect, dignity versus survival scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p7.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p7.jpg'
     },
     {
       id: 'p8',
@@ -112,7 +112,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '得我', pinyin: 'dé wǒ', meaning: '通"德我"，感激我的恩德', type: '通假字' }
       ],
       imagePrompt: 'Wealthy official in grand mansion considering corrupt acceptance of bribes, moral compromise scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p8.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p8.jpg'
     },
     {
       id: 'p9',
@@ -124,7 +124,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '已', pinyin: 'yǐ', meaning: '停止', type: '实词' }
       ],
       imagePrompt: 'Before and after comparison showing moral decline, from dying with dignity to compromising for wealth, dramatic contrast scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p9.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p9.jpg'
     },
     {
       id: 'p10',
@@ -135,7 +135,7 @@ export const yuWoSuoYu: ClassicalText = {
         { word: '此之谓', pinyin: 'cǐ zhī wèi', meaning: '这就叫做', type: '特殊句式' }
       ],
       imagePrompt: 'Lost original righteous heart versus restored conscience, moral enlightenment scene, philosophical conclusion, traditional Chinese ink painting style',
-      imagePath: '/images/texts/yu-wo-suo-yu-p10.jpg'
+      imagePath: 'images/texts/yu-wo-suo-yu-p10.jpg'
     }
   ],
   historicalContext: {

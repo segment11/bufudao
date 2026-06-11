@@ -23,7 +23,7 @@ export const boYaShanGuQin: ClassicalText = {
         { word: '必得之', pinyin: 'bì dé zhī', meaning: '一定能够领会', type: '实词' }
       ],
       imagePrompt: 'Bo Ya playing guqin with Zhong Ziqi listening intently, mountains and rivers imagery in music, profound friendship scene, traditional Chinese ink painting style',
-      imagePath: '/images/texts/bo-ya-shan-gu-qin-p1.jpg'
+      imagePath: 'images/texts/bo-ya-shan-gu-qin-p1.jpg'
     },
     {
       id: 'p2',
@@ -41,7 +41,7 @@ export const boYaShanGuQin: ClassicalText = {
         { word: '逃声', pinyin: 'táo shēng', meaning: '隐藏我的琴声', type: '实词' }
       ],
       imagePrompt: 'Bo Ya playing guqin beneath rocks during mountain storm, rain and landslide sounds in music, profound musical expression during adversity, traditional Chinese ink painting style',
-      imagePath: '/images/texts/bo-ya-shan-gu-qin-p2.jpg'
+      imagePath: 'images/texts/bo-ya-shan-gu-qin-p2.jpg'
     },
     {
       id: 'p3',
@@ -55,7 +55,7 @@ export const boYaShanGuQin: ClassicalText = {
         { word: '世无复为吾鼓琴者', pinyin: 'shì wú fù wéi wú gǔ qín zhě', meaning: '世上再没有能为我弹琴的人了', type: '特殊句式' }
       ],
       imagePrompt: 'Bo Ya shattering guqin and breaking strings after Zhong Ziqi death, grief over lost kindred spirit, mourning lost friendship forever, traditional Chinese ink painting style',
-      imagePath: '/images/texts/bo-ya-shan-gu-qin-p3.jpg'
+      imagePath: 'images/texts/bo-ya-shan-gu-qin-p3.jpg'
     }
   ],
   historicalContext: {

@@ -23,7 +23,7 @@ export const daXieZhongShuShu: ClassicalText = {
         { word: '竞跃', pinyin: 'jìng yuè', meaning: '争相跳跃', type: '实词' },
       ],
       imagePrompt: 'Magnificent mountain scenery towering peaks piercing clouds, crystal clear stream visible to bottom, colorful cliffs on both banks, green forest翠竹 bamboo grove, spectacular landscape, traditional Chinese ink painting style',
-      imagePath: '/images/texts/da-xie-zhong-shu-shu-p1.jpg',
+      imagePath: 'images/texts/da-xie-zhong-shu-shu-p1.jpg',
     },
     {
       id: 'p2',
@@ -37,7 +37,7 @@ export const daXieZhongShuShu: ClassicalText = {
         { word: '与其奇', pinyin: 'yǔ qí qí', meaning: '欣赏这奇妙的山水', type: '词类活用' },
       ],
       imagePrompt: 'Heavenly earthly paradise mountain landscape, scholar meditating in natural paradise, ancient Chinese landscape like immortal realm, serene idyllic scenery, traditional Chinese ink painting style',
-      imagePath: '/images/texts/da-xie-zhong-shu-shu-p2.jpg',
+      imagePath: 'images/texts/da-xie-zhong-shu-shu-p2.jpg',
     },
   ],
   historicalContext: {
