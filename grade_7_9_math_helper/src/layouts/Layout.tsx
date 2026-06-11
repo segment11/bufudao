@@ -1,5 +1,5 @@
 import { useLocation, useParams, Link } from 'react-router-dom'
-import { BookOpen, Sun, Moon, ChevronRight, Home } from 'lucide-react'
+import { BookOpen, Sun, Moon, ChevronRight, Home, ChevronLeft } from 'lucide-react'
 import { useTheme } from '@/hooks/useTheme'
 import { GRADE_INFO } from '@/data'
 import { getChapter } from '@/data/chapters'
@@ -78,6 +78,14 @@ export function Layout({ children }: { children: ReactNode }) {
             <span className="text-lg font-bold">数学助手</span>
           </div>
           <div className="flex items-center gap-4">
+            <a
+              href="/"
+              className="flex items-center gap-1 text-sm text-[var(--color-text)]/70 hover:text-[var(--color-blueprint)] transition-colors"
+              aria-label="返回不辅导首页"
+            >
+              <ChevronLeft className="w-4 h-4" />
+              <span className="hidden sm:inline">不辅导</span>
+            </a>
             <nav className="flex items-center gap-1 text-sm text-[var(--color-text)]/70">
               {breadcrumbs.map((crumb, i) => (
                 <span key={i} className="flex items-center gap-1">
