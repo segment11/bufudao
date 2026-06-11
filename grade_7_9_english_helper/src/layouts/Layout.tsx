@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import type { ReactNode } from 'react'
-import { BookOpen, Sun, Moon } from 'lucide-react'
+import { BookOpen, Sun, Moon, ChevronLeft } from 'lucide-react'
 import { useTheme } from '@/hooks/useTheme'
 import { SearchBar } from '@/components/SearchBar'
 
@@ -26,6 +26,15 @@ export function Layout({ children }: LayoutProps) {
           </Link>
 
           <div className="flex items-center gap-2">
+            <a
+              href="/"
+              className="flex items-center gap-1 text-sm text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors px-2 py-1 rounded"
+              aria-label="返回不辅导首页"
+            >
+              <ChevronLeft className="w-4 h-4" />
+              <span className="hidden sm:inline">不辅导</span>
+            </a>
+
             {!isHome && (
               <nav className="flex items-center gap-1 text-sm text-slate-500 dark:text-slate-400 mr-1">
                 <Link to="/" className="hover:text-slate-800 dark:hover:text-slate-200 transition-colors px-2 py-1 rounded">
