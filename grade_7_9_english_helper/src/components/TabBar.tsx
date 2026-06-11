@@ -1,4 +1,4 @@
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import type { ReactNode } from 'react'
 
 interface Tab {
@@ -22,17 +22,12 @@ export function TabBar({ tabs, basePath, children }: TabBarProps) {
         <nav className="flex gap-1 overflow-x-auto">
           {tabs.map((tab) => {
             const isActive = activeTab === tab.id
+            const search = new URLSearchParams(searchParams)
+            search.set('tab', tab.id)
             return (
-              <a
+              <Link
                 key={tab.id}
-                href={`${basePath}?tab=${tab.id}`}
-                onClick={(e) => {
-                  e.preventDefault()
-                  const params = new URLSearchParams(searchParams)
-                  params.set('tab', tab.id)
-                  window.history.pushState({}, '', `${basePath}?${params.toString()}`)
-                  window.dispatchEvent(new PopStateEvent('popstate'))
-                }}
+                to={`${basePath}?${search.toString()}`}
                 className={`px-4 py-2.5 text-sm font-medium whitespace-nowrap border-b-2 transition-colors ${
                   isActive
                     ? 'border-blue-500 text-blue-600'
@@ -40,7 +35,7 @@ export function TabBar({ tabs, basePath, children }: TabBarProps) {
                 }`}
               >
                 {tab.label}
-              </a>
+              </Link>
             )
           })}
         </nav>
