@@ -37,7 +37,7 @@ export function TextPage() {
       </div>
 
       {activeTab === 'read' && (
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-8">
           <div className="flex-1 min-w-0">
             <div className="flex items-center justify-between mb-6"><h2 className="text-lg font-semibold text-stone-700">原文</h2>
               <button onClick={() => setShowTranslation(!showTranslation)} className="flex items-center gap-1.5 text-xs text-stone-400 hover:text-stone-600 transition-colors">{showTranslation ? <><EyeOff className="w-3.5 h-3.5" /> 隐藏译文</> : <><Eye className="w-3.5 h-3.5" /> 显示译文</>}</button>
@@ -57,14 +57,14 @@ export function TextPage() {
               </div>
             ))}</div>
           </div>
-          <div className="w-72 flex-shrink-0">{activeAnnotation ? (
-            <div className="sticky top-20 bg-white border border-stone-200 rounded-lg p-4">
+          <div className="w-full md:w-72 md:flex-shrink-0">{activeAnnotation ? (
+            <div className="md:sticky md:top-20 bg-white border border-stone-200 rounded-lg p-4 mt-6 md:mt-0">
               <div className="flex items-center justify-between mb-3"><span className="text-lg font-serif text-stone-800">{activeAnnotation.word}</span><span className="text-xs text-stone-400">{activeAnnotation.pinyin}</span></div>
               <span className={`inline-block text-xs px-2 py-0.5 rounded border mb-3 ${annotationColors[activeAnnotation.type] || 'bg-stone-50 text-stone-600 border-stone-200'}`}>{activeAnnotation.type}</span>
               <p className="text-sm text-stone-600 leading-relaxed">{activeAnnotation.meaning}</p>
             </div>
           ) : (
-            <div className="sticky top-20 bg-stone-50 border border-stone-100 rounded-lg p-4"><p className="text-xs text-stone-400 leading-relaxed">点击原文中<span className="annotated-word text-stone-500 px-0.5">下划线</span>标记的词语，查看详细注释。</p></div>
+            <div className="md:sticky md:top-20 bg-stone-50 border border-stone-100 rounded-lg p-4 mt-6 md:mt-0 hidden md:block"><p className="text-xs text-stone-400 leading-relaxed">点击原文中<span className="annotated-word text-stone-500 px-0.5">下划线</span>标记的词语，查看详细注释。</p></div>
           )}</div>
         </div>
       )}
