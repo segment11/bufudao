@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>不辅导 — 七至九年级助学</title>
+    <meta name="description" content="基于教材的 AI 助学网页，覆盖初中语文文言文、数学、英语。" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['ui-sans-serif', 'system-ui', '-apple-system', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'sans-serif'],
+              serif: ['ui-serif', 'Songti SC', 'STSong', 'SimSun', 'serif'],
+            },
+            keyframes: {
+              floaty: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-6px)' },
+              },
+              rise: {
+                '0%': { opacity: '0', transform: 'translateY(12px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              floaty: 'floaty 6s ease-in-out infinite',
+              rise: 'rise 0.6s ease-out both',
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { font-feature-settings: "tnum"; }
+      .card-shadow {
+        box-shadow:
+          0 1px 2px rgba(0,0,0,0.04),
+          0 10px 30px -12px rgba(0,0,0,0.15);
+      }
+      .card-shadow:hover {
+        box-shadow:
+          0 1px 2px rgba(0,0,0,0.04),
+          0 20px 40px -12px rgba(0,0,0,0.22);
+      }
+      .grain {
+        background-image:
+          radial-gradient(circle at 20% 10%, rgba(120,113,108,0.08), transparent 40%),
+          radial-gradient(circle at 80% 0%, rgba(120,113,108,0.06), transparent 40%),
+          radial-gradient(circle at 50% 100%, rgba(120,113,108,0.05), transparent 50%);
+      }
+    </style>
+  </head>
+  <body class="bg-stone-50 text-stone-900 antialiased min-h-screen grain">
+    <main class="mx-auto max-w-6xl px-6 py-12 sm:py-16 lg:py-20">
+      <!-- Header -->
+      <header class="flex items-center justify-between mb-16 sm:mb-24">
+        <a href="/" class="flex items-center gap-3 group">
+          <span class="grid place-items-center w-10 h-10 rounded-xl bg-stone-900 text-stone-50 font-serif text-lg group-hover:rotate-3 transition-transform">
+            不
+          </span>
+          <span class="flex flex-col leading-tight">
+            <span class="font-serif text-lg sm:text-xl font-semibold tracking-wide">不辅导</span>
+            <span class="text-xs text-stone-500">Bufudao · 自学助手</span>
+          </span>
+        </a>
+        <a
+          href="https://github.com/segment11/bufudao"
+          class="hidden sm:inline-flex items-center gap-2 text-sm text-stone-500 hover:text-stone-900 transition-colors"
+          aria-label="GitHub"
+        >
+          <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor" aria-hidden="true">
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.01-.02-1.99-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18.92-.26 1.91-.39 2.9-.39.98 0 1.97.13 2.9.39 2.21-1.49 3.18-1.18 3.18-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.4-5.26 5.69.41.35.78 1.05.78 2.12 0 1.53-.01 2.77-.01 3.14 0 .31.21.68.8.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5Z"/>
+          </svg>
+          <span>Source</span>
+        </a>
+      </header>
+
+      <!-- Hero -->
+      <section class="mb-16 sm:mb-20 max-w-3xl">
+        <p class="inline-flex items-center gap-2 text-xs sm:text-sm font-medium text-stone-600 bg-stone-100/80 border border-stone-200 rounded-full px-3 py-1 mb-6 animate-rise">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+          7-9 年级 · 人教版教材
+        </p>
+        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-stone-900 animate-rise [animation-delay:80ms]">
+          把课本，<br class="sm:hidden" />
+          变成 <span class="text-amber-700">可自学</span> 的网页。
+        </h1>
+        <p class="mt-6 text-base sm:text-lg text-stone-600 leading-relaxed max-w-2xl animate-rise [animation-delay:160ms]">
+          用 AI 把人教版初中语文、文言文、数学、英语教材整理成结构化的助学网页：原文、注释、背诵、理解、练习、单元复习——一站直达。
+        </p>
+      </section>
+
+      <!-- Subjects -->
+      <section aria-label="学科选择" class="grid gap-5 sm:gap-6 md:grid-cols-3">
+        <!-- Classical Chinese -->
+        <a
+          href="./classical_chinese/"
+          class="group relative overflow-hidden rounded-2xl border border-stone-200 bg-white p-6 sm:p-7 card-shadow transition-all duration-300 hover:-translate-y-1 animate-rise [animation-delay:240ms]"
+        >
+          <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-700"></div>
+          <div class="flex items-start justify-between">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-amber-50 text-amber-700 ring-1 ring-amber-200/70">
+              <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 4h12a2 2 0 0 1 2 2v14H7a2 2 0 0 1-2-2V4Z"/>
+                <path d="M5 18h14"/>
+                <path d="M9 8h6"/>
+                <path d="M9 12h6"/>
+                <path d="M9 16h4"/>
+              </svg>
+            </span>
+            <span class="text-stone-300 group-hover:text-amber-600 transition-colors">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7"/>
+                <path d="M7 7h10v10"/>
+              </svg>
+            </span>
+          </div>
+          <h2 class="mt-6 font-serif text-2xl font-semibold text-stone-900">
+            文言文助学
+          </h2>
+          <p class="mt-1 text-sm text-stone-500">Classical Chinese</p>
+          <p class="mt-4 text-sm leading-relaxed text-stone-600">
+            逐句注释、字词梳理、背景典故与背诵口诀，覆盖课内与课外常见篇目。
+          </p>
+          <ul class="mt-5 flex flex-wrap gap-2 text-xs text-stone-600">
+            <li class="px-2.5 py-1 rounded-full bg-amber-50 text-amber-800 ring-1 ring-amber-100">逐句注释</li>
+            <li class="px-2.5 py-1 rounded-full bg-amber-50 text-amber-800 ring-1 ring-amber-100">背诵口诀</li>
+            <li class="px-2.5 py-1 rounded-full bg-amber-50 text-amber-800 ring-1 ring-amber-100">历史背景</li>
+          </ul>
+        </a>
+
+        <!-- Math -->
+        <a
+          href="./math/"
+          class="group relative overflow-hidden rounded-2xl border border-stone-200 bg-white p-6 sm:p-7 card-shadow transition-all duration-300 hover:-translate-y-1 animate-rise [animation-delay:320ms]"
+        >
+          <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-sky-300 via-sky-500 to-sky-700"></div>
+          <div class="flex items-start justify-between">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-sky-50 text-sky-700 ring-1 ring-sky-200/70">
+              <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4l6 6-6 6"/>
+                <path d="M14 4l6 6-6 6"/>
+                <path d="M3 20h18"/>
+              </svg>
+            </span>
+            <span class="text-stone-300 group-hover:text-sky-600 transition-colors">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7"/>
+                <path d="M7 7h10v10"/>
+              </svg>
+            </span>
+          </div>
+          <h2 class="mt-6 font-serif text-2xl font-semibold text-stone-900">
+            数学助学
+          </h2>
+          <p class="mt-1 text-sm text-stone-500">Mathematics</p>
+          <p class="mt-4 text-sm leading-relaxed text-stone-600">
+            按章节梳理知识点与典型题型，配合 SVG / Canvas 可视化，从概念到解题一步到位。
+          </p>
+          <ul class="mt-5 flex flex-wrap gap-2 text-xs text-stone-600">
+            <li class="px-2.5 py-1 rounded-full bg-sky-50 text-sky-800 ring-1 ring-sky-100">知识结构</li>
+            <li class="px-2.5 py-1 rounded-full bg-sky-50 text-sky-800 ring-1 ring-sky-100">典型例题</li>
+            <li class="px-2.5 py-1 rounded-full bg-sky-50 text-sky-800 ring-1 ring-sky-100">动态图示</li>
+          </ul>
+        </a>
+
+        <!-- English -->
+        <a
+          href="./english/"
+          class="group relative overflow-hidden rounded-2xl border border-stone-200 bg-white p-6 sm:p-7 card-shadow transition-all duration-300 hover:-translate-y-1 animate-rise [animation-delay:400ms]"
+        >
+          <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-300 via-emerald-500 to-emerald-700"></div>
+          <div class="flex items-start justify-between">
+            <span class="grid place-items-center w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 ring-1 ring-emerald-200/70">
+              <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 5h7"/>
+                <path d="M9 3v2c0 4-3 6-5 6"/>
+                <path d="M12 21l4-9 4 9"/>
+                <path d="M13.5 18h5"/>
+                <path d="M16 12c2 0 5 1 5 5"/>
+              </svg>
+            </span>
+            <span class="text-stone-300 group-hover:text-emerald-600 transition-colors">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7"/>
+                <path d="M7 7h10v10"/>
+              </svg>
+            </span>
+          </div>
+          <h2 class="mt-6 font-serif text-2xl font-semibold text-stone-900">
+            英语助学
+          </h2>
+          <p class="mt-1 text-sm text-stone-500">English</p>
+          <p class="mt-4 text-sm leading-relaxed text-stone-600">
+            按单元整理单词、语法、对话、阅读与作文，配套练习助力听说读写全面提升。
+          </p>
+          <ul class="mt-5 flex flex-wrap gap-2 text-xs text-stone-600">
+            <li class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 ring-1 ring-emerald-100">单元词汇</li>
+            <li class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 ring-1 ring-emerald-100">语法梳理</li>
+            <li class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 ring-1 ring-emerald-100">听说读写</li>
+          </ul>
+        </a>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-20 sm:mt-24 pt-8 border-t border-stone-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-stone-500">
+        <p>© 不辅导 Bufudao · 用 AI 把教材变成可自学的网页。</p>
+        <p class="flex items-center gap-4">
+          <a href="./README.md" class="hover:text-stone-900 transition-colors">关于</a>
+          <span class="opacity-50">v1.0</span>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
